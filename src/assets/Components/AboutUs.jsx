@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
     aboutSection:{
         background: '#113F77',
+        padding: '32px 0',
     },
     title: {
       padding: theme.spacing(2),

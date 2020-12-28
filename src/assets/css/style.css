@@ -5,5 +5,8 @@ body{
     font-weight:400 !important;
 }
 
+a{
+    text-decoration: none;
+}
 
 
