@@ -43,6 +43,8 @@ export default function HomeAbout() {
                     excepturi laudantium cupiditate dolorum, magnam dolorem laborum eaque a. Itaque
                     iure maxime nihil fuga debitis? Alias doloremque velit adipisci numquam, nihil voluptas
                     beatae! Consectetur vitae non aspernatur placeat molestias similique atque quidem assumenda
+                    <br/>
+                    <a href="/about">Learn More</a>
                 </div>
 
             </div>

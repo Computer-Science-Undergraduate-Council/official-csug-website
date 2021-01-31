@@ -3,6 +3,7 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import TimeLine from "./TimeLine";
 import {Grid} from "@material-ui/core";
+import EboardAbout from "./EboardAbout";
 
 const useStyles = makeStyles((theme) => ({
     aboutSection:{
@@ -49,6 +50,10 @@ export default function AboutUs() {
     <Grid className="bg-white">
         <TimeLine/>
     </Grid>
+            <div className={classes.aboutSection} >
+                <EboardAbout/>
+            </div>
+
         </div>
     )
 }

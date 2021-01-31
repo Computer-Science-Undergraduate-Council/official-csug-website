@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
         padding: '32px 0',
     },
     imageLogo: {
-        height: '150px'
+        height: '180px'
     },
     title: {
         padding: theme.spacing(4),
@@ -42,7 +42,7 @@ export default function Footer() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-6">
-                        <div className="float-left p-5 ml-1">
+                        <div className="float-left p-3 pl-2 ml-1">
                             <img src={logo} alt="logo" className={classes.imageLogo} />
                         </div>
                     </div>

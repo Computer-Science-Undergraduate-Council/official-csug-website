@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
-
+import{resources} from "./Resources";
 
 const useStyles = makeStyles((theme) => ({
     aboutSection:{
@@ -57,7 +57,7 @@ export default function HomeResources(props) {
                 <Grid container spacing={0}>
                     <Grid item xs={12}>
 
-                        {res(props.resources)}
+                        {res(resources)}
                     </Grid>
 
                 </Grid>
