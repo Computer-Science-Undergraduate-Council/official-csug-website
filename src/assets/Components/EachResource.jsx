@@ -22,6 +22,9 @@ const useStyles = makeStyles((theme) => ({
 
 export default function EachResource(props) {
     const classes = useStyles();
+
+
+
     return (
         <div>
             <a href={props.link}>
