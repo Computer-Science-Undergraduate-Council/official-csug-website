@@ -1,11 +1,9 @@
 import React from 'react'
-
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
-
 import stock from '../images/stock.jpg';
-import EachResource from './EachResource';
-import EachTimeLine from "./EachTimeLine";
+import {Col, Container, Row} from "react-bootstrap";
+import Card from "react-bootstrap/Card";
 
 const useStyles = makeStyles((theme) => ({
     aboutSection:{
@@ -25,6 +23,17 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '1.5rem',
         margin: '0 auto',
         width:'75%',
+    },
+    avatarSize:{
+        width: '200px',
+        height:'200px',
+        border: '5px solid #113f77',
+        borderRadius:'50%'
+    },
+    resourcesImg:{
+        height:'100px',
+        display: 'flex',
+        flex: '1 1 auto'
     }
 }));
 
@@ -71,7 +80,24 @@ export default function TimeLine() {
 
     const eachtimeline = (timeline) => {
         return timeline.map(timeline => {
-            return <EachTimeLine timeline={timeline} key={timeline.id}/>
+            return <div className="mt-2 pt-2">
+                <Container className="p-2 m-2">
+                    <Row className="p-2">
+                        <Col md={5}>
+                            <Card.Img className={classes.avatarSize} variant="left" src={timeline.img}></Card.Img>
+                        </Col>
+
+                        <Col md={7}>
+                            <Row>
+                                <h3 className="text-center">{timeline.title}</h3>
+                            </Row>
+                            <Row className="text-left">
+                                {timeline.description}
+                            </Row>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
         })
     }
 

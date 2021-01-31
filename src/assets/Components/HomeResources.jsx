@@ -2,10 +2,9 @@ import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
-import HomeEachResource from "./HomeEachResource";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
 
-import resources from "./Resources";
-import EachResource from "./EachResource";
 
 const useStyles = makeStyles((theme) => ({
     aboutSection:{
@@ -25,6 +24,12 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '1.5rem',
         margin: '0 auto',
         width:'75%',
+    },
+    eachResource:{
+        backgroundColor: '#113f77',
+        border:'5px solid #DCC10C',
+        color:'white',
+        margin:'16px 0'
     }
 }));
 
@@ -33,7 +38,15 @@ export default function HomeResources(props) {
 
     const res = (resources) => {
         return resources.map(resource => {
-            return <HomeEachResource resource={resource} key={resource.id} />
+            return <div>
+                <a href={resource.link}>
+                    <Card className={classes.eachResource}>
+                        <CardContent>
+                            {resource.title}
+                        </CardContent>
+                    </Card>
+                </a>
+            </div>
         })
     }
 

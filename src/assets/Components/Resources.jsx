@@ -4,7 +4,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
 
 import stock from '../images/stock.jpg';
-import EachResource from './EachResource';
+import {Col, Container, Row} from "react-bootstrap";
+import Card from "react-bootstrap/Card";
 
 const useStyles = makeStyles((theme) => ({
     aboutSection:{
@@ -24,7 +25,20 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '1.5rem',
         margin: '0 auto',
         width:'75%',
-      }
+      },
+    eachResource:{
+        backgroundColor: '#113f77',
+        border:'5px solid #DCC10C',
+        color:'white',
+        margin:'16px 0',
+        fontSize:'15px'
+    },
+
+    resourcesImg:{
+        height:'200px',
+        display: 'flex',
+        flex: '1 1 auto'
+    }
   }));
 
 export const resources = [
@@ -79,7 +93,29 @@ export default function Resources() {
 
     const res = (resources) => {
         return resources.map(resource => {
-            return <EachResource resource={resource} key={resource.id} />
+            return <div>
+                <a href={resource.link}>
+                    <Container className={classes.eachResource}>
+                        <Row className="p-2">
+                            <Col md={4}>
+                                <Card.Img className={classes.resourcesImg} variant="left" src={resource.img}></Card.Img>
+                            </Col>
+
+                            <Col md={6}>
+                                <Row>
+                                    <h3 className="text-center mt-2">{resource.title}</h3>
+                                </Row>
+                                <Row className="text-left mt-2">
+                                    {resource.description}
+                                </Row>
+                            </Col>
+                        </Row>
+
+
+                    </Container>
+
+                </a>
+            </div>
         })
     }
 

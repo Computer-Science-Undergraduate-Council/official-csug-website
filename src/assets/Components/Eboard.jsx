@@ -120,7 +120,7 @@ export default function Eboard() {
                     <div className="row">
 
                         {eboard(eboardmembers)}
-                        
+
                     </div>
 
                 </div>

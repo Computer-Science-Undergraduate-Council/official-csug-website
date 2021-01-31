@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Resources from './Resources';
 
@@ -7,15 +6,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import {Navbar,NavbarBrand} from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 
 import logo from '../images/pngFormat.png'
 import HomePage from "./HomePage";
-import {NavLink} from "react-bootstrap";
 import AboutUs from "./AboutUs";
 
 const useStyles = makeStyles((theme) => ({    // this group of buttons will be aligned to the right side
