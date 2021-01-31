@@ -3,6 +3,7 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
 
+import stock from '../images/stock.jpg';
 import EachResource from './EachResource';
 
 const useStyles = makeStyles((theme) => ({
@@ -26,8 +27,61 @@ const useStyles = makeStyles((theme) => ({
       }
   }));
 
+export const resources = [
+    {
+        id: 0,
+        title: 'Internship',
+        img: stock,
+        description: 'Gibberish, also called jibber-jabber or gobbledygook, is speech that is nonsense. It may include speech sounds that are not actual words, or language games and specialized jargon that seems nonsensical to outsiders.',
+        link: '#'
+    },
+    {
+        id: 1,
+        title: 'Hackathon',
+        img: stock,
+        description: 'Gibberish, also called jibber-jabber or gobbledygook, is speech that is nonsense. It may include speech sounds that are not actual words, or language games and specialized jargon that seems nonsensical to outsiders.',
+        link: '#'
+    },
+    {
+        id: 2,
+        title: 'CSUG Tutoring',
+        img: stock,
+        description: 'Gibberish, also called jibber-jabber or gobbledygook, is speech that is nonsense. It may include speech sounds that are not actual words, or language games and specialized jargon that seems nonsensical to outsiders.',
+        link: '#'
+
+    },
+    {
+        id: 3,
+        title: 'Academics',
+        img: stock,
+        description: 'Gibberish, also called jibber-jabber or gobbledygook, is speech that is nonsense. It may include speech sounds that are not actual words, or language games and specialized jargon that seems nonsensical to outsiders.',
+        link:'#'
+    },
+    {
+        id: 4,
+        title: 'Projects',
+        img: stock,
+        description: 'Gibberish, also called jibber-jabber or gobbledygook, is speech that is nonsense. It may include speech sounds that are not actual words, or language games and specialized jargon that seems nonsensical to outsiders.',
+        link: '#'
+    },
+    {
+        id: 5,
+        title: 'Coding Sessions',
+        img: stock,
+        description: 'Gibberish, also called jibber-jabber or gobbledygook, is speech that is nonsense. It may include speech sounds that are not actual words, or language games and specialized jargon that seems nonsensical to outsiders.',
+        link: '#'
+    }
+]
+
+
 export default function Resources() {
     const classes = useStyles();
+
+    const res = (resources) => {
+        return resources.map(resource => {
+            return <EachResource resource={resource} key={resource.id} />
+        })
+    }
 
     return (
         <div className={classes.aboutSection}>
@@ -35,25 +89,10 @@ export default function Resources() {
             <div className={classes.aboutBody}>
             <Grid container spacing={0}>
                 <Grid item xs={12}>
-                    <EachResource title="Internship" link="#"/>
-                </Grid>
-                <Grid item xs={12}>
-                    <EachResource title="Hackathon" link="#"/>
-                </Grid>
-                <Grid item xs={12}>
-                    <EachResource title="Academics" link="#"/>
-                </Grid>
-                <Grid item xs={12}>
-                    <EachResource title="CSUG Tutoring" link="#"/>
-                </Grid>
-                <Grid item xs={12}>
-                    <EachResource title="Projects" link="#"/>
-                </Grid>
-                <Grid item xs={12}>
-                    <EachResource title="Coding Sessions" link="#"/>
+                    {res(resources)}
                 </Grid>
             </Grid>
-               
+
             </div>
         </div>
     )

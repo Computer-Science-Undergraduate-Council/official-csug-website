@@ -1,6 +1,8 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
+import TimeLine from "./TimeLine";
+import {Grid} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
     aboutSection:{
@@ -31,6 +33,7 @@ export default function AboutUs() {
     const classes = useStyles();
 
     return (
+        <div>
         <div className={classes.aboutSection}>
             <div className={classes.title}>About Us</div>
             <div className={classes.aboutBody}>
@@ -41,6 +44,11 @@ export default function AboutUs() {
                 iure maxime nihil fuga debitis? Alias doloremque velit adipisci numquam, nihil voluptas 
                 beatae! Consectetur vitae non aspernatur placeat molestias similique atque quidem assumenda 
             </div>
+
+        </div>
+    <Grid className="bg-white">
+        <TimeLine/>
+    </Grid>
         </div>
     )
 }
