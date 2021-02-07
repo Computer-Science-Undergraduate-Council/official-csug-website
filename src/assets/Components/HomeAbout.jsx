@@ -37,14 +37,14 @@ export default function HomeAbout() {
             <div className={classes.aboutSection}>
                 <div className={classes.title}>Who We Are</div>
                 <div className={classes.aboutBody}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aspernatur tenetur eius harum, molestiae omnis vero necessitatibus
-                    praesentium, ratione nemo dolores error repellendus voluptates ab corporis
-                    excepturi laudantium cupiditate dolorum, magnam dolorem laborum eaque a. Itaque
-                    iure maxime nihil fuga debitis? Alias doloremque velit adipisci numquam, nihil voluptas
-                    beatae! Consectetur vitae non aspernatur placeat molestias similique atque quidem assumenda
+                    We are the Computer Science Undergraduate Council, 
+                    a club at the University of Rochester that strives to make CS students feel
+                    at home in the CS community. We offer a bunch of services to our students including
+                    a tutoring service for CS courses, interview prep workshops, info sessions on industry
+                    and grad school, and so on. We also organize the biggest hackathon at UoR, DandyHacks.
+
                     <br/>
-                    <a href="/about">Learn More</a>
+                    <a href="/about">Learn More About Us</a>
                 </div>
 
             </div>

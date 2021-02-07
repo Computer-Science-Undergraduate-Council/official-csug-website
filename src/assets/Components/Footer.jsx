@@ -41,7 +41,7 @@ export default function Footer() {
 
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-5">
                         <div className="float-left p-3 pl-2 ml-1">
                             <img src={logo} alt="logo" className={classes.imageLogo} />
                         </div>
