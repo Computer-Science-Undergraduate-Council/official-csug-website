@@ -52,9 +52,9 @@ export const eboardmembers = [
         name: 'Aman Shreshta',
         title:'President',
         img: Aman,
-        description: 'Gibberish, also called jibber-jabber or gobbledygook, is speech that is nonsense. It may include speech sounds that are not actual words, or language games and specialized jargon that seems nonsensical to outsiders.',
-        gitlink: '#',
-        linkedInlink: '#',
+        description: 'Aman is the president of the Computer Science Undergraduate Council. He previously served CSUG as DandyHacks Chair and Tutoring chair.',
+        gitlink: 'https://github.com/amnshrestha',
+        linkedInlink: 'https://www.linkedin.com/in/aman-shrestha/',
         email: '#'
     },
     {
@@ -72,7 +72,7 @@ export const eboardmembers = [
         name: 'Jiahao (Jerry) Liu',
         title:'Tutoring Chair',
         img: Jerry,
-        description: "Jerry is a senior majoring computer science and minoring in business. He serves as the tutoring chair and runs our biweekly coding workshop program. Besides school, you can often find him in the gym or securing that pentakill in summoner\'s rift. And here is his favorite quote \"In Carnage, I bloom like a flower in the dawn" ,
+        description: "Jerry is a senior majoring computer science and minoring in business. He serves as the tutoring chair and runs our biweekly coding workshop program. Besides school, you can often find him in the gym or securing that pentakill in summoner\'s rift. And here is his favorite quote \"In Carnage, I bloom like a flower in the dawn\"" ,
         gitlink: 'https://github.com/yanyujianshen',
         linkedInlink: 'https://www.linkedin.com/in/jiahao-jerry-lu/',
         email: '#'
