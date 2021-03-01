@@ -6,6 +6,10 @@ import {Grid} from "@material-ui/core";
 import EboardAbout from "./EboardAbout";
 
 const useStyles = makeStyles((theme) => ({
+    aboutHeader:{
+        background: 'white',
+        padding: '32px 0',
+    },
     aboutSection:{
         background: '#113F77',
         padding: '32px 0',
@@ -13,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     title: {
       padding: theme.spacing(2),
       textAlign: 'center',
-      color: 'white',
+      color:'black',
       fontSize: '3rem',
       paddingBottom:'0',
       fontWeight:'bold',
@@ -21,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     aboutBody: {
         padding: theme.spacing(2),
         textAlign: 'center',
-        color: 'white',
+        color:'black',
         paddingTop:'4px',
         fontSize: '1.5rem',
         margin: '0 auto',
@@ -35,24 +39,24 @@ export default function AboutUs() {
 
     return (
         <div>
-        <div className={classes.aboutSection}>
-            <div className={classes.title}>About Us</div>
-            <div className={classes.aboutBody}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Aspernatur tenetur eius harum, molestiae omnis vero necessitatibus 
-                praesentium, ratione nemo dolores error repellendus voluptates ab corporis 
-                excepturi laudantium cupiditate dolorum, magnam dolorem laborum eaque a. Itaque 
-                iure maxime nihil fuga debitis? Alias doloremque velit adipisci numquam, nihil voluptas 
-                beatae! Consectetur vitae non aspernatur placeat molestias similique atque quidem assumenda 
-            </div>
+            <div className={classes.aboutHeader}>
+                <div className={classes.title}>About Us</div>
+                <div className={classes.aboutBody}>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aspernatur tenetur eius harum, molestiae omnis vero necessitatibus 
+                    praesentium, ratione nemo dolores error repellendus voluptates ab corporis 
+                    excepturi laudantium cupiditate dolorum, magnam dolorem laborum eaque a. Itaque 
+                    iure maxime nihil fuga debitis? Alias doloremque velit adipisci numquam, nihil voluptas 
+                    beatae! Consectetur vitae non aspernatur placeat molestias similique atque quidem assumenda 
+                </div>
 
-        </div>
-    <Grid className="bg-white">
-        <TimeLine/>
-    </Grid>
+            </div>
             <div className={classes.aboutSection} >
                 <EboardAbout/>
             </div>
+            <Grid className="bg-white">
+                <TimeLine/>
+            </Grid>
 
         </div>
     )

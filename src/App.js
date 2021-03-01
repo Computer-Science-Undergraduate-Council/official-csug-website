@@ -14,7 +14,8 @@ import Resources from './assets/Components/Resources';
 import Eboard from './assets/Components/Eboard';
 import Footer from './assets/Components/Footer';
 
-
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import HomePage from "./assets/Components/HomePage";
 
 
 export default function App() {
