@@ -64,7 +64,7 @@ export const eboardmembers = [
         name: 'Aman Shreshta',
         title:'President',
         img: Aman,
-        description: 'Aman is the president of the Computer Science Undergraduate Council. He previously served CSUG as DandyHacks Chair and Tutoring chair.',
+        description: 'Aman is the president of the Computer Science Undergraduate Council. He previously served CSUG as DandyHacks Chair and Tutoring chair. Outside of CS, he is defined by his love for the Nepali food mo:mo',
         gitlink: 'https://github.com/amnshrestha',
         linkedInlink: 'https://www.linkedin.com/in/aman-shrestha/',
         email: '#'

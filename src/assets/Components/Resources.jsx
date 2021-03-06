@@ -57,21 +57,21 @@ export const resources = [
         title: 'Internship',
         img: internship,
         description: 'We compile information about available internships with the help of the CS community and Alumni of UoR. You can use this information and find one that could be your next internship.',
-        link: '#'
+        link: 'https://github.com/Computer-Science-Undergraduate-Council/CSUG-resources/tree/main/Jobs%20and%20Internship'
     },
     {
         id: 1,
         title: 'Hackathon',
         img: dandyHacks,
         description: 'We organize a 36 hours hackathon, DandyHacks. This is an amazing event where you can learn and demonstrate your skills and network with peers and employers.',
-        link: '#'
+        link: 'https://dandyhacks.net/'
     },
     {
         id: 2,
         title: 'CSUG Tutoring',
         img: csugTutoring,
         description: 'We run a special tutoring service for Computer Science subjects to help our students. This is a free drop-in tutoring service where we have selected the best tutors for you.',
-        link: '#'
+        link: 'https://www.csug.rochester.edu/ugc/tutoring/'
 
     },
     {
@@ -79,7 +79,7 @@ export const resources = [
         title: 'Academics',
         img: academics,
         description: 'We have compiled resources that you can use for your classes. These resources have been compiled with the help of students who have taken the courses. Please make sure that the use of these resources doesn\'t violate any academic honesty policies.',
-        link:'#'
+        link:'https://github.com/Computer-Science-Undergraduate-Council/CSUG-resources/tree/main/Academics'
     },
     {
         id: 4,
@@ -93,7 +93,7 @@ export const resources = [
         title: 'Coding Workshops',
         img: workshop,
         description: 'We organize workshops to help you excel at your next coding interview. Tune in every week to solve coding challenges and practice your way to be ready for the industry',
-        link: '#'
+        link: 'http://cglink.me/2eC/r1037383'
     }
 ]
 
@@ -104,7 +104,7 @@ export default function Resources() {
     const res = (resources) => {
         return resources.map(resource => {
             return <div>
-                <a href={resource.link}>
+                <a href={resource.link} target="_blank">
                     <Container className={classes.eachResource}>
                         <Row className="p-2">
                             <Col md={3}>
