@@ -57,20 +57,6 @@ const timeline = [
         description: 'E-Board Members: Kelly He, Gabby Stillman, Kelvin, Aman Shrestha, Grace Zheng, Jackson, Shagun Bose',
         link: 'https://github.com/SarahZam/Snake-game'
 
-    },
-    {
-        id: 3,
-        title: '2017-2018',
-        img: stock,
-        description: 'Gibberish, also called jibber-jabber or gobbledygook, is speech that is nonsense. It may include speech sounds that are not actual words, or language games and specialized jargon that seems nonsensical to outsiders.',
-        link:'https://github.com/SarahZam/2048'
-    },
-    {
-        id: 4,
-        title: '2016-2017',
-        img: stock,
-        description: 'Gibberish, also called jibber-jabber or gobbledygook, is speech that is nonsense. It may include speech sounds that are not actual words, or language games and specialized jargon that seems nonsensical to outsiders.',
-        link: 'https://github.com/SarahZam/TicTacToe'
     }
 ]
 
