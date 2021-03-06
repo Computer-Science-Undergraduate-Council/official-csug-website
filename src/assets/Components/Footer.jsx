@@ -49,20 +49,16 @@ export default function Footer() {
                     <div className="col-3">
                         <div className={classes.title}>JOIN US!</div>
                         <div className={classes.icons}>
-                            <a className="btn btn-lg btn-social-icon mr-1 ml-1" style={{color: "#113F77"}} href="https://github.com/SarahZam"><i className="fa fa-github"></i></a>
-                            <a className="btn btn-lg btn-social-icon mr-1" style={{color: "#113F77"}} href="https://www.linkedin.com/in/sarah-zaman/"><i className="fa fa-linkedin"></i></a>
-                            <a className="btn btn-lg btn-social-icon mr-1" style={{color: "#113F77"}} href="https://www.facebook.com/sarahzamann/"><i className="fa fa-facebook"></i></a>
+                            <a className="btn btn-lg btn-social-icon mr-1 ml-1" style={{color: "#113F77"}} href="https://github.com/Computer-Science-Undergraduate-Council"><i className="fa fa-github"></i></a>
+                            <a className="btn btn-lg btn-social-icon mr-1" style={{color: "#113F77"}} href="https://www.instagram.com/ur.csug/"><i className="fa fa-instagram"></i></a>
+                            <a className="btn btn-lg btn-social-icon mr-1" style={{color: "#113F77"}} href="https://www.facebook.com/urcsug"><i className="fa fa-facebook"></i></a>
 
                         </div>
                     </div>
                     <div className="col-3">
                         <div className={classes.title}>CONTACT US!</div>
                         <div className={classes.details}>
-                            8888@gmail.com <br/>
-                            712-219-3453 <br/>
-                            Address: building<br/>
-                            Rochester, New York<br/>
-                            zipcode: 14627<br/>
+                        Email: csug@googlegroups.com<br/>
                         </div>
                     </div>
                 </div>

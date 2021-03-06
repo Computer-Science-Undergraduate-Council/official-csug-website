@@ -9,7 +9,7 @@ import Minghui from '../images/E-board/Emily.jpg';
 import Jerry from '../images/E-board/Jerry.png';
 import Tash from '../images/E-board/Tash.jpg';
 import Ashley from '../images/E-board/Ashley.jpeg';
-import Carolina from '../images/E-board/Ashley.jpeg';
+import Carolina from '../images/E-board/flower.png';
 import Haochen from '../images/E-board/Haochen.jpg';
 
 
@@ -42,7 +42,19 @@ const useStyles = makeStyles((theme) => ({
         height:'256px',
         border: '5px solid #113f77',
         boxShadow: '-15px 15px 5px rgba(0, 0, 0, 0.5)',
-        margin: '24px auto'
+        margin: '24px auto',
+        overflow:'hidden'
+    },
+    /* Centered text */
+    centered: {
+        position: 'absolute',
+        color:'white',
+        top: '75%',
+        left: '50%',
+        fontWeight:'bold',
+        fontSize:'16px',
+        transform: 'translate(-50%, -50%)',
+        textShadow: '0px 4px 3px rgb(0 0 0 / 40%), 0px 8px 13px rgb(0 0 0 / 10%), 0px 18px 23px rgb(0 0 0 / 10%)',
     }
   }));
 
@@ -60,7 +72,7 @@ export const eboardmembers = [
     {
         id: 1,
         name: 'Anh (Jessie) Nguyen',
-        title:'Vice - President',
+        title:'Vice President',
         img: Anh,
         description: 'Jessie is a Junior (class of 2022) majoring in Computer Science. She is the Vice President of CSUG, and her role is to assist the President in making decisions and help planning events. She is also the Founder and former President of Google DSC (Developer Student Club). Her hobbies include photography, cooking, and outdoors activities.',
         gitlink: 'https://github.com/jessieAnhNguyen',
@@ -112,7 +124,7 @@ export const eboardmembers = [
         id: 6,
         name: 'Carolina Lion He',
         title:'DandyHacks Chair (2020)',
-        img: Ashley,
+        img: Carolina,
         description: 'Hello, there! I am Carolina :^) It was a great experience to work with my team members to create the first-ever virtual DandyHacks experience! I am so proud of us!! I am always down to chat about learning and about hackathons! :^) ',
         gitlink: '#',
         linkedInlink: 'www.linkedin.com/in/carolina-lionhe ',
@@ -137,7 +149,13 @@ export default function Eboard() {
 
     const eboard = (eboard) => {
         return eboard.map(eboardmem => {
-            return  <div className="col-lg-4 d-flex"><Avatar alt={eboardmem.name} src={eboardmem.img} className={classes.avatarSize}/></div>
+            return (  
+            <div className="col-lg-4 d-flex container">
+                <Avatar alt={eboardmem.name} src={eboardmem.img} className={classes.avatarSize}>
+                </Avatar>
+                <div className={classes.centered}>{eboardmem.name} <br />{eboardmem.title}</div>
+
+            </div>)
         })
     }
 

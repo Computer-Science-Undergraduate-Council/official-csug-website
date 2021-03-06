@@ -32,11 +32,9 @@ export default function ContactUs() {
         <div className={classes.aboutSection}>
             <div className={classes.title}>Contact Us</div>
             <div className={classes.aboutBody}>
-                Phone: XXX-XXXX<br/>
-                Email: xxxx@rochester.edu<br/>
-                Address: building<br/>
-                Rochester, New York<br/>
-                zipcode: 14627<br/>
+                Email: csug@googlegroups.com<br/>
+                Facebook: facebook.com/urcsug<br/>
+                Instagram: instagram.com/ur.csug/<br/>
             </div>
         </div>
     )
