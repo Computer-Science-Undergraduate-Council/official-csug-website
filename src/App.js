@@ -1,5 +1,8 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
+
+
+import { BrowserRouter as Router, withRouter, Route, HashRouter } from 'react-router-dom';
+
 
 
 import IntroSection from './assets/Components/IntroSection'
@@ -9,12 +12,11 @@ import { Grid,Paper } from '@material-ui/core';
 
 
 import './assets/css/style.css'
-import AboutUs from './assets/Components/AboutUs';
+import AboutUs from './assets/Components/AboutUsComponent';
 import Resources from './assets/Components/Resources';
 import Eboard from './assets/Components/Eboard';
 import Footer from './assets/Components/Footer';
 
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 import HomePage from "./assets/Components/HomePage";
 
 
@@ -22,9 +24,14 @@ import HomePage from "./assets/Components/HomePage";
 export default function App() {
 
   return (
-    <div>
+    <HashRouter basename='/'>
       <NavigationBar/>
+
+      <Route exact path="/" render={()=> <HomePage />}/>
+      <Route path="/about" render={()=> <AboutUs />}/>
+      <Route path="/resources" render={()=> <Resources />}/>
+      
       <Footer />
-    </div>
+    </HashRouter>
   )
 }

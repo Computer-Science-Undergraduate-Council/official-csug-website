@@ -1,16 +1,13 @@
 import React from 'react'
-import Resources from './Resources';
 
 import { makeStyles } from '@material-ui/core/styles';
 
 import {Navbar,NavbarBrand} from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import AppBar from '@material-ui/core/AppBar';
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 import logo from '../images/pngFormat.png'
-import HomePage from "./HomePage";
-import AboutUs from "./AboutUs";
 
 const useStyles = makeStyles((theme) => ({    // this group of buttons will be aligned to the right side
     toolbarButtons: {
@@ -31,20 +28,20 @@ export default function NavigationBar() {
     const classes = useStyles();
     
     return (
-        <Router>
+        
         <div>
            <AppBar position="static" className={classes.navbarLight}>
 
                <Navbar className="" expand="lg">
 
-                   <NavbarBrand> <Link className="nav-link text-dark" to="/"><img src={logo} alt="logo" className={classes.logo} to="/"/></Link></NavbarBrand>
+                   <NavbarBrand> <NavLink className="nav-link text-dark" to="/"><img src={logo} alt="logo" className={classes.logo} to="/"/></NavLink></NavbarBrand>
 
                    <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
                    <Navbar.Collapse id="navbar-toggle">
                        <Nav className={classes.toolbarButtons}>
-                           <Link className="nav-link text-white" to="/about">About</Link>
-                           <Link color="inherit" className="nav-link text-white" to="/resources">Resources</Link>
-                           <Link color="inherit" className="nav-link text-white" to="/contact">Contact</Link>
+                           <NavLink className="nav-link text-white" to="/about">About</NavLink>
+                           <NavLink color="inherit" className="nav-link text-white" to="/resources">Resources</NavLink>
+                           <NavLink color="inherit" className="nav-link text-white" to="/contact">Contact</NavLink>
                        </Nav>
                    </Navbar.Collapse>
                </Navbar>
@@ -52,11 +49,8 @@ export default function NavigationBar() {
 
             </AppBar>
 
-            <Route exact path="/" render={()=> <HomePage />}/>
-            <Route path="/resources" render={()=> <Resources />}/>
-            <Route path="/about" render={()=> <AboutUs />}/>
 
         </div>
-        </Router>
+        
     )
 }

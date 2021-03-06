@@ -1,8 +1,8 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
-import TimeLine from "./TimeLine";
-import {Grid} from "@material-ui/core";
+import {NavLink} from "react-router-dom";
+
 
 const useStyles = makeStyles((theme) => ({
     aboutSection:{
@@ -44,7 +44,7 @@ export default function HomeAbout() {
                     and grad school, and so on. We also organize the biggest hackathon at UoR, DandyHacks.
 
                     <br/>
-                    <a href="/about">Learn More About Us</a>
+                    <NavLink className="nav-link text-white" to="/about">Learn More About Us</NavLink>
                 </div>
 
             </div>
