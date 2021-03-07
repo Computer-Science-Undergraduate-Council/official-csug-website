@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     }
   }));
 
-export default function IntroSection() {
+const IntroSection = () =>{
 
     const classes = useStyles();
     return (
@@ -39,3 +39,6 @@ export default function IntroSection() {
         </div>
     )
 }
+
+export default IntroSection;
+

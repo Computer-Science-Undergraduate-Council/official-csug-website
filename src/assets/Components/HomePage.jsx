@@ -6,10 +6,8 @@ import { Grid,Paper } from '@material-ui/core';
 
 import '../css/style.css'
 import {EboardHomePage} from './EBoardComponent';
-import HomeResources from "./HomeResources";
-
 import {ResourcesHomePage} from "./ResourceComponent";
-import HomeAbout from "./HomeAbout";
+import {AboutUsHomeComponent} from './AboutUsComponent'
 
 
 export default class HomePage extends Component{
@@ -24,7 +22,7 @@ export default class HomePage extends Component{
                         <IntroSection />
                     </Grid>
                     <Grid item xs={12}>
-                        <HomeAbout/>
+                        <AboutUsHomeComponent/>
                     </Grid>
                     <Grid item xs={12}>
                         <ResourcesHomePage/>
