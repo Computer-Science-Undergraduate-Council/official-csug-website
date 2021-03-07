@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
-import logo from "../images/pngFormat.png";
+import logo from "../../images/pngFormat.png";
 
 const useStyles = makeStyles((theme) => ({
     aboutSection:{
@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     }
   }));
 
-export default function Footer() {
+const Footer = () => {
 
     const classes = useStyles();
 
@@ -66,3 +66,6 @@ export default function Footer() {
         </div>
     )
 }
+
+
+export default Footer;

@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import IntroSection from './IntroSection'
 
 import { Grid,Paper } from '@material-ui/core';
 
 
 import '../css/style.css'
+import IntroSection from './IntroSection'
 import {EboardHomePage} from './EBoardComponent';
 import {ResourcesHomePage} from "./ResourceComponent";
 import {AboutUsHomeComponent} from './AboutUsComponent'
