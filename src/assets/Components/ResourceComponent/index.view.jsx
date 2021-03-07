@@ -49,7 +49,6 @@ const useStyles = makeStyles((theme) => ({
 
 const ResourcesMain = () => {
     const classes = useStyles();
-
     const res = (resources) => {
         return resources.map(resource => {
             return <div>

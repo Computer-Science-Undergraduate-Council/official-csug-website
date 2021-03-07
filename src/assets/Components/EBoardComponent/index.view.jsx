@@ -4,9 +4,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Avatar from "@material-ui/core/Avatar";
 import Card from "react-bootstrap/Card";
 
-
-
-
 import eboardmembers from './index.data'
 
 const useStyles = makeStyles((theme) => ({
@@ -112,7 +109,6 @@ const EboardHomePage = () => {
 
 const EboardAboutUs = () => {
     const classes = useStyles();
-
     const eboardSecond = (eboard) => {
         return eboard.map(eboardmem => {
             return  <div className="col-lg-6 d-flex p-3">

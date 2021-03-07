@@ -1,13 +1,12 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
-
 import {Navbar,NavbarBrand} from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import AppBar from '@material-ui/core/AppBar';
 import {NavLink} from "react-router-dom";
 
-import logo from '../images/pngFormat.png'
+import logo from '../../images/pngFormat.png'
 
 const useStyles = makeStyles((theme) => ({    // this group of buttons will be aligned to the right side
     toolbarButtons: {
@@ -24,18 +23,13 @@ const useStyles = makeStyles((theme) => ({    // this group of buttons will be a
     }
 }));
 
-export default function NavigationBar() {
+const NavigationBar = () => {
     const classes = useStyles();
-    
     return (
-        
         <div>
            <AppBar position="static" className={classes.navbarLight}>
-
                <Navbar className="" expand="lg">
-
                    <NavbarBrand> <NavLink className="nav-link text-dark" to="/"><img src={logo} alt="logo" className={classes.logo} to="/"/></NavLink></NavbarBrand>
-
                    <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
                    <Navbar.Collapse id="navbar-toggle">
                        <Nav className={classes.toolbarButtons}>
@@ -45,12 +39,9 @@ export default function NavigationBar() {
                        </Nav>
                    </Navbar.Collapse>
                </Navbar>
-
-
             </AppBar>
-
-
         </div>
-        
     )
 }
+
+export default NavigationBar;

@@ -37,9 +37,7 @@ const useStyles = makeStyles((theme) => ({
   }));
 
 const AboutUsComponent = () =>{
-
     const classes = useStyles();
-
     return (
         <div>
             <AboutUsDescription/>
@@ -69,9 +67,7 @@ const AboutUsHomeComponent = () =>{
                     <br/>
                     <NavLink className={classes.navLink} to="/about">Learn More About Us</NavLink>
                 </div>
-
             </div>
-
         </div>
     )
 }

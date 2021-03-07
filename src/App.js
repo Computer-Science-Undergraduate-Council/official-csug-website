@@ -1,24 +1,12 @@
 import React from 'react'
-
-
-import { BrowserRouter as Router, withRouter, Route, HashRouter } from 'react-router-dom';
-
-
-
-import IntroSection from './assets/Components/IntroSection'
-import NavigationBar from './assets/Components/NavigationBar'
-
-import { Grid,Paper } from '@material-ui/core';
-
+import {Route, HashRouter } from 'react-router-dom';
+import NavigationBar from './assets/Components/NavigationBarComponent'
 
 import './assets/css/style.css'
 import AboutUs from './assets/Components/AboutUsComponent';
 import {ResourcesMain} from './assets/Components/ResourceComponent';
 import Footer from './assets/Components/FooterComponent';
-
 import HomePage from './assets/Components/HomePageComponent'
-
-
 
 export default function App() {
 
