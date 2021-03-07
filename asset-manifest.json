@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/official-csug-website/static/css/main.1db2fdf7.chunk.css",
-    "main.js": "/official-csug-website/static/js/main.a20159a3.chunk.js",
-    "main.js.map": "/official-csug-website/static/js/main.a20159a3.chunk.js.map",
-    "runtime-main.js": "/official-csug-website/static/js/runtime-main.0586357f.js",
-    "runtime-main.js.map": "/official-csug-website/static/js/runtime-main.0586357f.js.map",
+    "main.js": "/official-csug-website/static/js/main.8a8a99d3.chunk.js",
+    "main.js.map": "/official-csug-website/static/js/main.8a8a99d3.chunk.js.map",
+    "runtime-main.js": "/official-csug-website/static/js/runtime-main.577516cf.js",
+    "runtime-main.js.map": "/official-csug-website/static/js/runtime-main.577516cf.js.map",
     "static/css/2.534751f4.chunk.css": "/official-csug-website/static/css/2.534751f4.chunk.css",
-    "static/js/2.f2275eb9.chunk.js": "/official-csug-website/static/js/2.f2275eb9.chunk.js",
-    "static/js/2.f2275eb9.chunk.js.map": "/official-csug-website/static/js/2.f2275eb9.chunk.js.map",
-    "static/js/3.9a19271e.chunk.js": "/official-csug-website/static/js/3.9a19271e.chunk.js",
-    "static/js/3.9a19271e.chunk.js.map": "/official-csug-website/static/js/3.9a19271e.chunk.js.map",
+    "static/js/2.4fe8a1b6.chunk.js": "/official-csug-website/static/js/2.4fe8a1b6.chunk.js",
+    "static/js/2.4fe8a1b6.chunk.js.map": "/official-csug-website/static/js/2.4fe8a1b6.chunk.js.map",
+    "static/js/3.733a7c94.chunk.js": "/official-csug-website/static/js/3.733a7c94.chunk.js",
+    "static/js/3.733a7c94.chunk.js.map": "/official-csug-website/static/js/3.733a7c94.chunk.js.map",
     "index.html": "/official-csug-website/index.html",
     "static/css/2.534751f4.chunk.css.map": "/official-csug-website/static/css/2.534751f4.chunk.css.map",
     "static/css/main.1db2fdf7.chunk.css.map": "/official-csug-website/static/css/main.1db2fdf7.chunk.css.map",
-    "static/js/2.f2275eb9.chunk.js.LICENSE.txt": "/official-csug-website/static/js/2.f2275eb9.chunk.js.LICENSE.txt",
+    "static/js/2.4fe8a1b6.chunk.js.LICENSE.txt": "/official-csug-website/static/js/2.4fe8a1b6.chunk.js.LICENSE.txt",
     "static/media/Aman.db16f681.png": "/official-csug-website/static/media/Aman.db16f681.png",
     "static/media/Ashley.dda4ffd9.jpeg": "/official-csug-website/static/media/Ashley.dda4ffd9.jpeg",
     "static/media/CSUG2019-20.e6e05e22.jpg": "/official-csug-website/static/media/CSUG2019-20.e6e05e22.jpg",
@@ -30,14 +30,13 @@
     "static/media/internship.c75fc4a6.jpg": "/official-csug-website/static/media/internship.c75fc4a6.jpg",
     "static/media/pngFormat.ddc868b0.png": "/official-csug-website/static/media/pngFormat.ddc868b0.png",
     "static/media/project.4f52043c.png": "/official-csug-website/static/media/project.4f52043c.png",
-    "static/media/stock.c7e86e77.jpg": "/official-csug-website/static/media/stock.c7e86e77.jpg",
     "static/media/workshop.19c9143c.png": "/official-csug-website/static/media/workshop.19c9143c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0586357f.js",
+    "static/js/runtime-main.577516cf.js",
     "static/css/2.534751f4.chunk.css",
-    "static/js/2.f2275eb9.chunk.js",
+    "static/js/2.4fe8a1b6.chunk.js",
     "static/css/main.1db2fdf7.chunk.css",
-    "static/js/main.a20159a3.chunk.js"
+    "static/js/main.8a8a99d3.chunk.js"
   ]
 }
