@@ -113,7 +113,7 @@ const EboardHomePage = () => {
 const EboardAboutUs = () => {
     const classes = useStyles();
 
-    const eboard = (eboard) => {
+    const eboardSecond = (eboard) => {
         return eboard.map(eboardmem => {
             return  <div className="col-lg-6 d-flex p-3">
                 <Avatar alt={eboardmem.name} src={eboardmem.img} className={classes.secondAvatarSize}/>
@@ -138,7 +138,7 @@ const EboardAboutUs = () => {
             <div className={classes.secondTitle}>E-Board</div>
             <div className="container text-center">
                 <div className="row">
-                    {eboard(eboardmembers)}
+                    {eboardSecond(eboardmembers)}
                 </div>
             </div>
         </div>

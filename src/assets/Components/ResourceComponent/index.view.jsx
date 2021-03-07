@@ -1,9 +1,11 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
-import resources from './ResourceComponent'
+import resources from './index.data'
 import {Col, Container, Row} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
+import CardContent from "@material-ui/core/CardContent";
+
 
 const useStyles = makeStyles((theme) => ({
     aboutSection:{
@@ -31,6 +33,12 @@ const useStyles = makeStyles((theme) => ({
         margin:'16px 0',
         fontSize:'15px'
     },
+    resourceDisplayInHome:{
+        backgroundColor: '#113f77',
+        border:'5px solid #DCC10C',
+        color:'white',
+        margin:'16px 0'
+    },
 
     resourcesImg:{
         height:'200px',
@@ -39,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
     }
   }));
 
-export default function Resources() {
+const ResourcesMain = () => {
     const classes = useStyles();
 
     const res = (resources) => {
@@ -51,20 +59,12 @@ export default function Resources() {
                             <Col md={3}>
                                 <Card.Img className={classes.resourcesImg} variant="left" src={resource.img}></Card.Img>
                             </Col>
-
                             <Col md={6}>
-                                <Row>
-                                    <h3 className="text-center mt-2">{resource.title}</h3>
-                                </Row>
-                                <Row className="text-left mt-2">
-                                    {resource.description}
-                                </Row>
+                                <Row><h3 className="text-center mt-2">{resource.title}</h3></Row>
+                                <Row className="text-left mt-2">{resource.description}</Row>
                             </Col>
                         </Row>
-
-
                     </Container>
-
                 </a>
             </div>
         })
@@ -74,13 +74,48 @@ export default function Resources() {
         <div className={classes.aboutSection}>
             <div className={classes.title}>Resources</div>
             <div className={classes.aboutBody}>
-            <Grid container spacing={0}>
-                <Grid item xs={12}>
-                    {res(resources)}
+                <Grid container spacing={0}>
+                    <Grid item xs={12}>
+                        {res(resources)}
+                    </Grid>
                 </Grid>
-            </Grid>
+            </div>
+        </div>
+    )
+}
+
+
+const ResourcesHomePage = () => {
+    const classes = useStyles();
+
+    const resHome = (resources) => {
+        return resources.map(resource => {
+            return <div>
+                <a href={resource.link} target="_blank">
+                    <Card className={classes.resourceDisplayInHome}>
+                        <CardContent>
+                            {resource.title}
+                        </CardContent>
+                    </Card>
+                </a>
+            </div>
+        })
+    }
+
+    return (
+        <div className={classes.aboutSection}>
+            <div className={classes.title}>What We Do</div>
+            <div className={classes.aboutBody}>
+                <Grid container spacing={0}>
+                    <Grid item xs={12}>
+                        {resHome(resources)}
+                    </Grid>
+                </Grid>
 
             </div>
         </div>
     )
 }
+
+export {ResourcesMain};
+export {ResourcesHomePage};

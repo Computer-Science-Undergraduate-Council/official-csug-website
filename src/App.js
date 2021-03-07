@@ -13,8 +13,7 @@ import { Grid,Paper } from '@material-ui/core';
 
 import './assets/css/style.css'
 import AboutUs from './assets/Components/AboutUsComponent';
-import Resources from './assets/Components/Resources';
-import Eboard from './assets/Components/Eboard';
+import {ResourcesMain} from './assets/Components/ResourceComponent';
 import Footer from './assets/Components/Footer';
 
 import HomePage from "./assets/Components/HomePage";
@@ -29,7 +28,7 @@ export default function App() {
 
       <Route exact path="/" render={()=> <HomePage />}/>
       <Route path="/about" render={()=> <AboutUs />}/>
-      <Route path="/resources" render={()=> <Resources />}/>
+      <Route path="/resources" render={()=> <ResourcesMain />}/>
       
       <Footer />
     </HashRouter>

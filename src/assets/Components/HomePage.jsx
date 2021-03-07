@@ -8,7 +8,7 @@ import '../css/style.css'
 import {EboardHomePage} from './EBoardComponent';
 import HomeResources from "./HomeResources";
 
-import {resources} from "./Resources";
+import {ResourcesHomePage} from "./ResourceComponent";
 import HomeAbout from "./HomeAbout";
 
 
@@ -19,7 +19,6 @@ export default class HomePage extends Component{
     render() {
         return (
             <div>
-
                 <Grid container spacing={0}>
                     <Grid item xs={12}>
                         <IntroSection />
@@ -27,18 +26,13 @@ export default class HomePage extends Component{
                     <Grid item xs={12}>
                         <HomeAbout/>
                     </Grid>
-
                     <Grid item xs={12}>
-                        <HomeResources resources={resources}/>
+                        <ResourcesHomePage/>
                     </Grid>
-
                     <Grid item xs={12}>
                         <EboardHomePage />
                     </Grid>
-
                 </Grid>
-
-
             </div>
         )
     }
