@@ -4,8 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import {Grid} from "@material-ui/core";
 import {NavLink} from "react-router-dom";
 
-
-import TimeLine from "../TimeLine";
+import {TimeLineView} from '../TimeLineComponent';
 import {EboardAboutUs} from "../EBoardComponent";
 import AboutUsDescription from './index.data';
 
@@ -48,7 +47,7 @@ const AboutUsComponent = () =>{
                 <EboardAboutUs/>
             </div>
             <Grid className="bg-white">
-                <TimeLine/>
+                <TimeLineView/>
             </Grid>
         </div>
     )

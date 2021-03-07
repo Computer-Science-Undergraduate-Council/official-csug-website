@@ -16,7 +16,7 @@ import AboutUs from './assets/Components/AboutUsComponent';
 import {ResourcesMain} from './assets/Components/ResourceComponent';
 import Footer from './assets/Components/FooterComponent';
 
-import HomePage from "./assets/Components/HomePage";
+import HomePage from './assets/Components/HomePageComponent'
 
 
 
