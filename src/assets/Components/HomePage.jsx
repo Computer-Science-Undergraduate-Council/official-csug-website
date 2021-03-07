@@ -5,7 +5,7 @@ import { Grid,Paper } from '@material-ui/core';
 
 
 import '../css/style.css'
-import Eboard from './Eboard';
+import {EboardHomePage} from './EBoardComponent';
 import HomeResources from "./HomeResources";
 
 import {resources} from "./Resources";
@@ -33,7 +33,7 @@ export default class HomePage extends Component{
                     </Grid>
 
                     <Grid item xs={12}>
-                        <Eboard />
+                        <EboardHomePage />
                     </Grid>
 
                 </Grid>
