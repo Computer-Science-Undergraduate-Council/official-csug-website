@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
-import logo from "../../images/pngFormat.png";
+import logo from "../../images/logo.png";
 
 const useStyles = makeStyles((theme) => ({
     aboutSection:{
