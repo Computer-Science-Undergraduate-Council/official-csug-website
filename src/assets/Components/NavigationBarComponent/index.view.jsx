@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import AppBar from '@material-ui/core/AppBar';
 import {NavLink} from "react-router-dom";
 
-import logo from '../../images/pngFormat.png'
+import logo from '../../images/logo.png'
 
 const useStyles = makeStyles((theme) => ({    // this group of buttons will be aligned to the right side
     toolbarButtons: {

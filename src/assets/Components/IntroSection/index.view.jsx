@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import React from 'react'
 
-import logo from '../../images/pngFormat.png'
+import logo from '../../images/logo.png'
 
 
 const useStyles = makeStyles((theme) => ({
