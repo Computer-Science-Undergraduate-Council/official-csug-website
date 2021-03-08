@@ -35,8 +35,8 @@ This website is built using React. The code is broken into smaller Components wh
 
 Each Component uses an [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) structure.
 This means that each component has three files
-1. `index.data.jsx`: This file contains and exports the **data** that will be used by the component. This could be a collection of information or something received from the database. 
-2. `index.view.jsx`: This file contains and exports the **view** that willbe used by the component. This file would include all the positioning and styling of the elements of a component.
+1. `index.data.jsx`: This file contains and exports the **data** that will be used by the component. This could be a collection of information or something received from the database. Note: In this project a data file has been added to Components even when not necessary so that we can maintain the structure and allow easy integration in case it's needed in the future.
+2. `index.view.jsx`: This file contains and exports the **view** that will be used by the component. This file would include all the positioning and styling of the elements of a component. The data will be passed to this file to be displayed if needed.
 3. `index.jsx`: This file is the **controller** and represents the entire component. This file is called by default. This file defines what will be exported by the Component and in what manner. For example, TimeLine and E-board export the data file by default whereas others export the view file by default.
 
 
