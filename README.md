@@ -1,5 +1,5 @@
 <p align="center">
-  <img height = "100" src="src/assets/images/logo.png">
+  <img height = "200" src="src/assets/images/logo.png">
 </p>
 
 <p>
@@ -14,14 +14,14 @@ This repository along with the GitHub organization is maintained by the CSUG E-B
 
 ## Getting Started :wave:
 
-### Requirements
+### Requirements :thinking:
 
 1. [Git](https://git-scm.com/downloads)
 2. [Node](https://nodejs.org/en/download/) or [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable)
 
-### How to run
+### How to run :smile:
 
-Here we will list some simple steps to get you started with this repo :smile:
+Here we will list some simple steps to get you started with this repo :hugs:
 
 1. Clone the repository to your local computer. You can learn more how to clone a repo [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). This will create a local version in your computer, which is linked with the remote repository on GitHub.
 
@@ -33,9 +33,9 @@ Here we will list some simple steps to get you started with this repo :smile:
 
 5. The website is run locally at `http://localhost:3000/`
 
-## Contributing to the project
+## Contributing to the project :sunglasses:
 
-After running the project on your own local computer, you can follow these steps to make your own contributions to the website! :hugs:
+After running the project on your own local computer, you can follow these steps to make your own contributions to the website! :star_struck:
 
 1. Consider forking the repository to your own GitHub, you can find information on how to fork a repo [here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) This will create a copy (actually a fork) in your GitHub for you to work on. If you don't want to fork it, continue with step 2 :point_down:
 
@@ -51,9 +51,9 @@ After running the project on your own local computer, you can follow these steps
 
 7. Create a Pull Request on the official repo by following this [guide](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). This helps the admin to review the changes you made to be merged with the official repository. Here, you can compare your changes, add more detailed messages and then submit the Pull Request.
 
-8. Once an organization admin reviews your pull request and approves it, your contribution will be merged :tada: :star_struck:
+8. Once an organization admin reviews your pull request and approves it, your contribution will be merged :tada: :partying_face:
 
-### Structure of Code
+### Structure of Code :monocle_face:
 
 This website is built using React. The code is broken into smaller Components which can be found in `src/assets/Components`
 
