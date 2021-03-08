@@ -56,7 +56,7 @@ const eboardmembers = [
         img: Tash,
         description: 'This is Tash, our Internal Communications Chair. He is currently majoring in both CS and DMS. Tash is responsible for sharing any upcoming news and updates surrounding the club and CS that students alike could benefit from. Apart from that, he enjoys playing badminton and nurturing is odd obsession with vacuums in his free time.',
         gitlink: 'https://github.com/tashbrown',
-        linkedInlink: 'https://www.linkedin.com/in/tasheembrown/',
+        linkedInlink: '#',
         email: '#'
     },
     {
@@ -76,7 +76,7 @@ const eboardmembers = [
         img: Carolina,
         description: 'Hello, there! I am Carolina :^) It was a great experience to work with my team members to create the first-ever virtual DandyHacks experience! I am so proud of us!! I am always down to chat about learning and about hackathons! :^) ',
         gitlink: '#',
-        linkedInlink: 'www.linkedin.com/in/carolina-lionhe ',
+        linkedInlink: 'https://www.linkedin.com/in/clionhe/',
         email: '#'
     },
     {

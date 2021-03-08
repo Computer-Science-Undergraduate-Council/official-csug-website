@@ -81,7 +81,7 @@ const useStyles = makeStyles((theme) => ({
     }
   }));
 
-
+// This is used for the HomePage
 const EboardHomePage = () => {  
     const classes = useStyles();
     const eboard = (eboard) => {
@@ -106,7 +106,7 @@ const EboardHomePage = () => {
     )
 }
 
-
+// This is used for the About Us page
 const EboardAboutUs = () => {
     const classes = useStyles();
     const eboardSecond = (eboard) => {
@@ -117,9 +117,9 @@ const EboardAboutUs = () => {
                      <Card.Title className={classes.name}>{eboardmem.name}</Card.Title>
                     <Card.Subtitle className={classes.subtitle}>{eboardmem.title}</Card.Subtitle>
                     <Card.Subtitle>
-                        <a className="btn btn-lg btn-social-icon mr-1 ml-1" style={{color: '#F5DD5A'}} href={eboardmem.gitlink}><i className="fa fa-github"></i></a>
-                        <a className="btn btn-lg btn-social-icon mr-1" style={{color: '#F5DD5A'}} href={eboardmem.linkedInlink}><i className="fa fa-linkedin"></i></a>
-                        <a className="btn btn-lg btn-social-icon mr-1" style={{color: '#F5DD5A'}} href={eboardmem.email}><i className="fa fa-envelope-o"></i></a>
+                        {eboardmem.gitlink !== "#" && <a className="btn btn-lg btn-social-icon mr-1 ml-1" style={{color: '#F5DD5A'}} href={eboardmem.gitlink} target="_blank"><i className="fa fa-github"></i></a>}
+                        {eboardmem.linkedInlink !== "#" && <a className="btn btn-lg btn-social-icon mr-1" style={{color: '#F5DD5A'}} href={eboardmem.linkedInlink} target="_blank"><i className="fa fa-linkedin"></i></a>}
+                        {eboardmem.email !== "#" && <a className="btn btn-lg btn-social-icon mr-1" style={{color: '#F5DD5A'}} href={eboardmem.email} target="_blank"><i className="fa fa-envelope-o"></i></a>} 
                     </Card.Subtitle>
                     <Card.Body className="text-white">
                         {eboardmem.description}
