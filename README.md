@@ -37,7 +37,7 @@ Here we will list some simple steps to get you started with this repo :hugs:
 
 After running the project on your own local computer, you can follow these steps to make your own contributions to the website! :star_struck:
 
-1. Consider forking the repository to your own GitHub, you can find information on how to fork a repo [here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) This will create a copy (actually a fork) in your GitHub for you to work on. If you don't want to fork it, continue with step 2 :point_down:
+1. Consider forking the repository to your own GitHub, you can find information on how to fork a repo [here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository). This will create a copy (actually a fork) in your GitHub for you to work on. If you don't want to fork it, continue with step 2 :point_down:
 
 2. Learn about [the structure of the project](#structure-of-code) and think about where you'd like to make your changes.
 
@@ -47,7 +47,7 @@ After running the project on your own local computer, you can follow these steps
 
 5. Commit your changes and remember to include a helpful commit message. Example: `git commit -m "Added informative ReadMe.md file"`. More information on committing your changes [here](https://github.com/git-guides/git-commit)
 
-6. Push your code to your remote repository using `git push origin main`. If this fails, then git will automatically give you a suggestion to 'set upstream' with the link to your remote repo. Copy this and type the push command again. More info on pushing to Github is [here](https://github.com/git-guides/git-push)
+6. Push your code to your remote repository using `git push`. If this fails, then git will automatically give you a suggestion to 'set upstream' with the link to your remote repo. Copy this and type the push command again. More info on pushing to Github is [here](https://github.com/git-guides/git-push)
 
 7. Create a Pull Request on the official repo by following this [guide](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). This helps the admin to review the changes you made to be merged with the official repository. Here, you can compare your changes, add more detailed messages and then submit the Pull Request.
 
