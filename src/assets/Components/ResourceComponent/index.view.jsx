@@ -115,6 +115,7 @@ const ResourcesHomePage = () => {
     const resHome = (resources) => {
         return resources.map(resource => {
             return <div>
+                {resource.title !="CSUG Tutoring" && 
                 <a href={resource.link} target="_blank">
                     <Card className={classes.resourceDisplayInHome}>
                         <CardContent>
@@ -122,6 +123,17 @@ const ResourcesHomePage = () => {
                         </CardContent>
                     </Card>
                 </a>
+                }
+
+                {resource.title ==="CSUG Tutoring" && 
+                <NavLink className={classes.navLink} to={resource.link}>
+                    <Card className={classes.resourceDisplayInHome}>
+                        <CardContent>
+                            {resource.title}
+                        </CardContent>
+                    </Card>
+                </NavLink>
+                }
             </div>
         })
     }
