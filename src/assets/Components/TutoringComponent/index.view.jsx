@@ -3,10 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
 
 
-import {Col, Container, Row} from "react-bootstrap";
+import {Col, Row} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 
-import tutorList from './index.data';
 import {dataToSend} from './index.data';
 
 
@@ -29,36 +28,28 @@ const useStyles = makeStyles((theme) => ({
         margin: '0 auto',
         width:'75%',
     },
-    avatarSize:{
-        width: '200px',
-        height:'200px',
-        border: '5px solid #113f77',
-        borderRadius:'50%'
-    },
-    resourcesImg:{
-        height:'100px',
-        display: 'flex',
-        flex: '1 1 auto'
+    cardBody:{
+        padding: theme.spacing(2),
     }
 }));
 
-const TutorView = () => {
-    const classes = useStyles();
-    dataToSend();
-    const eachtutor = (dataToSend) => {
-        return dataToSend.map(dataToSend => {
+const TutorView = (currentData) => {
+    const classes = useStyles();    
+    const eachtutor = (currentData) => {
+        return currentData.map(currentTutor => {
             return <div className="mt-2 pt-2">
-                <Card className="p-2 m-2">
+                <Card className={classes.cardBody}>
                     <Row className="p-2">
                         <Col md={7}>
                             <Row>
-                                <h3 className="text-center">{dataToSend.name}</h3>
+                                <h3 className="text-center">{currentTutor.name}</h3>
                             </Row>
                             <Row className="text-left">
-                                {dataToSend.zoomLink}
+                                Zoom ID: {currentTutor.zoomLink}
                             </Row>
+                            {currentTutor.password!=="" &&  <Row className="text-left">Password: {currentTutor.password}</Row>}
                             <Row className="text-left">
-                                {dataToSend.subjects}
+                                Subjects: {currentTutor.subjects}
                             </Row>
                         </Col>
                     </Row>
@@ -72,11 +63,11 @@ const TutorView = () => {
 
     return (
         <div className={classes.aboutSection}>
-            <div className={classes.title}>Tutoring Schedule</div>
+            <div className={classes.title}>Tutoring Schedule For Today</div>
             <div className={classes.aboutBody}>
                 <Grid container spacing={0}>
                     <Grid item xs={12}>
-                        {eachtutor(dataToSend)}
+                        {eachtutor(dataToSend())}
                     </Grid>
                 </Grid>
 
