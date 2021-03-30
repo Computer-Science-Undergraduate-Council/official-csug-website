@@ -81,10 +81,29 @@ const tutorDetails = [
         name: "Rachel He",
         zoomLink: "95313635146",
         password: "",
-        schedule: [{day: "Friday", time: "16:00"}],
+        schedule: [{day: "Saturday", time: "16:00"}],
         subjects: 'CSC 172, 173, 242, 280, MTH 150, 165'
     },
 ]
+// This function checks the tutoring schedule for the week
+const weeklySchedule = () =>{
+    var weekMap = {
+        Sunday:[],
+        Monday:[],
+        Tuesday:[],
+        Wednesday:[],
+        Thursday:[],
+        Friday:[],
+        Saturday:[],
+    };
+    tutorDetails.map(eachTutor => {
+        eachTutor.schedule.map(eachDay=>{
+            var dayForTutor = eachDay.day;
+            weekMap[dayForTutor].push(eachTutor);
+        })
+    })
+    return weekMap;
+}
 
 // This function checks the tutoring schedule for a particular day
 const dataToSend = () => {
@@ -127,5 +146,8 @@ const convertDay = (dateofInterest) => {
     else if (dateofInterest === "Saturday") return 6;
 }
 
+
+
 export default tutorDetails;
 export {dataToSend};
+export {weeklySchedule};

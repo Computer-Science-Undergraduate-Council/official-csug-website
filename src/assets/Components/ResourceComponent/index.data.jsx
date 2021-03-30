@@ -27,7 +27,7 @@ const resources = [
         title: 'CSUG Tutoring',
         img: csugTutoring,
         description: 'We run a special tutoring service for Computer Science subjects to help our students. This is a free drop-in tutoring service where we have selected the best tutors for you.',
-        link: 'https://www.csug.rochester.edu/ugc/tutoring/'
+        link: '/tutoring'
 
     },
     {

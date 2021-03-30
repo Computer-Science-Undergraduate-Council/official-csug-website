@@ -5,6 +5,7 @@ import resources from './index.data'
 import {Col, Container, Row} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import CardContent from "@material-ui/core/CardContent";
+import { NavLink } from 'react-router-dom';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -52,6 +53,12 @@ const ResourcesMain = () => {
     const res = (resources) => {
         return resources.map(resource => {
             return <div>
+               
+
+                {/* The following is a hack that must be solved in future iterations */}
+
+                {/* Using normal anchor tags for others */}
+                {resource.title !="CSUG Tutoring" && 
                 <a href={resource.link} target="_blank">
                     <Container className={classes.eachResource}>
                         <Row className="p-2">
@@ -65,6 +72,24 @@ const ResourcesMain = () => {
                         </Row>
                     </Container>
                 </a>
+                }
+
+                {/* Use NavLink for CSUG tutoring */}
+                {resource.title ==="CSUG Tutoring" && 
+                <NavLink className={classes.navLink} to={resource.link}>
+                    <Container className={classes.eachResource}>
+                        <Row className="p-2">
+                            <Col md={3}>
+                                <Card.Img className={classes.resourcesImg} variant="left" src={resource.img}></Card.Img>
+                            </Col>
+                            <Col md={6}>
+                                <Row><h3 className="text-center mt-2">{resource.title}</h3></Row>
+                                <Row className="text-left mt-2">{resource.description}</Row>
+                            </Col>
+                        </Row>
+                    </Container>
+                </NavLink>
+                }
             </div>
         })
     }
