@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/official-csug-website/static/css/main.51971a0b.chunk.css",
-    "main.js": "/official-csug-website/static/js/main.c45a0bb7.chunk.js",
-    "main.js.map": "/official-csug-website/static/js/main.c45a0bb7.chunk.js.map",
+    "main.js": "/official-csug-website/static/js/main.4cd16d22.chunk.js",
+    "main.js.map": "/official-csug-website/static/js/main.4cd16d22.chunk.js.map",
     "runtime-main.js": "/official-csug-website/static/js/runtime-main.577516cf.js",
     "runtime-main.js.map": "/official-csug-website/static/js/runtime-main.577516cf.js.map",
     "static/css/2.534751f4.chunk.css": "/official-csug-website/static/css/2.534751f4.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.534751f4.chunk.css.map": "/official-csug-website/static/css/2.534751f4.chunk.css.map",
     "static/css/main.51971a0b.chunk.css.map": "/official-csug-website/static/css/main.51971a0b.chunk.css.map",
     "static/js/2.57eec31a.chunk.js.LICENSE.txt": "/official-csug-website/static/js/2.57eec31a.chunk.js.LICENSE.txt",
-    "static/media/Aman.db16f681.png": "/official-csug-website/static/media/Aman.db16f681.png",
+    "static/media/Aman.575f3281.png": "/official-csug-website/static/media/Aman.575f3281.png",
     "static/media/Ashley.dda4ffd9.jpeg": "/official-csug-website/static/media/Ashley.dda4ffd9.jpeg",
     "static/media/CSUG2019-20.e6e05e22.jpg": "/official-csug-website/static/media/CSUG2019-20.e6e05e22.jpg",
     "static/media/Emily.5218c106.jpg": "/official-csug-website/static/media/Emily.5218c106.jpg",
@@ -37,6 +37,6 @@
     "static/css/2.534751f4.chunk.css",
     "static/js/2.57eec31a.chunk.js",
     "static/css/main.51971a0b.chunk.css",
-    "static/js/main.c45a0bb7.chunk.js"
+    "static/js/main.4cd16d22.chunk.js"
   ]
 }
