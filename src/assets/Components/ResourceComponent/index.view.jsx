@@ -111,7 +111,7 @@ const ResourcesMain = () => {
 
 const ResourcesHomePage = () => {
     const classes = useStyles();
-
+    // The following is a hacked solution to differ between anchor tags and navlinks
     const resHome = (resources) => {
         return resources.map(resource => {
             return <div>

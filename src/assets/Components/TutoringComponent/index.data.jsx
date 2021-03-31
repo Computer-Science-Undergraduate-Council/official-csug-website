@@ -107,10 +107,23 @@ const weeklySchedule = () =>{
 
 // This function checks the tutoring schedule for a particular day
 const dataToSend = () => {
+    const dateRightNow = new Date();
     var currentData = []
     tutorDetails.map(eachTutor => {
         if(checkDay(eachTutor)){
-            currentData.push(eachTutor);
+            //Makes a copy of the object so that only today's times are shown
+            var toAppend = {};
+            toAppend.name = eachTutor.name;
+            toAppend.zoomlink = eachTutor.zoomLink;
+            toAppend.password = eachTutor.password;
+            toAppend.subjects = eachTutor.subjects;
+            toAppend.schedule = [];
+            eachTutor.schedule.map(eachDay => {
+                if(dateRightNow.getDay() === convertDay(eachDay.day)){
+                    toAppend.schedule.push({"day": eachDay.day, "time":eachDay.time})
+                }
+            })
+            currentData.push(toAppend);
         }
     })
     return currentData;

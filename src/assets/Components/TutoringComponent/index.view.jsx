@@ -56,6 +56,22 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
+const TutorTime = (eachTutor) => {
+    return eachTutor.schedule.map(currentSchedule=>{
+        return <>
+            {currentSchedule['time']} 
+        </>
+    })
+}
+
+const TutorTimeWithDay = (eachTutor) => {
+    return eachTutor.schedule.map(currentSchedule=>{
+        return <>
+            {currentSchedule['day']} - {currentSchedule['time']} ;
+        </>
+    })
+}
+
 const TutorDayView = (currentData) => {
     const classes = useStyles();    
     const eachtutor = (currentData) => {
@@ -74,6 +90,13 @@ const TutorDayView = (currentData) => {
                             <Row className="text-left">
                                 Subjects: {currentTutor.subjects}
                             </Row>
+                            <Row className="text-left">
+                                Time: {TutorTime(currentTutor)}
+                            </Row>
+                            
+                            {/* <Row className="text-left">
+                                Time: {currentTutor.schedule["Wednesday"]}
+                            </Row> */}
                         </Col>
                     </Row>
                 </Card>
@@ -129,6 +152,9 @@ const TutorWeekView = (currentData) => {
                             {currentTutor.password!=="" &&  <Row className={classes.tutorDetails}>Password: {currentTutor.password}</Row>}
                             <Row className={classes.tutorDetails}>
                                 Subjects: {currentTutor.subjects}
+                            </Row>
+                            <Row className={classes.tutorDetails}>
+                                Times: {TutorTimeWithDay(currentTutor)}
                             </Row>
                         </Col>
                     </Row>
