@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/official-csug-website/static/css/main.51971a0b.chunk.css",
-    "main.js": "/official-csug-website/static/js/main.1fc64343.chunk.js",
-    "main.js.map": "/official-csug-website/static/js/main.1fc64343.chunk.js.map",
+    "main.js": "/official-csug-website/static/js/main.ff8af066.chunk.js",
+    "main.js.map": "/official-csug-website/static/js/main.ff8af066.chunk.js.map",
     "runtime-main.js": "/official-csug-website/static/js/runtime-main.577516cf.js",
     "runtime-main.js.map": "/official-csug-website/static/js/runtime-main.577516cf.js.map",
     "static/css/2.534751f4.chunk.css": "/official-csug-website/static/css/2.534751f4.chunk.css",
-    "static/js/2.4fe8a1b6.chunk.js": "/official-csug-website/static/js/2.4fe8a1b6.chunk.js",
-    "static/js/2.4fe8a1b6.chunk.js.map": "/official-csug-website/static/js/2.4fe8a1b6.chunk.js.map",
+    "static/js/2.5f8f8f92.chunk.js": "/official-csug-website/static/js/2.5f8f8f92.chunk.js",
+    "static/js/2.5f8f8f92.chunk.js.map": "/official-csug-website/static/js/2.5f8f8f92.chunk.js.map",
     "static/js/3.733a7c94.chunk.js": "/official-csug-website/static/js/3.733a7c94.chunk.js",
     "static/js/3.733a7c94.chunk.js.map": "/official-csug-website/static/js/3.733a7c94.chunk.js.map",
     "index.html": "/official-csug-website/index.html",
     "static/css/2.534751f4.chunk.css.map": "/official-csug-website/static/css/2.534751f4.chunk.css.map",
     "static/css/main.51971a0b.chunk.css.map": "/official-csug-website/static/css/main.51971a0b.chunk.css.map",
-    "static/js/2.4fe8a1b6.chunk.js.LICENSE.txt": "/official-csug-website/static/js/2.4fe8a1b6.chunk.js.LICENSE.txt",
+    "static/js/2.5f8f8f92.chunk.js.LICENSE.txt": "/official-csug-website/static/js/2.5f8f8f92.chunk.js.LICENSE.txt",
     "static/media/Aman.db16f681.png": "/official-csug-website/static/media/Aman.db16f681.png",
     "static/media/Ashley.dda4ffd9.jpeg": "/official-csug-website/static/media/Ashley.dda4ffd9.jpeg",
     "static/media/CSUG2019-20.e6e05e22.jpg": "/official-csug-website/static/media/CSUG2019-20.e6e05e22.jpg",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.577516cf.js",
     "static/css/2.534751f4.chunk.css",
-    "static/js/2.4fe8a1b6.chunk.js",
+    "static/js/2.5f8f8f92.chunk.js",
     "static/css/main.51971a0b.chunk.css",
-    "static/js/main.1fc64343.chunk.js"
+    "static/js/main.ff8af066.chunk.js"
   ]
 }
