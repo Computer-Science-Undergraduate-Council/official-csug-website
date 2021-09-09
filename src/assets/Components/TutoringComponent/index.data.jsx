@@ -1,88 +1,88 @@
 
 const tutorDetails = [
     {
-        name: "Besmelh Alshaalan",
-        zoomLink: "2927451682",
-        password: "",
-        schedule: [{day: "Monday", time: "7:00"},{day: "Tuesday", time: "7:00"}],
-        subjects: 'CSC171, 172'
-    },
-    {
-        name: "Alexander Martin",
-        zoomLink: "928 1592 5433",
-        password: "",
-        schedule: [{day: "Monday", time: "10:30"},{day: "Wednesday", time: "10:30"}],
-        subjects: 'CSC 171, MTH 150'
-    },
-    {
-        name: "Roka Hosono",
-        zoomLink: "345 493 5738",
-        password: "YkCL0e",
-        schedule: [{day: "Monday", time: "13:00"},{day: "Saturday", time: "11:00"}],
-        subjects: 'CSC171, 172, 173, 262, 282,MTH 150'
-    },
-    {
-        name: "Samuel Frank",
-        zoomLink: "3556034787",
-        password: "",
-        schedule: [{day: "Monday", time: "14:00"},{day: "Friday", time: "14:00"}],
-        subjects: 'CSC171, MTH150'
-    },
-    {
-        name: "Tommy Geiger",
-        zoomLink: "457 304 4220",
-        password: "",
-        schedule: [{day: "Monday", time: "17:00"},{day: "Tuesday", time: "15:00"},{day: "Wednesday", time: "17:00"},{day: "Thursday", time: "15:00"}],
-        subjects: 'CSC171, 172, 210, 252, 257, 261, 262'
-    },
-    {
-        name: "Simon Schiller",
-        zoomLink: "5783019505",
-        password: "",
-        schedule: [{day: "Tuesday", time: "11:15"},{day: "Thursday", time: "11:15"}],
-        subjects: 'MTH 150, CSC171, 172, 252, 257'
-    },
-    {
         name: "Yufei Zhao",
-        zoomLink: "9535560058",
+        location: "In Person",
         password: "",
-        schedule: [{day: "Tuesday", time: "12:30"},{day: "Thursday", time: "8:30"}],
-        subjects: 'MTH 150, CSC171, 172, 173'
-    },
-    {
-        name: "Gal Cherki",
-        zoomLink: "9501591844",
-        password: "",
-        schedule: [{day: "Thursday", time: "10:00"}],
-        subjects: 'CSC161,171,172, 173, 282, MTH150, 165'
-    },
-    {
-        name: "Mila Paymukhina",
-        zoomLink: "6176880620",
-        password: "cs",
-        schedule: [{day: "Thursday", time: "17:00"}],
-        subjects: 'CSC171'
-    },
-    {
-        name: "Zhiyu Lei",
-        zoomLink: "7012802808",
-        password: "",
-        schedule: [{day: "Friday", time: "10:30"}],
-        subjects: 'CSC 171, 172, 242, 261, 262,MTH 150, 201'
-    },
-    {
-        name: "Joseph Cloud",
-        zoomLink: "923 917 3891",
-        password: "cbDsp0",
-        schedule: [{day: "Friday", time: "16:00"},{day: "Saturday", time: "16:00"}],
+        schedule: [{day: "Monday", time: "9:50"}],
         subjects: 'CSC171, 172, 173'
     },
     {
-        name: "Rachel He",
-        zoomLink: "95313635146",
+        name: "Phuong (Andrea) Vu",
+        location: "https://rochester.zoom.us/j/91560722600",
         password: "",
-        schedule: [{day: "Saturday", time: "16:00"}],
-        subjects: 'CSC 172, 173, 242, 280, MTH 150, 165'
+        schedule: [{day: "Monday", time: "14:30"},{day: "Monday", time: "15:30"},{day: "Wednesday", time: "14:20"}],
+        subjects: 'CSC 172, 210, 242'
+    },
+    {
+        name: "Jiayi He",
+        location: "In Person",
+        password: "",
+        schedule: [{day: "Monday", time: "15:30"},{day: "Wednesday", time: "15:30"}],
+        subjects: 'MTH150, 165; MTH/STT 201; CSC161, 171, 172, 173, 242'
+    },
+    {
+        name: "Rory Linerud",
+        location: "In Person",
+        password: "",
+        schedule: [{day: "Monday", time: "15:30"},{day: "Tuesday", time: "12:00"},{day: "Wednesday", time: "15:30"},{day: "Thursday", time: "12:00"},{day: "Friday", time: "16:00"}],
+        subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
+    },
+    {
+        name: "Alex Martin",
+        location: "In Person(Tuesday 8-9PM, Thursday 2-3PM && 8-9PM) || Zoom（Tuesday 9-10AM, Thursday 2-3PM && 8-9PM）：https://rochester.zoom.us/j/2759015070",
+        password: "",
+        schedule: [{day: "Tuesday", time: "9:00"},{day: "Tuesday", time: "20:00"},{day: "Thursday", time: "14:00"},{day: "Thursday", time: "20:00"}],
+        subjects: 'MTH150; CSC171, 172'
+    },
+    {
+        name: "Qianqian (Laura) Li",
+        location: "In Person",
+        password: "",
+        schedule: [{day: "Tuesday", time: "10:00"},{day: "Thursday", time: "10:00"}],
+        subjects: 'MTH 150, 165; CSC171, 172, 214'
+    },
+    {
+        name: "Rowland Zhang",
+        location: "TBD",
+        password: "",
+        schedule: [{day: "Tuesday", time: "11:00"}],
+        subjects: 'MTH 150, CSC171, 172, 173'
+    },
+    {
+        name: "Yuka Shimazaki",
+        location: "In Person",
+        password: "",
+        schedule: [{day: "Friday", time: "13:30"}],
+        subjects: 'MTH 150; CSC 161'
+    },
+    {
+        name: "Rachael He",
+        location: "https://rochester.zoom.us/j/93424742313",
+        password: "",
+        schedule: [{day: "Tuesday", time: "17:00"}],
+        subjects: 'MTH150, 165; CSC 171, 172, 173, 242, 252, 280, 282'
+    },
+    {
+        name: "Beakal Lemeneh",
+        location: "In Person",
+        password: "",
+        schedule: [{day: "Tuesday", time: "17:00"}],
+        subjects: 'MTH 150; STT211/212/213; CSC 171, 172, 173, 242, 254'
+    },
+    {
+        name: "Samuel (Sam) Frank",
+        location: "https://zoom.us/j/3556034787?pwd=VU9TSStwdGI3R2ZEYVltUUVzNDBSUT09",
+        password: "",
+        schedule: [{day: "Tuesday", time: "14:00"},{day: "Thursday", time: "14:00"}],
+        subjects: 'MTH 150; STT211/212/213; CSC 171, 172'
+    },
+    {
+        name: "Sufian Mushtaq",
+        location: "In Person",
+        password: "",
+        schedule: [{day: "Friday", time: "15:00"}],
+        subjects: 'CSC 172'
     },
 ]
 // This function checks the tutoring schedule for the week
@@ -114,7 +114,7 @@ const dataToSend = () => {
             //Makes a copy of the object so that only today's times are shown
             var toAppend = {};
             toAppend.name = eachTutor.name;
-            toAppend.zoomlink = eachTutor.zoomLink;
+            toAppend.location = eachTutor.location;
             toAppend.password = eachTutor.password;
             toAppend.subjects = eachTutor.subjects;
             toAppend.schedule = [];

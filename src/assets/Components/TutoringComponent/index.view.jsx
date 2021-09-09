@@ -84,7 +84,7 @@ const TutorDayView = (currentData) => {
                                 <h3 className="text-center">{currentTutor.name}</h3>
                             </Row>
                             <Row className="text-left">
-                                Zoom ID: {currentTutor.zoomLink}
+                                Location: {currentTutor.location}
                             </Row>
                             {currentTutor.password!=="" &&  <Row className="text-left">Password: {currentTutor.password}</Row>}
                             <Row className="text-left">
@@ -147,7 +147,7 @@ const TutorWeekView = (currentData) => {
                                 <h3 className={classes.tutorName}>{currentTutor.name}</h3>
                             </Row>
                             <Row className={classes.tutorDetails}>
-                                Zoom ID: {currentTutor.zoomLink}
+                                Location: {currentTutor.location}
                             </Row>
                             {currentTutor.password!=="" &&  <Row className={classes.tutorDetails}>Password: {currentTutor.password}</Row>}
                             <Row className={classes.tutorDetails}>
