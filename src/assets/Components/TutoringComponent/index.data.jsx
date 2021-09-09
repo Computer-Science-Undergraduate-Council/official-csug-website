@@ -2,7 +2,7 @@
 const tutorDetails = [
     {
         name: "Yufei Zhao",
-        location: "In Person",
+        location: "Wegmans Hall 2506",
         password: "",
         schedule: [{day: "Monday", time: "9:50"}],
         subjects: 'CSC171, 172, 173'
@@ -11,47 +11,152 @@ const tutorDetails = [
         name: "Phuong (Andrea) Vu",
         location: "https://rochester.zoom.us/j/91560722600",
         password: "",
-        schedule: [{day: "Monday", time: "14:30"},{day: "Monday", time: "15:30"},{day: "Wednesday", time: "14:20"}],
+        schedule: [{day: "Monday", time: "14:30"}],
+        subjects: 'CSC 172, 210, 242'
+    },
+    {
+        name: "Samuel(Sam) DeLong",
+        location: "Wegmans 2506",
+        password: "",
+        schedule: [{day: "Monday", time: "13:00"}],
+        subjects: 'CSC 161, 171, 172, 173'
+    },
+    {
+        name: "Samuel(Sam) DeLong",
+        location: "Wegmans 2506",
+        password: "",
+        schedule: [{day: "Monday", time: "14:00"}],
+        subjects: 'CSC 161, 171, 172, 173'
+    },
+    {
+        name: "Samuel(Sam) DeLong",
+        location: "Wegmans 2506",
+        password: "",
+        schedule: [{day: "Wednesday", time: "13:00"}],
+        subjects: 'CSC 161, 171, 172, 173'
+    },
+    {
+        name: "Samuel(Sam) DeLong",
+        location: "Wegmans 2506",
+        password: "",
+        schedule: [{day: "Wednesday", time: "14:00"}],
+        subjects: 'CSC 161, 171, 172, 173'
+    },
+    {
+        name: "Phuong (Andrea) Vu",
+        location: "https://rochester.zoom.us/j/91560722600",
+        password: "",
+        schedule: [{day: "Monday", time: "15:30"}],
+        subjects: 'CSC 172, 210, 242'
+    },
+    {
+        name: "Phuong (Andrea) Vu",
+        location: "https://rochester.zoom.us/j/91560722600",
+        password: "",
+        schedule: [{day: "Wednesday", time: "14:20"}],
         subjects: 'CSC 172, 210, 242'
     },
     {
         name: "Jiayi He",
-        location: "In Person",
+        location: "Wegmans Hall 2506",
         password: "",
-        schedule: [{day: "Monday", time: "15:30"},{day: "Wednesday", time: "15:30"}],
+        schedule: [{day: "Monday", time: "15:30"}],
+        subjects: 'MTH150, 165; MTH/STT 201; CSC161, 171, 172, 173, 242'
+    },
+    {
+        name: "Jiayi He",
+        location: "Wegmans Hall 2506",
+        password: "",
+        schedule: [{day: "Wednesday", time: "15:30"}],
         subjects: 'MTH150, 165; MTH/STT 201; CSC161, 171, 172, 173, 242'
     },
     {
         name: "Rory Linerud",
-        location: "In Person",
+        location: "Wegmans Hall 2506",
         password: "",
-        schedule: [{day: "Monday", time: "15:30"},{day: "Tuesday", time: "12:00"},{day: "Wednesday", time: "15:30"},{day: "Thursday", time: "12:00"},{day: "Friday", time: "16:00"}],
+        schedule: [{day: "Monday", time: "15:30"}],
+        subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
+    },
+    {
+        name: "Rory Linerud",
+        location: "Wegmans Hall 2215",
+        password: "",
+        schedule: [{day: "Tuesday", time: "12:00"}],
+        subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
+    },
+    {
+        name: "Rory Linerud",
+        location: "Wegmans Hall 2506",
+        password: "",
+        schedule: [{day: "Wednesday", time: "15:30"}],
+        subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
+    },
+    {
+        name: "Rory Linerud",
+        location: "Wegmans Hall 2215",
+        password: "",
+        schedule: [{day: "Thursday", time: "12:00"}],
+        subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
+    },
+    {
+        name: "Rory Linerud",
+        location: "Wegmans Hall 3307",
+        password: "",
+        schedule: [{day: "Friday", time: "16:00"}],
         subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
     },
     {
         name: "Alex Martin",
-        location: "In Person(Tuesday 8-9PM, Thursday 2-3PM && 8-9PM) || Zoom（Tuesday 9-10AM, Thursday 2-3PM && 8-9PM）：https://rochester.zoom.us/j/2759015070",
+        location: "https://rochester.zoom.us/j/2759015070",
         password: "",
-        schedule: [{day: "Tuesday", time: "9:00"},{day: "Tuesday", time: "20:00"},{day: "Thursday", time: "14:00"},{day: "Thursday", time: "20:00"}],
+        schedule: [{day: "Tuesday", time: "9:00"}],
+        subjects: 'MTH150; CSC171, 172'
+    },
+    {
+        name: "Alex Martin",
+        location: "Wegmans Hall 2506",
+        password: "",
+        schedule: [{day: "Tuesday", time: "20:00"}],
+        subjects: 'MTH150; CSC171, 172'
+    },
+    {
+        name: "Alex Martin",
+        location: "https://rochester.zoom.us/j/2759015070",
+        password: "",
+        schedule: [{day: "Thursday", time: "14:00"}],
+        subjects: 'MTH150; CSC171, 172'
+    },
+    {
+        name: "Alex Martin",
+        location: "Hybrid: Wegmans Hall 2506 || https://rochester.zoom.us/j/2759015070",
+        password: "",
+        schedule: [{day: "Thursday", time: "20:00"}],
         subjects: 'MTH150; CSC171, 172'
     },
     {
         name: "Qianqian (Laura) Li",
-        location: "In Person",
+        location: "Wegmans Hall 2506",
         password: "",
-        schedule: [{day: "Tuesday", time: "10:00"},{day: "Thursday", time: "10:00"}],
-        subjects: 'MTH 150, 165; CSC171, 172, 214'
+        schedule: [{day: "Tuesday", time: "10:00"}],
+        subjects: 'MTH 150, 165; CSC171, 172'
+    },
+    {
+        name: "Qianqian (Laura) Li",
+        location: "Wegmans Hall 2506",
+        password: "",
+        schedule: [{day: "Thursday", time: "10:00"}],
+        subjects: 'MTH 150, 165; CSC171, 172'
     },
     {
         name: "Rowland Zhang",
-        location: "TBD",
+        location: "Wegmans Hall 2215(Tentitive)",
         password: "",
         schedule: [{day: "Tuesday", time: "11:00"}],
         subjects: 'MTH 150, CSC171, 172, 173'
     },
     {
         name: "Yuka Shimazaki",
-        location: "In Person",
+        location: "Wegmans Hall 3307",
         password: "",
         schedule: [{day: "Friday", time: "13:30"}],
         subjects: 'MTH 150; CSC 161'
@@ -65,7 +170,7 @@ const tutorDetails = [
     },
     {
         name: "Beakal Lemeneh",
-        location: "In Person",
+        location: "Wegmans Hall 2506",
         password: "",
         schedule: [{day: "Tuesday", time: "17:00"}],
         subjects: 'MTH 150; STT211/212/213; CSC 171, 172, 173, 242, 254'
@@ -74,12 +179,19 @@ const tutorDetails = [
         name: "Samuel (Sam) Frank",
         location: "https://zoom.us/j/3556034787?pwd=VU9TSStwdGI3R2ZEYVltUUVzNDBSUT09",
         password: "",
-        schedule: [{day: "Tuesday", time: "14:00"},{day: "Thursday", time: "14:00"}],
+        schedule: [{day: "Tuesday", time: "14:00"}],
+        subjects: 'MTH 150; STT211/212/213; CSC 171, 172'
+    },
+    {
+        name: "Samuel (Sam) Frank",
+        location: "https://zoom.us/j/3556034787?pwd=VU9TSStwdGI3R2ZEYVltUUVzNDBSUT09",
+        password: "",
+        schedule: [{day: "Thursday", time: "14:00"}],
         subjects: 'MTH 150; STT211/212/213; CSC 171, 172'
     },
     {
         name: "Sufian Mushtaq",
-        location: "In Person",
+        location: "Wegmans Hall 2506",
         password: "",
         schedule: [{day: "Friday", time: "15:00"}],
         subjects: 'CSC 172'

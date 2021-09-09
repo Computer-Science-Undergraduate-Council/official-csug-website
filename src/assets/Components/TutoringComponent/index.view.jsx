@@ -67,7 +67,7 @@ const TutorTime = (eachTutor) => {
 const TutorTimeWithDay = (eachTutor) => {
     return eachTutor.schedule.map(currentSchedule=>{
         return <>
-            {currentSchedule['day']} - {currentSchedule['time']} ;
+            {currentSchedule['day']} - {currentSchedule['time']}
         </>
     })
 }
