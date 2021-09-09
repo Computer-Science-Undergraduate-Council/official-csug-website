@@ -57,17 +57,32 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const TutorTime = (eachTutor) => {
+    let countSchedules = 0;
+    
     return eachTutor.schedule.map(currentSchedule=>{
+        if (countSchedules === eachTutor.schedule.length-1) {
+            return <>
+            {currentSchedule['time']}
+        </>
+        }
+        countSchedules++;
         return <>
-            {currentSchedule['time']} 
+            {currentSchedule['time']};&nbsp;
         </>
     })
 }
 
 const TutorTimeWithDay = (eachTutor) => {
-    return eachTutor.schedule.map(currentSchedule=>{
+    let countSchedules = 0;
+    return eachTutor.schedule.map(currentSchedule=> {
+        if (countSchedules === eachTutor.schedule.length-1) {
+            return <>
+            {currentSchedule['day']} - {currentSchedule['time']}
+        </>
+        }
+        countSchedules++;
         return <>
-            {currentSchedule['day']} - {currentSchedule['time']} ;
+            {currentSchedule['day']} - {currentSchedule['time']};&nbsp;
         </>
     })
 }
@@ -114,7 +129,7 @@ const TutorDayView = (currentData) => {
                 All tutoring sessions for today have ended. Please come back tomorrow. 
             </div>}
 
-            {todayData.length != 0 && 
+            {todayData.length !== 0 && 
                 <div className={classes.aboutBody}>
                 <Grid container spacing={0}>
                     <Grid item xs={12}>
