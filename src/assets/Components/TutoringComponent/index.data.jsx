@@ -159,7 +159,7 @@ const tutorDetails = [
         location: "Wegmans Hall 3307",
         password: "",
         schedule: [{day: "Friday", time: "13:30"}],
-        subjects: 'MTH 150; CSC 161'
+        subjects: 'MTH 150; CSC 171'
     },
     {
         name: "Rachael He",
@@ -191,7 +191,7 @@ const tutorDetails = [
     },
     {
         name: "Sufian Mushtaq",
-        location: "Wegmans Hall 2506",
+        location: "https://rochester.zoom.us/j/5912831808",
         password: "",
         schedule: [{day: "Friday", time: "15:00"}],
         subjects: 'CSC 172'
