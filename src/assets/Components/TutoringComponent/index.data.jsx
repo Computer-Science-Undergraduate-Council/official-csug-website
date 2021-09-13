@@ -70,13 +70,13 @@ const tutorDetails = [
         schedule: [{day: "Wednesday", time: "15:30"}],
         subjects: 'MTH150, 165; MTH/STT 201; CSC161, 171, 172, 173, 242'
     },
-    {
-        name: "Rory Linerud",
-        location: "Wegmans Hall 2506",
-        password: "",
-        schedule: [{day: "Monday", time: "15:30"}],
-        subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
-    },
+    // {
+    //     name: "Rory Linerud",
+    //     location: "Wegmans Hall 2506",
+    //     password: "",
+    //     schedule: [{day: "Monday", time: "15:30"}],
+    //     subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
+    // },
     {
         name: "Rory Linerud",
         location: "Wegmans Hall 2215",
