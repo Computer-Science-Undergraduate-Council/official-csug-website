@@ -61,22 +61,22 @@ const tutorDetails = [
         location: "Wegmans Hall 2506",
         password: "",
         schedule: [{day: "Monday", time: "15:30"}],
-        subjects: 'MTH150, 165; MTH/STT 201; CSC161, 171, 172, 173, 242'
+        subjects: 'MTH 150, 165; CSC 171, 172, 242'
     },
     {
         name: "Jiayi He",
         location: "Wegmans Hall 2506",
         password: "",
         schedule: [{day: "Wednesday", time: "15:30"}],
-        subjects: 'MTH150, 165; MTH/STT 201; CSC161, 171, 172, 173, 242'
+        subjects: 'MTH 150, 165; CSC 171, 172, 242'
     },
-    // {
-    //     name: "Rory Linerud",
-    //     location: "Wegmans Hall 2506",
-    //     password: "",
-    //     schedule: [{day: "Monday", time: "15:30"}],
-    //     subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
-    // },
+    {
+        name: "Rory Linerud",
+        location: "Wegmans Hall 2506",
+        password: "",
+        schedule: [{day: "Monday", time: "15:30"}],
+        subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
+    },
     {
         name: "Rory Linerud",
         location: "Wegmans Hall 2215",
@@ -98,13 +98,13 @@ const tutorDetails = [
         schedule: [{day: "Thursday", time: "12:00"}],
         subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
     },
-    {
-        name: "Rory Linerud",
-        location: "Wegmans Hall 3307",
-        password: "",
-        schedule: [{day: "Friday", time: "16:00"}],
-        subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
-    },
+    // {
+    //     name: "Rory Linerud",
+    //     location: "Wegmans Hall 3307",
+    //     password: "",
+    //     schedule: [{day: "Friday", time: "16:00"}],
+    //     subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
+    // },
     {
         name: "Alex Martin",
         location: "https://rochester.zoom.us/j/2759015070",
@@ -149,10 +149,10 @@ const tutorDetails = [
     },
     {
         name: "Rowland Zhang",
-        location: "Wegmans Hall 2215(Tentitive)",
+        location: "Wegmans Hall 2215",
         password: "",
         schedule: [{day: "Tuesday", time: "11:00"}],
-        subjects: 'MTH 150, CSC171, 172, 173'
+        subjects: 'MTH 150, 235; CSC171, 172, 173'
     },
     {
         name: "Yuka Shimazaki",
@@ -166,7 +166,7 @@ const tutorDetails = [
         location: "https://rochester.zoom.us/j/93424742313",
         password: "",
         schedule: [{day: "Tuesday", time: "17:00"}],
-        subjects: 'MTH150, 165; CSC 171, 172, 173, 242, 252, 280, 282'
+        subjects: 'MTH150, 165; CSC 171, 172, 173, 242, 252, 280'
     },
     {
         name: "Beakal Lemeneh",
@@ -191,7 +191,7 @@ const tutorDetails = [
     },
     {
         name: "Sufian Mushtaq",
-        location: "https://rochester.zoom.us/j/5912831808",
+        location: "In Person(Wegmans Hall 3307)",
         password: "",
         schedule: [{day: "Friday", time: "15:00"}],
         subjects: 'CSC 172'
