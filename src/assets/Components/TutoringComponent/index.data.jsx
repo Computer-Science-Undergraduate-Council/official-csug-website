@@ -100,7 +100,7 @@ const tutorDetails = [
     },
     {
         name: "Rory Linerud",
-        location: "Wegmans Hall 3307",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Friday", time: "16:00"}],
         subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
@@ -156,7 +156,7 @@ const tutorDetails = [
     },
     {
         name: "Yuka Shimazaki",
-        location: "Wegmans Hall 3307",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Friday", time: "13:30"}],
         subjects: 'MTH 150; CSC 171'
@@ -191,7 +191,7 @@ const tutorDetails = [
     },
     {
         name: "Sufian Mushtaq",
-        location: "In Person(Wegmans Hall 3307)",
+        location: "In Person(Hylan 301)",
         password: "",
         schedule: [{day: "Friday", time: "15:00"}],
         subjects: 'CSC 172'
