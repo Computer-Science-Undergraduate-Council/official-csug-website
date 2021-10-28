@@ -2,9 +2,9 @@
 const tutorDetails = [
     {
         name: "Yufei Zhao",
-        location: "Wegmans Hall 2506",
+        location: "Hylan 301",
         password: "",
-        schedule: [{day: "Monday", time: "9:50"}],
+        schedule: [{day: "Wednesday", time: "9:50"}],
         subjects: 'CSC171, 172, 173'
     },
     {
@@ -16,28 +16,28 @@ const tutorDetails = [
     },
     {
         name: "Samuel(Sam) DeLong",
-        location: "Wegmans 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Monday", time: "13:00"}],
         subjects: 'CSC 161, 171, 172, 173'
     },
     {
         name: "Samuel(Sam) DeLong",
-        location: "Wegmans 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Monday", time: "14:00"}],
         subjects: 'CSC 161, 171, 172, 173'
     },
     {
         name: "Samuel(Sam) DeLong",
-        location: "Wegmans 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Wednesday", time: "13:00"}],
         subjects: 'CSC 161, 171, 172, 173'
     },
     {
         name: "Samuel(Sam) DeLong",
-        location: "Wegmans 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Wednesday", time: "14:00"}],
         subjects: 'CSC 161, 171, 172, 173'
@@ -58,49 +58,49 @@ const tutorDetails = [
     },
     {
         name: "Jiayi He",
-        location: "Wegmans Hall 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Monday", time: "15:30"}],
-        subjects: 'MTH150, 165; MTH/STT 201; CSC161, 171, 172, 173, 242'
+        subjects: 'MTH 150, 165; CSC 171, 172, 242'
     },
     {
         name: "Jiayi He",
-        location: "Wegmans Hall 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Wednesday", time: "15:30"}],
-        subjects: 'MTH150, 165; MTH/STT 201; CSC161, 171, 172, 173, 242'
+        subjects: 'MTH 150, 165; CSC 171, 172, 242'
     },
     {
         name: "Rory Linerud",
-        location: "Wegmans Hall 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Monday", time: "15:30"}],
         subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
     },
     {
         name: "Rory Linerud",
-        location: "Wegmans Hall 2215",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Tuesday", time: "12:00"}],
         subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
     },
     {
         name: "Rory Linerud",
-        location: "Wegmans Hall 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Wednesday", time: "15:30"}],
         subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
     },
     {
         name: "Rory Linerud",
-        location: "Wegmans Hall 2215",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Thursday", time: "12:00"}],
         subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
     },
     {
         name: "Rory Linerud",
-        location: "Wegmans Hall 3307",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Friday", time: "16:00"}],
         subjects: 'MTH150, 165; MTH/STT 201; STT211/212/213; CSC161, 171, 172, 214, 248, 173, 242, 252, 254'
@@ -114,7 +114,7 @@ const tutorDetails = [
     },
     {
         name: "Alex Martin",
-        location: "Wegmans Hall 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Tuesday", time: "20:00"}],
         subjects: 'MTH150; CSC171, 172'
@@ -128,49 +128,49 @@ const tutorDetails = [
     },
     {
         name: "Alex Martin",
-        location: "Hybrid: Wegmans Hall 2506 || https://rochester.zoom.us/j/2759015070",
+        location: "Hybrid: Hylan 301 || https://rochester.zoom.us/j/2759015070",
         password: "",
         schedule: [{day: "Thursday", time: "20:00"}],
         subjects: 'MTH150; CSC171, 172'
     },
     {
         name: "Qianqian (Laura) Li",
-        location: "Wegmans Hall 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Tuesday", time: "10:00"}],
         subjects: 'MTH 150, 165; CSC171, 172'
     },
     {
         name: "Qianqian (Laura) Li",
-        location: "Wegmans Hall 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Thursday", time: "10:00"}],
         subjects: 'MTH 150, 165; CSC171, 172'
     },
     {
         name: "Rowland Zhang",
-        location: "Wegmans Hall 2215(Tentitive)",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Tuesday", time: "11:00"}],
-        subjects: 'MTH 150, CSC171, 172, 173'
+        subjects: 'MTH 150, 235; CSC171, 172, 173'
     },
     {
         name: "Yuka Shimazaki",
-        location: "Wegmans Hall 3307",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Friday", time: "13:30"}],
-        subjects: 'MTH 150; CSC 161'
+        subjects: 'MTH 150; CSC 171'
     },
     {
         name: "Rachael He",
         location: "https://rochester.zoom.us/j/93424742313",
         password: "",
         schedule: [{day: "Tuesday", time: "17:00"}],
-        subjects: 'MTH150, 165; CSC 171, 172, 173, 242, 252, 280, 282'
+        subjects: 'MTH150, 165; CSC 171, 172, 173, 242, 252, 280'
     },
     {
         name: "Beakal Lemeneh",
-        location: "Wegmans Hall 2506",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Tuesday", time: "17:00"}],
         subjects: 'MTH 150; STT211/212/213; CSC 171, 172, 173, 242, 254'
@@ -191,7 +191,7 @@ const tutorDetails = [
     },
     {
         name: "Sufian Mushtaq",
-        location: "Wegmans Hall 2506",
+        location: "In Person(Hylan 301)",
         password: "",
         schedule: [{day: "Friday", time: "15:00"}],
         subjects: 'CSC 172'

@@ -30,9 +30,16 @@ const useStyles = makeStyles((theme) => ({
         margin: '0 auto',
         width:'75%',
     },
+    cardBorder:{
+        paddingLeft: theme.spacing(2),
+        textDecorationWidth: '200%',
+        width:'100%',
+    },
     cardBody:{
         paddingLeft: theme.spacing(2),
         background: "inherit",
+        textAlign: 'left',
+        width:'200%',
     }
     ,tutorName:{
         fontSize: "1rem",
@@ -52,7 +59,8 @@ const useStyles = makeStyles((theme) => ({
         color:"#113F77",
     },
     sideInfo:{
-        textAlign:"right",
+        fontSize: '1rem',
+        textAlign:"center",
     }
 }));
 
@@ -92,9 +100,9 @@ const TutorDayView = (currentData) => {
     const eachtutor = (currentData) => {
         return currentData.map(currentTutor => {
             return <div className="mt-2 pt-2">
-                <Card className={classes.cardBody}>
+                <Card className={classes.cardBorder}>
                     <Row className="p-2">
-                        <Col md={7}>
+                        <Col md={12}>
                             <Row>
                                 <h3 className="text-center">{currentTutor.name}</h3>
                             </Row>
