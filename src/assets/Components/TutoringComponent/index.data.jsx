@@ -114,7 +114,7 @@ const tutorDetails = [
     },
     {
         name: "Alex Martin",
-        location: "Hylan 301",
+        location: "https://rochester.zoom.us/j/2759015070",
         password: "",
         schedule: [{day: "Tuesday", time: "20:00"}],
         subjects: 'MTH150; CSC171, 172'
@@ -128,7 +128,7 @@ const tutorDetails = [
     },
     {
         name: "Alex Martin",
-        location: "Hybrid: Hylan 301 || https://rochester.zoom.us/j/2759015070",
+        location: "https://rochester.zoom.us/j/2759015070",
         password: "",
         schedule: [{day: "Thursday", time: "20:00"}],
         subjects: 'MTH150; CSC171, 172'
@@ -189,13 +189,7 @@ const tutorDetails = [
         schedule: [{day: "Thursday", time: "14:00"}],
         subjects: 'MTH 150; STT211/212/213; CSC 171, 172'
     },
-    {
-        name: "Sufian Mushtaq",
-        location: "In Person(Hylan 301)",
-        password: "",
-        schedule: [{day: "Friday", time: "15:00"}],
-        subjects: 'CSC 172'
-    },
+
 ]
 // This function checks the tutoring schedule for the week
 const weeklySchedule = () =>{
