@@ -1,6 +1,6 @@
 import stock from '../../images/logo.png';
 import eboard201920 from '../../images/CSUG2019-20.jpg'
-import eboard202021 from '../../images/eboard2020-21.png'
+import eboard202021 from '../../images/eboard2020-21new (1).jpeg'
 
 const timeline = [
     {

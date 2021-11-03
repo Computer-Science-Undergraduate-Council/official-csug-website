@@ -1,92 +1,93 @@
-import Aman from '../../images/E-board/Aman.png';
 import Anh from '../../images/E-board/PhuongAnh.jpg';
 import Minghui from '../../images/E-board/Emily.jpg';
-import Jerry from '../../images/E-board/Jerry.png';
 import Tash from '../../images/E-board/Tash.jpg';
-import Ashley from '../../images/E-board/Ashley.jpeg';
-import Carolina from '../../images/E-board/flower.png';
 import Haochen from '../../images/E-board/Haochen.jpg';
+import Duong from '../../images/E-board/DuongPhan.png';
+import Sam from '../../images/E-board/Sam.png';
+import Alex from '../../images/E-board/Alex.png';
+import Max from '../../images/E-board/Max.jpeg';
+
 
 const eboardmembers = [
     {
         id: 0,
-        name: 'Aman Shreshta',
+        name: 'Anh (Jessie) Nguyen ',
         title:'President',
-        img: Aman,
-        description: 'Aman is the president of the Computer Science Undergraduate Council. He previously served CSUG as DandyHacks Chair and Tutoring chair. Outside of CS, he is defined by his love for the Nepali food mo:mo',
-        gitlink: 'https://github.com/amnshrestha',
-        linkedInlink: 'https://www.linkedin.com/in/aman-shrestha/',
-        email: '#'
-    },
-    {
-        id: 1,
-        name: 'Anh (Jessie) Nguyen',
-        title:'Vice President',
         img: Anh,
-        description: 'Jessie is a Junior (class of 2022) majoring in Computer Science. She is the Vice President of CSUG, and her role is to assist the President in making decisions and help planning events. She is also the Founder and former President of Google DSC (Developer Student Club). Her hobbies include photography, cooking, and outdoors activities.',
+        description: 'Jessie is a senior majoring in Computer Science. She is the President of CSUG, leading the E-board to organize events, offer resources, and establish connections for the commmunity. Her hobbies include photography, cooking, and biking.',
         gitlink: 'https://github.com/jessieAnhNguyen',
         linkedInlink: 'https://www.linkedin.com/in/jessieanh/',
         email: '#'
     },
     {
+        id: 1,
+        name: 'Tasheem Brown',
+        title:'Vice President',
+        img: Tash,
+        description: 'This is Tash, our Vice President! He is currently majoring in DMS and minoring in CS. Tash is responsible for assisting the President in making decisions. Along with any other eboard members with their role if needed.  Apart from that, he enjoys playing badminton and nurturing his odd obsession with vacuums in his free time.',
+        gitlink: 'https://github.com/tashbrown',
+        linkedInlink: 'https://www.linkedin.com/in/tasheembrown/',
+        email: '#'
+    },
+    {
         id: 2,
-        name: 'Jiahao (Jerry) Liu',
+        name: 'Minghui (Emily) Zheng',
         title:'Tutoring Chair',
-        img: Jerry,
-        description: "Jerry is a senior majoring computer science and minoring in business. He serves as the tutoring chair and runs our biweekly coding workshop program. Besides school, you can often find him in the gym or securing that pentakill in summoner\'s rift. And here is his favorite quote \"In Carnage, I bloom like a flower in the dawn\"" ,
-        gitlink: 'https://github.com/yanyujianshen',
-        linkedInlink: 'https://www.linkedin.com/in/jiahao-jerry-lu/',
+        img: Minghui,
+        description: "Emily is a junior studying Computer Science and minoring in Digital Media Studies and Economics. She currently serves as the Tutoring Chair and looks forward to connecting with new members of CSUG. Outside of academics, she likes to take photos, indulge in fine cuisines, and hangout with friends." ,
+        gitlink: 'https://github.com/eeeemily',
+        linkedInlink: 'https://www.linkedin.com/in/minghui-zheng/',
         email: '#'
 
     },
     {
         id: 3,
-        name: 'Minghui (Emily) Zheng',
+        name: 'Duong (Sapphira) Phan',
         title:'Event Planning Chair',
-        img: Minghui,
-        description: 'Emily is a Sophomore studying Computer Science and minoring in Digital Media Studies and Economics. She currently serves as the Event Coordinator and looks forward to connecting with new members of CSUG. Outside of academics, she likes to take photos, indulge in fine cuisines, and hangout with friends.',
-        gitlink: 'https://github.com/eeeemily',
-        linkedInlink: 'https://www.linkedin.com/in/minghui-zheng/',
+        img: Duong,
+        description: 'Sapphira is is the current Event Coordinator for CSUG. She is a Junior majoring in Computer Science and Business, and served as the Event Chair for Google Developer Student Club before. Outside of classes, she likes to play around with water colors, go sightseeing, and enjoy desserts.',
+        gitlink: 'https://github.com/DuongPhan45',
+        linkedInlink: 'https://www.linkedin.com/in/duongthuyphan/',
         email: '#'
     },
     {
         id: 4,
-        name: 'Tasheem Brown',
+        name: 'Alex Martin',
         title:'Internal Communication Chair',
-        img: Tash,
-        description: 'This is Tash, our Internal Communications Chair. He is currently majoring in both CS and DMS. Tash is responsible for sharing any upcoming news and updates surrounding the club and CS that students alike could benefit from. Apart from that, he enjoys playing badminton and nurturing is odd obsession with vacuums in his free time.',
-        gitlink: 'https://github.com/tashbrown',
-        linkedInlink: '#',
+        img: Alex,
+        description: 'Alex is the Internal Communication Chair. He is currently majoring in Computer Science. Alex is responsible for sharing any upcoming news and updates surrounding the club and CS that students alike could benefit from. Apart from CSUG, he enjoys spending time with his 5 dogs.',
+        gitlink: '#',
+        linkedInlink: 'https://www.linkedin.com/in/alexander-david-paul-martin/',
         email: '#'
     },
     {
         id: 5,
-        name: 'Sungwoon (Ashley) Yoon',
+        name: 'Samuel Frank',
         title:'Business Manager',
-        img: Ashley,
-        description: 'Ashley is a sophomore majoring in Computer Science and minoring in Journalism. She\'s currently serving as the Business Manager and is responsible for overseeing any transactions in CSUG. Outside of CSUG, she\'s also involved in the Campus Times and Liberty in North Korea.',
-        gitlink: '#',
-        linkedInlink: '#',
+        img: Sam,
+        description: 'Samuel Frank is the current Business Manager for CSUG! He is a double major in Computer Science and Business: Accounting. As Business Manager, he has organized all the finances for the academic year and in charge of ordering food for every event. In my free time, I like to read books (most recent: animal farm) , play games (favorite: Minecraft), watch tv shows (most recent: squid game ) and movies (favorite: inception) , and talk about philosophy (clustering in philosophy obviously).',
+        gitlink: 'https://github.com/samfrank3',
+        linkedInlink: 'http://linkedin.com/in/sam-frank-bba69b1b5',
         email: '#'
     },
     {
         id: 6,
-        name: 'Carolina Lion He',
-        title:'DandyHacks Chair (2020)',
-        img: Carolina,
-        description: 'Hello, there! I am Carolina :^) It was a great experience to work with my team members to create the first-ever virtual DandyHacks experience! I am so proud of us!! I am always down to chat about learning and about hackathons! :^) ',
+        name: 'Haochen Zeng',
+        title:'DandyHacks Chair (2021)',
+        img: Haochen,
+        description: 'Haochen is a senior majoring in Business Analytics and Computer Science. He is on the DandyHacks organizing team for 2020 and DandyHacks 2021. In his free time, he enjoys traveling, cycling, and any outing activities. Currently, he\'s working on improving his skills in Geoguessr.',
         gitlink: '#',
-        linkedInlink: 'https://www.linkedin.com/in/clionhe/',
+        linkedInlink: 'https://www.linkedin.com/in/haochen-zeng-5b9a92175/',
         email: '#'
     },
     {
         id: 7,
-        name: 'Haochen Zeng',
-        title:'DandyHacks Chair (2021)',
-        img: Haochen,
-        description: 'Haochen is a junior majoring in Business Analytics and Computer Science. He is on the DandyHacks organizing team for 2020 and the upcoming DandyHacks 2021. In his free time, he enjoys traveling, cycling, and any outing activities. Currently, he\'s working on improving his skills in Geoguessr.',
+        name: 'Max Goldberg',
+        title:'First Year Representative',
+        img: Max,
+        description: 'Max is a freshman majoring in computer science and possibly pursuing a minor in economics. He serves as the first-year representative for CSUG and helps communicate freshmen problems to the e-board. In his free time, he plays on the club ice hockey team and enjoys trying new restaurants with friends.',
         gitlink: '#',
-        linkedInlink: 'https://www.linkedin.com/in/haochen-zeng-5b9a92175/',
+        linkedInlink: 'https://www.linkedin.com/in/maxwell-goldberg-b56759209/',
         email: '#'
     }
 ]
