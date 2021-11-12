@@ -1,4 +1,4 @@
-import Anh from '../../images/E-board/PhuongAnh.jpg';
+import Anh from '../../images/E-board/Jessie.jpg';
 import Minghui from '../../images/E-board/Emily.jpg';
 import Tash from '../../images/E-board/Tash.jpg';
 import Haochen from '../../images/E-board/Haochen.jpg';
