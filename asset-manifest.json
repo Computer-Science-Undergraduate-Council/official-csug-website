@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.51971a0b.chunk.css",
-    "main.js": "/static/js/main.389974d9.chunk.js",
-    "main.js.map": "/static/js/main.389974d9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.96785b60.js",
-    "runtime-main.js.map": "/static/js/runtime-main.96785b60.js.map",
-    "static/css/2.605ac3b4.chunk.css": "/static/css/2.605ac3b4.chunk.css",
-    "static/js/2.085d7986.chunk.js": "/static/js/2.085d7986.chunk.js",
-    "static/js/2.085d7986.chunk.js.map": "/static/js/2.085d7986.chunk.js.map",
-    "static/js/3.01c59fbc.chunk.js": "/static/js/3.01c59fbc.chunk.js",
-    "static/js/3.01c59fbc.chunk.js.map": "/static/js/3.01c59fbc.chunk.js.map",
+    "main.css": "/static/css/main.6e6f6acd.chunk.css",
+    "main.js": "/static/js/main.94a79e55.chunk.js",
+    "main.js.map": "/static/js/main.94a79e55.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2e586c12.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2e586c12.js.map",
+    "static/css/2.b1b16b2a.chunk.css": "/static/css/2.b1b16b2a.chunk.css",
+    "static/js/2.57eec31a.chunk.js": "/static/js/2.57eec31a.chunk.js",
+    "static/js/2.57eec31a.chunk.js.map": "/static/js/2.57eec31a.chunk.js.map",
+    "static/js/3.733a7c94.chunk.js": "/static/js/3.733a7c94.chunk.js",
+    "static/js/3.733a7c94.chunk.js.map": "/static/js/3.733a7c94.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.605ac3b4.chunk.css.map": "/static/css/2.605ac3b4.chunk.css.map",
-    "static/css/main.51971a0b.chunk.css.map": "/static/css/main.51971a0b.chunk.css.map",
-    "static/js/2.085d7986.chunk.js.LICENSE.txt": "/static/js/2.085d7986.chunk.js.LICENSE.txt",
+    "static/css/2.b1b16b2a.chunk.css.map": "/static/css/2.b1b16b2a.chunk.css.map",
+    "static/css/main.6e6f6acd.chunk.css.map": "/static/css/main.6e6f6acd.chunk.css.map",
+    "static/js/2.57eec31a.chunk.js.LICENSE.txt": "/static/js/2.57eec31a.chunk.js.LICENSE.txt",
     "static/media/Alex.fdec4dc4.png": "/static/media/Alex.fdec4dc4.png",
     "static/media/CSUG2019-20.e6e05e22.jpg": "/static/media/CSUG2019-20.e6e05e22.jpg",
     "static/media/DuongPhan.fcdc127c.png": "/static/media/DuongPhan.fcdc127c.png",
@@ -34,10 +34,10 @@
     "static/media/workshop.19c9143c.png": "/static/media/workshop.19c9143c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.96785b60.js",
-    "static/css/2.605ac3b4.chunk.css",
-    "static/js/2.085d7986.chunk.js",
-    "static/css/main.51971a0b.chunk.css",
-    "static/js/main.389974d9.chunk.js"
+    "static/js/runtime-main.2e586c12.js",
+    "static/css/2.b1b16b2a.chunk.css",
+    "static/js/2.57eec31a.chunk.js",
+    "static/css/main.6e6f6acd.chunk.css",
+    "static/js/main.94a79e55.chunk.js"
   ]
 }
