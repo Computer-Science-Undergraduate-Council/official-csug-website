@@ -8,6 +8,7 @@ import {ResourcesMain} from './assets/Components/ResourceComponent';
 import Footer from './assets/Components/FooterComponent';
 import HomePage from './assets/Components/HomePageComponent'
 import {TutorDayView,TutorWeekView} from './assets/Components/TutoringComponent';
+import {TutoringNotice} from './assets/Components/TutoringComponent';
 
 export default function App() {
 
@@ -18,8 +19,9 @@ export default function App() {
       <Route exact path="/" render={()=> <HomePage />}/>
       <Route path="/about" render={()=> <AboutUs />}/>
       <Route path="/resources" render={()=> <ResourcesMain />}/>
-      <Route path="/tutoring" render={()=> <TutorDayView />}/>
-      <Route path="/tutoring-weekly" render={()=> <TutorWeekView />}/>
+      {/* <Route path="/tutoring" render={()=> <TutorDayView />}/>
+      <Route path="/tutoring-weekly" render={()=> <TutorWeekView />}/> */}
+      <Route path="/tutoring" render={()=> <TutoringNotice />}/>
 
       
       <Footer />

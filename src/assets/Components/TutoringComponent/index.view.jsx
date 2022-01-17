@@ -265,6 +265,34 @@ const TutorWeekView = (currentData) => {
     )
 }
 
+const TutoringNotice = () => {
+    const classes = useStyles();
+    return( 
+        
+        <div>
+            <center>
+                <br></br>
+                <br></br>
+                <br></br>
+                <h1 > CSUG Tutoring </h1>
+                <h2 >CSUG Tutoring will start on 1/26/2022(Wed). Please check back later!</h2>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSeLdntj1HWEjUeUDkNjO9J2PpXsu7Tsw8XjvbyCxmkpMNCPrw/viewform?usp=sf_link'>
+                    <h2> If you are interested in becoming a tutor, apply by 11:59PM 1/23/22(Sun)</h2>
+                </a>
+                {/* putting footer to the bottom manually */}
+                {/* inline css for footer style={{position: 'fixed', left:0, bottom:0,right:0}} */}
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
+            </center>
+        </div>
+    )
+}
+
 export {TutorDayView};
 export {TutorWeekView};
-
+export {TutoringNotice};

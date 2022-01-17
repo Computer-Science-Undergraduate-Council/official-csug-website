@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import logo from "../../images/logo.png";
 
 const useStyles = makeStyles((theme) => ({
+    //todo: footer needs to stick to the bottom
     aboutSection:{
         background: '#F5DD5A',
         padding: '32px 0',
