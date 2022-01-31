@@ -43,7 +43,36 @@ const tutorDetails = [
         schedule: [{day: "Monday", time: "19:00"}],
         subjects: 'MTH 150, MTH 165, CSC 161, CSC 171, CSC 172'
     },
+    {
+        name: "Karenrose(Ro) Kamala",
+        location: "https://rochester.zoom.us/j/3386791569",
+        password: "",
+        schedule: [{day: "Monday", time: "19:00"}],
+        subjects: 'STT 211/212/213, CSC 161, CSC 171'
+    },
+    {
+        name: "Karenrose(Ro) Kamala",
+        location: "https://rochester.zoom.us/j/3386791569",
+        password: "",
+        schedule: [{day: "Monday", time: "20:00"}],
+        subjects: 'STT 211/212/213, CSC 161, CSC 171'
+    },
     
+    //Tuesday - checked
+    {
+        name: "Ethan Shahan",
+        location: "https://rochester.zoom.us/j/3736497327",
+        password: "",
+        schedule: [{day: "Tuesday", time: "16:00"}],
+        subjects: 'CSC 171, CSC 172, CSC 173'
+    },
+    {
+        name: "Yuka Shimazaki",
+        location: "https://rochester.zoom.us/j/8047345807",
+        password: "",
+        schedule: [{day: "Tuesday", time: "19:00"}],
+        subjects: 'MTH 150, CSC 171'
+    },
     //Wednesday - checked
     {
         name: "Alex Martin",
