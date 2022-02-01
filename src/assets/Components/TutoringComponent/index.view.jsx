@@ -233,14 +233,14 @@ const TutorWeekView = (currentData) => {
                         </Grid>
                     </Grid>
                 </div>
-                {/* <div className={classes.eachDay}>
+                <div className={classes.eachDay}>
                     <div className = {classes.dayTitle}>Tuesday</div>
                     <Grid container spacing={0}>
                         <Grid item xs={12}>
                             {weekTutor(weekData["Tuesday"])}
                         </Grid>
                     </Grid>
-                </div> */}
+                </div>
                 <div className={classes.eachDay}>
                     <div className = {classes.dayTitle}>Wednesday</div>
                     <Grid container spacing={0}>
