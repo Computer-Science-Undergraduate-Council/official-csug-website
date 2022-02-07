@@ -17,7 +17,7 @@ const tutorDetails = [
     },
     {
         name: "Jiayi(Louise) He",
-        location: "Hylan 301",
+        location: "https://rochester.zoom.us/j/7922637827",
         password: "",
         schedule: [{day: "Monday", time: "10:30"}],
         subjects: 'CSC171, CSC172, CSC173'
