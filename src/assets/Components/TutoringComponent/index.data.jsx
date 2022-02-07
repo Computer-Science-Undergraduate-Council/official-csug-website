@@ -2,13 +2,6 @@
 const tutorDetails = [
     //Monday - checked
     {
-        name: "Alex Martin",
-        location: "Hylan 301 & Zoom (https://rochester.zoom.us/j/2759015070)",
-        password: "",
-        schedule: [{day: "Monday", time: "9:00"}],
-        subjects: 'MTH 150, CSC 171, CSC 172'
-    },
-    {
         name: "Qianqian(Laura) Li",
         location: "https://rochester.zoom.us/j/5637002724",
         password: "",
@@ -60,6 +53,14 @@ const tutorDetails = [
     
     //Tuesday - checked
     {
+        name: "Alex Martin",
+        location: "Hylan 301 & Zoom (https://rochester.zoom.us/j/2759015070)",
+        password: "",
+        schedule: [{day: "Tuesday", time: "14:30"}],
+        subjects: 'MTH 150, CSC 171, CSC 172'
+    },
+    {
+        
         name: "Ethan Shahan",
         location: "Hylan 301",
         password: "",
@@ -74,13 +75,6 @@ const tutorDetails = [
         subjects: 'MTH 150, CSC 171'
     },
     //Wednesday - checked
-    {
-        name: "Alex Martin",
-        location: "Hylan 301 & Zoom (https://rochester.zoom.us/j/2759015070)",
-        password: "",
-        schedule: [{day: "Wednesday", time: "9:00"}],
-        subjects: 'MTH 150, CSC 171, CSC 172'
-    },
     {
         name: "Abdoul Rasmane Maiga",
         location: "Hylan 301 & Zoom(https://us04web.zoom.us/j/73592661226?pwd=quT4hjjxDzzqidoc46V6TDC_wVxkxR.1)",
@@ -110,6 +104,13 @@ const tutorDetails = [
         subjects: 'MTH 150, CSC 161, CSC 171, CSC 172'
     },
     //Thursday
+    {
+        name: "Alex Martin",
+        location: "Hylan 301 & Zoom (https://rochester.zoom.us/j/2759015070)",
+        password: "",
+        schedule: [{day: "Thursday", time: "14:30"}],
+        subjects: 'MTH 150, CSC 171, CSC 172'
+    },
     {
         name: "Rachel He",
         location: "https://rochester.zoom.us/j/93424742313",
