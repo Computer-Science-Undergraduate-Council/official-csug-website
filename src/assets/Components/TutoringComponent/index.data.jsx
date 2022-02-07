@@ -3,7 +3,7 @@ const tutorDetails = [
     //Monday - checked
     {
         name: "Alex Martin",
-        location: "https://rochester.zoom.us/j/2759015070",
+        location: "Hylan 301 & Zoom (https://rochester.zoom.us/j/2759015070)",
         password: "",
         schedule: [{day: "Monday", time: "9:00"}],
         subjects: 'MTH 150, CSC 171, CSC 172'
@@ -17,9 +17,9 @@ const tutorDetails = [
     },
     {
         name: "Jiayi(Louise) He",
-        location: "https://rochester.zoom.us/j/7922637827",
+        location: "Hylan 301",
         password: "",
-        schedule: [{day: "Monday", time: "10:45"}],
+        schedule: [{day: "Monday", time: "10:30"}],
         subjects: 'CSC171, CSC172, CSC173'
     },
     {
@@ -61,7 +61,7 @@ const tutorDetails = [
     //Tuesday - checked
     {
         name: "Ethan Shahan",
-        location: "https://rochester.zoom.us/j/3736497327",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Tuesday", time: "16:00"}],
         subjects: 'CSC 171, CSC 172, CSC 173'
@@ -76,24 +76,17 @@ const tutorDetails = [
     //Wednesday - checked
     {
         name: "Alex Martin",
-        location: "https://rochester.zoom.us/j/2759015070",
+        location: "Hylan 301 & Zoom (https://rochester.zoom.us/j/2759015070)",
         password: "",
         schedule: [{day: "Wednesday", time: "9:00"}],
         subjects: 'MTH 150, CSC 171, CSC 172'
     },
     {
         name: "Abdoul Rasmane Maiga",
-        location: "https://us04web.zoom.us/j/73592661226?pwd=quT4hjjxDzzqidoc46V6TDC_wVxkxR.1",
+        location: "Hylan 301 & Zoom(https://us04web.zoom.us/j/73592661226?pwd=quT4hjjxDzzqidoc46V6TDC_wVxkxR.1)",
         password: "",
         schedule: [{day: "Wednesday", time: "10:00"}],
         subjects: 'CSC 171'
-    },
-    {
-        name: "Jiayi(Louise) He",
-        location: "https://rochester.zoom.us/j/7922637827",
-        password: "",
-        schedule: [{day: "Wednesday", time: "10:45"}],
-        subjects: 'CSC171, CSC172, CSC173'
     },
     {
         name: "Owen Ariza Villareal",
@@ -104,14 +97,14 @@ const tutorDetails = [
     },
     {
         name: "Harry Liuson",
-        location: "https://zoom.us/j/4281302311?pwd=Ly8rNitqZHA3V2QyV1RPWDQ4eU95Zz09",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Wednesday", time: "15:00"}],
         subjects: 'MTH 150, CSC 161, CSC 171, CSC 172'
     },
     {
         name: "Harry Liuson",
-        location: "https://zoom.us/j/4281302311?pwd=Ly8rNitqZHA3V2QyV1RPWDQ4eU95Zz09",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Wednesday", time: "16:00"}],
         subjects: 'MTH 150, CSC 161, CSC 171, CSC 172'
@@ -136,21 +129,28 @@ const tutorDetails = [
 
     {
         name: "Duong H.(Zach) Nguyen",
-        location: "https://zoom.us/j/3803541736?pwd=MkxPUTIwVlAxUGFCcTdxclFycGUwZz09",
+        location: "Hylan 301 & (https://zoom.us/j/3803541736?pwd=MkxPUTIwVlAxUGFCcTdxclFycGUwZz09)",
+        password: "",
+        schedule: [{day: "Friday", time: "10:00"}],
+        subjects: 'MTH 150, CSC 171'
+    },
+    {
+        name: "Doruk Degerli",
+        location: "https://zoom.us/j/2510069617?pwd=ZXg4VC8reGlNbGlvMjV3VTgwaExtQT09",
         password: "",
         schedule: [{day: "Friday", time: "10:00"}],
         subjects: 'MTH 150, CSC 171'
     },
     {
         name: "Joshua(Josh) O'Brien",
-        location: "https://rochester.zoom.us/j/98023416379?pwd=cy9CdE5OUGhrYlFqY3RxWGZQd1lXZz09",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Friday", time: "10:00"}],
         subjects: 'MTH 150, CSC 161'
     },
     {
         name: "Joshua(Josh) O'Brien",
-        location: "https://rochester.zoom.us/j/98023416379?pwd=cy9CdE5OUGhrYlFqY3RxWGZQd1lXZz09",
+        location: "Hylan 301",
         password: "",
         schedule: [{day: "Friday", time: "11:00"}],
         subjects: 'MTH 150, CSC 161'
@@ -164,8 +164,8 @@ const tutorDetails = [
     },
     {
         name: "Raghav Choudhary",
-        location: "238 760 7436",
-        password: "RXXBK0",
+        location: "Hylan 301",
+        password: "",
         schedule: [{day: "Friday", time: "19:00"}],
         subjects: 'MTH 150, CSC 171'
     },
