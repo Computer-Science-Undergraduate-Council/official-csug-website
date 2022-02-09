@@ -144,14 +144,14 @@ const tutorDetails = [
     },
     {
         name: "Joshua(Josh) O'Brien",
-        location: "Hylan 301",
+        location: "https://rochester.zoom.us/j/98023416379?pwd=cy9CdE5OUGhrYlFqY3RxWGZQd1lXZz09",
         password: "",
         schedule: [{day: "Friday", time: "10:00"}],
         subjects: 'MTH 150, CSC 161'
     },
     {
         name: "Joshua(Josh) O'Brien",
-        location: "Hylan 301",
+        location: "https://rochester.zoom.us/j/98023416379?pwd=cy9CdE5OUGhrYlFqY3RxWGZQd1lXZz09",
         password: "",
         schedule: [{day: "Friday", time: "11:00"}],
         subjects: 'MTH 150, CSC 161'
