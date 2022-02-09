@@ -112,8 +112,8 @@ const tutorDetails = [
         subjects: 'MTH 150, CSC 171, CSC 172'
     },
     {
-        name: "Rachel He",
-        location: "https://rochester.zoom.us/j/93424742313",
+        name: "(CANCELLED FOR THIS WEEK) Rachael He",
+        location: "(CANCELLED FOR THIS WEEK) https://rochester.zoom.us/j/93424742313",
         password: "",
         schedule: [{day: "Thursday", time: "17:00"}],
         subjects: 'MTH 150, MTH 165, CSC 171, CSC 172, CSC 173, CSC 242, CSC280'
