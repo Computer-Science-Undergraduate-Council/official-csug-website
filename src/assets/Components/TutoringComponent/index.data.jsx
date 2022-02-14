@@ -9,7 +9,7 @@ const tutorDetails = [
         subjects: 'MTH150, CSC171, CSC172, CSC214, CSC252'
     },
     {
-        name: "Jiayi(Louise) He",
+        name: "(CANCELLED on 2/14)Jiayi(Louise) He",
         location: "https://rochester.zoom.us/j/7922637827",
         password: "",
         schedule: [{day: "Monday", time: "10:30"}],
@@ -112,8 +112,8 @@ const tutorDetails = [
         subjects: 'MTH 150, CSC 171, CSC 172'
     },
     {
-        name: "(CANCELLED FOR THIS WEEK) Rachael He",
-        location: "(CANCELLED FOR THIS WEEK) https://rochester.zoom.us/j/93424742313",
+        name: "Rachael He",
+        location: " https://rochester.zoom.us/j/93424742313",
         password: "",
         schedule: [{day: "Thursday", time: "17:00"}],
         subjects: 'MTH 150, MTH 165, CSC 171, CSC 172, CSC 173, CSC 242, CSC280'
@@ -127,14 +127,6 @@ const tutorDetails = [
     },
 
     //Friday
-
-    {
-        name: "Duong H.(Zach) Nguyen",
-        location: "Hylan 301 & (https://zoom.us/j/3803541736?pwd=MkxPUTIwVlAxUGFCcTdxclFycGUwZz09)",
-        password: "",
-        schedule: [{day: "Friday", time: "10:00"}],
-        subjects: 'MTH 150, CSC 171'
-    },
     {
         name: "Doruk Degerli",
         location: "https://zoom.us/j/2510069617?pwd=ZXg4VC8reGlNbGlvMjV3VTgwaExtQT09",
@@ -158,9 +150,16 @@ const tutorDetails = [
     },
     {
         name: "Duong H.(Zach) Nguyen",
-        location: "https://zoom.us/j/3803541736?pwd=MkxPUTIwVlAxUGFCcTdxclFycGUwZz09",
+        location: "Hylan 301 & (https://zoom.us/j/3803541736?pwd=MkxPUTIwVlAxUGFCcTdxclFycGUwZz09)",
         password: "",
         schedule: [{day: "Friday", time: "15:00"}],
+        subjects: 'MTH 150, CSC 171'
+    },
+    {
+        name: "Duong H.(Zach) Nguyen",
+        location: "Hylan 301 & (https://zoom.us/j/3803541736?pwd=MkxPUTIwVlAxUGFCcTdxclFycGUwZz09)",
+        password: "",
+        schedule: [{day: "Friday", time: "18:00"}],
         subjects: 'MTH 150, CSC 171'
     },
     {
