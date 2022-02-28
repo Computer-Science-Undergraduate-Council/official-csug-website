@@ -2,14 +2,14 @@
 const tutorDetails = [
     //Monday - checked
     {
-        name: "Qianqian(Laura) Li",
+        name: "(CANCELLED ON 2/28) Qianqian(Laura) Li",
         location: "https://rochester.zoom.us/j/5637002724",
         password: "",
         schedule: [{day: "Monday", time: "10:00"}],
         subjects: 'MTH150, CSC171, CSC172, CSC214, CSC252'
     },
     {
-        name: "(CANCELLED on 2/14)Jiayi(Louise) He",
+        name: "Jiayi(Louise) He",
         location: "https://rochester.zoom.us/j/7922637827",
         password: "",
         schedule: [{day: "Monday", time: "10:30"}],
@@ -62,7 +62,7 @@ const tutorDetails = [
     {
         
         name: "Ethan Shahan",
-        location: "Hylan 301",
+        location: "Hylan 301 & Zoom (https://rochester.zoom.us/j/3736497327)",
         password: "",
         schedule: [{day: "Tuesday", time: "16:00"}],
         subjects: 'CSC 171, CSC 172, CSC 173'
