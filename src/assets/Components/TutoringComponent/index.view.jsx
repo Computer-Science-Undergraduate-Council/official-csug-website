@@ -26,11 +26,20 @@ const useStyles = makeStyles((theme) => ({
 
     },
     subTitle: {
-        padding: theme.spacing(1),
+        padding: theme.spacing(0.5),
         textAlign: 'center',
-        fontSize: '2.4rem',
+        fontSize: '2.2rem',
         paddingBottom:'0',
-        fontWeight:'',
+        textDecorationLine: '',
+        color:"#b44750",
+    },
+    announcement: {
+        padding: theme.spacing(0.5),
+        textAlign: 'center',
+        fontSize: '1.5rem',
+        paddingBottom:'0',
+        textDecorationLine: 'underline',
+        color:"#b44750",
     },
     aboutBody: {
         padding: theme.spacing(2),
@@ -148,6 +157,9 @@ const TutorDayView = (currentData) => {
                     View Weekly Schedule
                 </NavLink>
             </div>
+            <div className={classes.subTitle} >Announcement:<i class="fa fa-bullhorn" aria-hidden="true"></i></div>
+            <div className={classes.announcement}>
+ CSUG Tutoring will not be holding tutoring sessions during spring break(3/7-3/11). <br /> We will resume on 3/14/22(Mon)! </div>
             {todayData.length === 0 && <div className={classes.aboutBody}>
                 All tutoring sessions for today have ended. Please come back tomorrow. 
             </div>}
@@ -224,6 +236,9 @@ const TutorWeekView = (currentData) => {
                     <i class="fa fa-calendar fa-lg" aria-hidden="true" style={{color: "#113F77"}} ></i>
                 </a> 
             </div>
+            <div className={classes.subTitle} >Announcement:<i class="fa fa-bullhorn" aria-hidden="true"></i></div>
+            <div className={classes.announcement}>
+ CSUG Tutoring will not be holding tutoring sessions during spring break(3/7-3/11). <br /> We will resume on 3/14/22(Mon)! </div>
             <div className={classes.aboutBody}>
                 <div className={classes.eachDay}>
                     <div className = {classes.dayTitle}>Monday</div>

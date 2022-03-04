@@ -2,7 +2,7 @@
 const tutorDetails = [
     //Monday - checked
     {
-        name: "(CANCELLED ON 2/28) Qianqian(Laura) Li",
+        name: "Qianqian(Laura) Li",
         location: "https://rochester.zoom.us/j/5637002724",
         password: "",
         schedule: [{day: "Monday", time: "10:00"}],
@@ -135,14 +135,14 @@ const tutorDetails = [
         subjects: 'MTH 150, CSC 171'
     },
     {
-        name: "Joshua(Josh) O'Brien",
+        name: "(CANCELLED ON 3/4) Joshua(Josh) O'Brien",
         location: "https://rochester.zoom.us/j/98023416379?pwd=cy9CdE5OUGhrYlFqY3RxWGZQd1lXZz09",
         password: "",
         schedule: [{day: "Friday", time: "10:00"}],
         subjects: 'MTH 150, CSC 161'
     },
     {
-        name: "Joshua(Josh) O'Brien",
+        name: "(CANCELLED ON 3/4) Joshua(Josh) O'Brien",
         location: "https://rochester.zoom.us/j/98023416379?pwd=cy9CdE5OUGhrYlFqY3RxWGZQd1lXZz09",
         password: "",
         schedule: [{day: "Friday", time: "11:00"}],
