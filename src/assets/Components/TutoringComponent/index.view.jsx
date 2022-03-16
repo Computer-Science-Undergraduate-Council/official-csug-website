@@ -157,9 +157,9 @@ const TutorDayView = (currentData) => {
                     View Weekly Schedule
                 </NavLink>
             </div>
-            <div className={classes.subTitle} >Announcement:<i class="fa fa-bullhorn" aria-hidden="true"></i></div>
+            {/* <div className={classes.subTitle} >Announcement:<i class="fa fa-bullhorn" aria-hidden="true"></i></div>
             <div className={classes.announcement}>
- CSUG Tutoring will not be holding tutoring sessions during spring break(3/7-3/11). <br /> We will resume on 3/14/22(Mon)! </div>
+ CSUG Tutoring will not be holding tutoring sessions during spring break(3/7-3/11). <br /> We will resume on 3/14/22(Mon)! </div> */}
             {todayData.length === 0 && <div className={classes.aboutBody}>
                 All tutoring sessions for today have ended. Please come back tomorrow. 
             </div>}
@@ -236,9 +236,9 @@ const TutorWeekView = (currentData) => {
                     <i class="fa fa-calendar fa-lg" aria-hidden="true" style={{color: "#113F77"}} ></i>
                 </a> 
             </div>
-            <div className={classes.subTitle} >Announcement:<i class="fa fa-bullhorn" aria-hidden="true"></i></div>
+            {/* <div className={classes.subTitle} >Announcement:<i class="fa fa-bullhorn" aria-hidden="true"></i></div>
             <div className={classes.announcement}>
- CSUG Tutoring will not be holding tutoring sessions during spring break(3/7-3/11). <br /> We will resume on 3/14/22(Mon)! </div>
+ CSUG Tutoring will not be holding tutoring sessions during spring break(3/7-3/11). <br /> We will resume on 3/14/22(Mon)! </div> */}
             <div className={classes.aboutBody}>
                 <div className={classes.eachDay}>
                     <div className = {classes.dayTitle}>Monday</div>

@@ -135,14 +135,14 @@ const tutorDetails = [
         subjects: 'MTH 150, CSC 171'
     },
     {
-        name: "(CANCELLED ON 3/4) Joshua(Josh) O'Brien",
+        name: "Joshua(Josh) O'Brien",
         location: "https://rochester.zoom.us/j/98023416379?pwd=cy9CdE5OUGhrYlFqY3RxWGZQd1lXZz09",
         password: "",
         schedule: [{day: "Friday", time: "10:00"}],
         subjects: 'MTH 150, CSC 161'
     },
     {
-        name: "(CANCELLED ON 3/4) Joshua(Josh) O'Brien",
+        name: "Joshua(Josh) O'Brien",
         location: "https://rochester.zoom.us/j/98023416379?pwd=cy9CdE5OUGhrYlFqY3RxWGZQd1lXZz09",
         password: "",
         schedule: [{day: "Friday", time: "11:00"}],
@@ -150,14 +150,14 @@ const tutorDetails = [
     },
     {
         name: "Duong H.(Zach) Nguyen",
-        location: "Hylan 301 & (https://zoom.us/j/3803541736?pwd=MkxPUTIwVlAxUGFCcTdxclFycGUwZz09)",
+        location: "Zoom (https://rochester.zoom.us/j/94341797190) & Zach's Discord Tutoring Group(https://discord.gg/78c6xaeKkp)",
         password: "",
         schedule: [{day: "Friday", time: "15:00"}],
         subjects: 'MTH 150, CSC 171'
     },
     {
         name: "Duong H.(Zach) Nguyen",
-        location: "Hylan 301 & (https://zoom.us/j/3803541736?pwd=MkxPUTIwVlAxUGFCcTdxclFycGUwZz09)",
+        location: "Zoom (https://rochester.zoom.us/j/94341797190) & Zach's Discord Tutoring Group(https://discord.gg/78c6xaeKkp)",
         password: "",
         schedule: [{day: "Friday", time: "18:00"}],
         subjects: 'MTH 150, CSC 171'
