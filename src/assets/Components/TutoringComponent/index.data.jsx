@@ -34,7 +34,7 @@ const tutorDetails = [
     {
         
         name: "Dingcheng Wang",
-        location: "Hylan 301 & Discord",
+        location: "Discord",
         password: "",
         schedule: [{day: "Tuesday", time: "15:30"}],
         subjects: 'MTH 150, MTH 141/161, MTH 165, CSC 171, CSC 261'
