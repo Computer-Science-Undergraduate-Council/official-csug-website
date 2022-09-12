@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: 'center',
         fontSize: '1.5rem',
         paddingBottom:'0',
-        // textDecorationLine: 'underline',
+        textDecorationLine: 'underline',
         color:"#b44750",
     },
     aboutBody: {
@@ -151,18 +151,26 @@ const TutorDayView = (currentData) => {
     const todayData = dataToSend();
     return (
         <div className={classes.aboutSection}>
-            <div className={classes.title}>CSUG Tutoring for 2022 Spring has Ended</div>
-            {/* <div className={classes.aboutBody}>
-                <NavLink className={classes.navLink} to="/tutoring-weekly" >                 
-                    View Weekly Schedule
-                </NavLink>
-            </div> */}
-            <div>
-            <div className={classes.subTitle} >Announcement:<i class="fa fa-bullhorn" aria-hidden="true"></i></div>
-            <div className={classes.announcement}>
-             <br /> Please leave any comments/suggestions/shoutouts here: <a href="https://tinyurl.com/CSUG-Tutoring-Feedback-22S">tinyurl.com/CSUG-Tutoring-Feedback-22S</a> <br />and you will be entered to a raffle to win $20 gift card. We really appreciate your feedback!  <br /><br /> Looking forward to seeing you again in 2022 Fall!<br /><br /> </div>
+		      <div className={classes.title}>CSUG Tutoring</div>
+            <div className={classes.aboutBody}>
+		          <p>
+		            CSUG Tutoring is proudly a student-run service that helps students succeed in their CS courses. Our volunteer tutors help with explaining concepts, approaching assignments, preparing for exams, and more!
+		          </p>
             </div>
-            {/* {todayData.length === 0 && <div className={classes.aboutBody}>
+          <div className={classes.subTitle}>How to access tutoring</div>
+          <div className={classes.aboutBody}>
+		        <p>
+		         In-person tutoring can be accessed in Hylan 301. In addition, join
+             our <a href ="https://discord.gg/78c6xaeKkp" target = "_blank">
+		         CSUG Tutoring Discord server</a> to access remote tutoring and
+		         tutoring outside the normal schedule.
+            </p>
+          </div> 
+          <div className={classes.subTitle}>Today&#39;s schedule</div>
+            {/* <div className={classes.subTitle} >Announcement:<i class="fa fa-bullhorn" aria-hidden="true"></i></div>
+            <div className={classes.announcement}>
+ CSUG Tutoring will not be holding tutoring sessions during spring break(3/7-3/11). <br /> We will resume on 3/14/22(Mon)! </div> */}
+            {todayData.length === 0 && <div className={classes.aboutBody}>
                 All tutoring sessions for today have ended. Please come back tomorrow. 
             </div>}
 
@@ -176,13 +184,18 @@ const TutorDayView = (currentData) => {
 
                 </div>
             }
-            <div className={classes.aboutBody} >
+          {/*<div className={classes.aboutBody} >
                 <a href="https://calendar.google.com/calendar/u/0?cid=Y19udWxjYmZiMmcyOHM2OHZsMHRxdTVvdGJjMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" style={{color: "#113F77"}}>
                         Add the CSUG Tutoring schedule to your calendar  <i class="fa fa-calendar fa-lg" aria-hidden="true"  ></i>
                 </a> 
-            </div> */}
-           
-           
+            </div>*/}
+          <div className={classes.subTitle}>Contact</div>
+          <div className={classes.aboutBody}>
+		        <p>
+              Duong "Zach" Nguyen, CSUG Tutoring Chair<br/>
+              Email: duong.nguyen[at]rochester.edu
+            </p>
+          </div> 
         </div>
     )
 }
@@ -311,4 +324,5 @@ const TutorWeekView = (currentData) => {
 
 export {TutorDayView};
 export {TutorWeekView};
+
 

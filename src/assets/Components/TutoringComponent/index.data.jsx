@@ -2,172 +2,195 @@
 const tutorDetails = [
     //Monday - checked
     {
-        name: "Qianqian(Laura) Li",
-        location: "https://rochester.zoom.us/j/5637002724",
+        name: "Henry",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Monday", time: "10:00"}],
-        subjects: 'MTH150, CSC171, CSC172, CSC214, CSC252'
+        schedule: [{day: "Monday", time: "13:30"}],
+        subjects: 'CSC 172, MTH 150, MTH 141/161, MTH 142/162'
     },
     {
-        name: "Jiayi(Louise) He",
-        location: "https://rochester.zoom.us/j/7922637827",
+        name: "Justin",
+        location: "Hylan 301 & Discord",
         password: "",
         schedule: [{day: "Monday", time: "10:30"}],
-        subjects: 'CSC171, CSC172, CSC173'
+        subjects: 'CSC 171, CSC 172'
     },
     {
-        name: "Samuel(Sam) Frank",
-        location: "https://zoom.us/j/3556034787?pwd=VU9TSStwdGI3R2ZEYVltUUVzNDBSUT09",
-        password: "",
-        schedule: [{day: "Monday", time: "15:00"}],
-        subjects: 'MTH 150, STT 211/212/213, CSC 171, CSC 172'
-    },
-    {
-        name: "Samuel(Sam) Frank",
-        location: "https://zoom.us/j/3556034787?pwd=VU9TSStwdGI3R2ZEYVltUUVzNDBSUT09",
+        name: "Jordan",
+        location: "Hylan 301 & Discord",
         password: "",
         schedule: [{day: "Monday", time: "16:00"}],
-        subjects: 'MTH 150, STT 211/212/213, CSC 171, CSC 172'
+        subjects: 'CSC 171, CSC 172'
     },
-    {
-        name: "Owen Ariza Villareal",
-        location: "https://zoom.us/j/5100757043?pwd=ckFWVTd6Z2FuNUVSVmRHVG1uYXAwQT09",
-        password: "",
-        schedule: [{day: "Monday", time: "19:00"}],
-        subjects: 'MTH 150, MTH 165, CSC 161, CSC 171, CSC 172'
-    },
-    {
-        name: "Karenrose(Ro) Kamala",
-        location: "https://rochester.zoom.us/j/3386791569",
-        password: "",
-        schedule: [{day: "Monday", time: "19:00"}],
-        subjects: 'STT 211/212/213, CSC 161, CSC 171'
-    },
-    {
-        name: "Karenrose(Ro) Kamala",
-        location: "https://rochester.zoom.us/j/3386791569",
-        password: "",
-        schedule: [{day: "Monday", time: "20:00"}],
-        subjects: 'STT 211/212/213, CSC 161, CSC 171'
-    },
-    
+
     //Tuesday - checked
     {
-        name: "Alex Martin",
-        location: "Hylan 301 & Zoom (https://rochester.zoom.us/j/2759015070)",
+        name: "Andy",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Tuesday", time: "14:30"}],
-        subjects: 'MTH 150, CSC 171, CSC 172'
+        schedule: [{day: "Tuesday", time: "13:30"}],
+        subjects: 'MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201, CSC 161, CSC 171, CSC 172, CSC 248, CSC 252'
     },
     {
         
-        name: "Ethan Shahan",
-        location: "Hylan 301 & Zoom (https://rochester.zoom.us/j/3736497327)",
+        name: "Dingcheng Wang",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Tuesday", time: "16:00"}],
-        subjects: 'CSC 171, CSC 172, CSC 173'
+        schedule: [{day: "Tuesday", time: "15:30"}],
+        subjects: 'MTH 150, MTH 141/161, MTH 165, CSC 171, CSC 261'
     },
     {
-        name: "Yuka Shimazaki",
-        location: "https://rochester.zoom.us/j/8047345807",
+        name: "Godbless",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Tuesday", time: "19:00"}],
-        subjects: 'MTH 150, CSC 171'
+        schedule: [{day: "Tuesday", time: "20:00"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 242'
+    },
+    {
+        name: "Justin",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Tuesday", time: "15:30"}],
+        subjects: 'CSC 171, CSC 172'
+    },
+    {
+        name: "Jesse",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Tuesday", time: "20:00"}],
+        subjects: 'CSC 161, CSC 171, CSC 172'
+    },
+    {
+        name: "Amii",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Tuesday", time: "17:00"}],
+        subjects: 'MTH 141/161, MTH 142/162, CSC 161'
+    },
+    {
+        name: "Grant",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Tuesday", time: "17:00"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, MTH 141/161, MTH 142/162, Leetcode'
     },
     //Wednesday - checked
     {
-        name: "Abdoul Rasmane Maiga",
-        location: "Hylan 301 & Zoom(https://us04web.zoom.us/j/73592661226?pwd=quT4hjjxDzzqidoc46V6TDC_wVxkxR.1)",
+        name: "Henry",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Wednesday", time: "10:00"}],
-        subjects: 'CSC 171'
+        schedule: [{day: "Wednesday", time: "13:30"}],
+        subjects: 'CSC 172, MTH 150, MTH 141/161, MTH 142/162'
     },
     {
-        name: "Owen Ariza Villareal",
-        location: "https://zoom.us/j/5100757043?pwd=ckFWVTd6Z2FuNUVSVmRHVG1uYXAwQT09",
+        name: "Winnie",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Wednesday", time: "15:00"}],
-        subjects: 'MTH 150, MTH 165, CSC 161, CSC 171, CSC 172'
+        schedule: [{day: "Wednesday", time: "13:10"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 240, CSC 244, CSC 282, MTH/STT 201, Leetcode'
     },
     {
-        name: "Harry Liuson",
-        location: "Hylan 301",
+        name: "Godbless",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Wednesday", time: "15:00"}],
-        subjects: 'MTH 150, CSC 161, CSC 171, CSC 172'
+        schedule: [{day: "Wednesday", time: "18:00"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 242'
     },
     {
-        name: "Harry Liuson",
-        location: "Hylan 301",
+        name: "Jordan",
+        location: "Hylan 301 & Discord",
         password: "",
         schedule: [{day: "Wednesday", time: "16:00"}],
-        subjects: 'MTH 150, CSC 161, CSC 171, CSC 172'
+        subjects: 'CSC 171, CSC 172'
     },
     //Thursday
     {
-        name: "Alex Martin",
-        location: "Hylan 301 & Zoom (https://rochester.zoom.us/j/2759015070)",
+        name: "Andy",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Thursday", time: "14:30"}],
-        subjects: 'MTH 150, CSC 171, CSC 172'
+        schedule: [{day: "Thursday", time: "12:30"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 248, CSC 252, MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201'
     },
     {
-        name: "Rachael He",
-        location: " https://rochester.zoom.us/j/93424742313",
+        name: "Godbless",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Thursday", time: "17:00"}],
-        subjects: 'MTH 150, MTH 165, CSC 171, CSC 172, CSC 173, CSC 242, CSC280'
+        schedule: [{day: "Thursday", time: "18:00"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 242'
     },
     {
-        name: "Dingcheng(Desmond) Wang",
-        location: "685 753 0080",
-        password: "N1Yich",
-        schedule: [{day: "Thursday", time: "19:00"}],
-        subjects: 'MTH 150, MTH 165, MATH 201, MATH 208, CSC 171, CSC 261'
+        name: "Jesse",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Thursday", time: "9:30"}],
+        subjects: 'CSC 161, CSC 171, CSC 172'
     },
 
     //Friday
     {
-        name: "Doruk Degerli",
-        location: "https://zoom.us/j/2510069617?pwd=ZXg4VC8reGlNbGlvMjV3VTgwaExtQT09",
+        name: "Raghav",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Friday", time: "10:00"}],
-        subjects: 'MTH 150, CSC 171'
+        schedule: [{day: "Friday", time: "20:30"}],
+        subjects: 'CSC 171, CSC 172, MTH 150, MTH 141/161'
     },
     {
-        name: "Joshua(Josh) O'Brien",
-        location: "https://rochester.zoom.us/j/98023416379?pwd=cy9CdE5OUGhrYlFqY3RxWGZQd1lXZz09",
+        name: "Andy",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Friday", time: "10:00"}],
-        subjects: 'MTH 150, CSC 161'
+        schedule: [{day: "Friday", time: "16:30"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 248, CSC 252, MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201'
     },
     {
-        name: "Joshua(Josh) O'Brien",
-        location: "https://rochester.zoom.us/j/98023416379?pwd=cy9CdE5OUGhrYlFqY3RxWGZQd1lXZz09",
+        name: "Winnie",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Friday", time: "11:00"}],
-        subjects: 'MTH 150, CSC 161'
+        schedule: [{day: "Friday", time: "13:10"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 240, CSC 244, CSC 282, MTH/STT 201, Leetcode'
     },
     {
-        name: "Duong H.(Zach) Nguyen",
-        location: "Zoom (https://rochester.zoom.us/j/94341797190) & Zach's Discord Tutoring Group(https://discord.gg/78c6xaeKkp)",
+        name: "Amii",
+        location: "Hylan 301 & Discord",
         password: "",
         schedule: [{day: "Friday", time: "15:00"}],
-        subjects: 'MTH 150, CSC 171'
+        subjects: 'CSC 161, MTH 141/161, MTH 142/162'
     },
     {
-        name: "Duong H.(Zach) Nguyen",
-        location: "Zoom (https://rochester.zoom.us/j/94341797190) & Zach's Discord Tutoring Group(https://discord.gg/78c6xaeKkp)",
+        name: "Jordan",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Friday", time: "18:00"}],
-        subjects: 'MTH 150, CSC 171'
+        schedule: [{day: "Friday", time: "11:00"}],
+        subjects: 'CSC 171, CSC 172'
     },
     {
-        name: "Raghav Choudhary",
-        location: "Hylan 301",
+        name: "Grant",
+        location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Friday", time: "19:00"}],
-        subjects: 'MTH 150, CSC 171'
+        schedule: [{day: "Friday", time: "10:30"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, MTH 141/161, MTH 142/162, Leetcode'
+    },
+
+    // Saturday
+    {
+        name: "Henry",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Saturday", time: "19:00"}],
+        subjects: 'CSC 172, MTH 150, MTH 141/161, MTH 142/162'
+    },
+    {
+        name: "Amii",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Saturday", time: "12:00"}],
+        subjects: 'CSC 161, MTH 141/161, MTH 142/162'
+    },
+    {
+        name: "Jerry",
+        location: "Discord",
+        password: "",
+        schedule: [{day: "Saturday", time: "19:00"}],
+        subjects: 'CSC 171, CSC 172'
     },
 ]
 // This function checks the tutoring schedule for the week
