@@ -19,7 +19,7 @@ const tutorDetails = [
         name: "Jordan",
         location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Monday", time: "16:00"}],
+        schedule: [{day: "Monday", time: "15:30"}],
         subjects: 'CSC 171, CSC 172'
     },
 
@@ -93,7 +93,7 @@ const tutorDetails = [
         name: "Jordan",
         location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Wednesday", time: "16:00"}],
+        schedule: [{day: "Wednesday", time: "15:30"}],
         subjects: 'CSC 171, CSC 172'
     },
     {
