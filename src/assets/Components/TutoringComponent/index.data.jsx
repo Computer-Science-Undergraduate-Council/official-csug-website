@@ -2,18 +2,18 @@
 const tutorDetails = [
     //Monday - checked
     {
-        name: "Henry",
-        location: "Hylan 301 & Discord",
-        password: "",
-        schedule: [{day: "Monday", time: "13:30"}],
-        subjects: 'CSC 172, MTH 150, MTH 141/161, MTH 142/162'
-    },
-    {
         name: "Justin",
         location: "Hylan 301 & Discord",
         password: "",
         schedule: [{day: "Monday", time: "10:30"}],
         subjects: 'CSC 171, CSC 172'
+    },
+    {
+        name: "Henry",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Monday", time: "13:30"}],
+        subjects: 'CSC 172, MTH 150, MTH 141/161, MTH 142/162'
     },
     {
         name: "Jordan",
@@ -40,25 +40,11 @@ const tutorDetails = [
         subjects: 'MTH 150, MTH 141/161, MTH 165, CSC 171, CSC 261'
     },
     {
-        name: "Godbless",
-        location: "Hylan 301 & Discord",
-        password: "",
-        schedule: [{day: "Tuesday", time: "20:00"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 242'
-    },
-    {
         name: "Justin",
         location: "Hylan 301 & Discord",
         password: "",
         schedule: [{day: "Tuesday", time: "15:30"}],
         subjects: 'CSC 171, CSC 172'
-    },
-    {
-        name: "Jesse",
-        location: "Hylan 301 & Discord",
-        password: "",
-        schedule: [{day: "Tuesday", time: "20:00"}],
-        subjects: 'CSC 161, CSC 171, CSC 172'
     },
     {
         name: "Amii",
@@ -74,14 +60,21 @@ const tutorDetails = [
         schedule: [{day: "Tuesday", time: "17:00"}],
         subjects: 'CSC 161, CSC 171, CSC 172, MTH 141/161, MTH 142/162, Leetcode'
     },
-    //Wednesday - checked
     {
-        name: "Henry",
+        name: "Godbless",
         location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Wednesday", time: "13:30"}],
-        subjects: 'CSC 172, MTH 150, MTH 141/161, MTH 142/162'
+        schedule: [{day: "Tuesday", time: "20:00"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 242'
     },
+    {
+        name: "Jesse",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Tuesday", time: "20:00"}],
+        subjects: 'CSC 161, CSC 171, CSC 172'
+    },
+    //Wednesday - checked
     {
         name: "Winnie",
         location: "Hylan 301 & Discord",
@@ -90,11 +83,11 @@ const tutorDetails = [
         subjects: 'CSC 161, CSC 171, CSC 172, CSC 240, CSC 244, CSC 282, MTH/STT 201, Leetcode'
     },
     {
-        name: "Godbless",
+        name: "Henry",
         location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Wednesday", time: "18:00"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 242'
+        schedule: [{day: "Wednesday", time: "13:30"}],
+        subjects: 'CSC 172, MTH 150, MTH 141/161, MTH 142/162'
     },
     {
         name: "Jordan",
@@ -103,7 +96,21 @@ const tutorDetails = [
         schedule: [{day: "Wednesday", time: "16:00"}],
         subjects: 'CSC 171, CSC 172'
     },
+    {
+        name: "Godbless",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Wednesday", time: "18:00"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 242'
+    },
     //Thursday
+    {
+        name: "Jesse",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Thursday", time: "9:30"}],
+        subjects: 'CSC 161, CSC 171, CSC 172'
+    },
     {
         name: "Andy",
         location: "Hylan 301 & Discord",
@@ -118,28 +125,21 @@ const tutorDetails = [
         schedule: [{day: "Thursday", time: "18:00"}],
         subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 242'
     },
-    {
-        name: "Jesse",
-        location: "Hylan 301 & Discord",
-        password: "",
-        schedule: [{day: "Thursday", time: "9:30"}],
-        subjects: 'CSC 161, CSC 171, CSC 172'
-    },
 
     //Friday
     {
-        name: "Raghav",
+        name: "Grant",
         location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Friday", time: "20:30"}],
-        subjects: 'CSC 171, CSC 172, MTH 150, MTH 141/161'
+        schedule: [{day: "Friday", time: "10:30"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, MTH 141/161, MTH 142/162, Leetcode'
     },
     {
-        name: "Andy",
+        name: "Jordan",
         location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Friday", time: "16:30"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, CSC 248, CSC 252, MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201'
+        schedule: [{day: "Friday", time: "11:00"}],
+        subjects: 'CSC 171, CSC 172'
     },
     {
         name: "Winnie",
@@ -156,34 +156,34 @@ const tutorDetails = [
         subjects: 'CSC 161, MTH 141/161, MTH 142/162'
     },
     {
-        name: "Jordan",
+        name: "Andy",
         location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Friday", time: "11:00"}],
-        subjects: 'CSC 171, CSC 172'
+        schedule: [{day: "Friday", time: "16:30"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 248, CSC 252, MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201'
     },
     {
-        name: "Grant",
+        name: "Raghav",
         location: "Hylan 301 & Discord",
         password: "",
-        schedule: [{day: "Friday", time: "10:30"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, MTH 141/161, MTH 142/162, Leetcode'
+        schedule: [{day: "Friday", time: "20:30"}],
+        subjects: 'CSC 171, CSC 172, MTH 150, MTH 141/161'
     },
 
     // Saturday
-    {
-        name: "Henry",
-        location: "Hylan 301 & Discord",
-        password: "",
-        schedule: [{day: "Saturday", time: "19:00"}],
-        subjects: 'CSC 172, MTH 150, MTH 141/161, MTH 142/162'
-    },
     {
         name: "Amii",
         location: "Hylan 301 & Discord",
         password: "",
         schedule: [{day: "Saturday", time: "12:00"}],
         subjects: 'CSC 161, MTH 141/161, MTH 142/162'
+    },
+    {
+        name: "Henry",
+        location: "Hylan 301 & Discord",
+        password: "",
+        schedule: [{day: "Saturday", time: "19:00"}],
+        subjects: 'CSC 172, MTH 150, MTH 141/161, MTH 142/162'
     },
     {
         name: "Jerry",
