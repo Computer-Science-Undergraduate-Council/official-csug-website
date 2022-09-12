@@ -308,14 +308,14 @@ const TutorWeekView = (currentData) => {
                         </Grid>
                     </Grid>
                 </div>
-                {/* <div className={classes.eachDay}>
+                <div className={classes.eachDay}>
                     <div className = {classes.dayTitle}>Saturday</div>
                     <Grid container spacing={0}>
                         <Grid item xs={12}>
                             {weekTutor(weekData["Saturday"])}
                         </Grid>
                     </Grid>
-                </div> */}
+                </div>
                 {/* No data available for Sunday. removed to avoid confusion */}
                 {/* <div className={classes.eachDay}>
                     <div className = {classes.dayTitle}>Sunday</div>
