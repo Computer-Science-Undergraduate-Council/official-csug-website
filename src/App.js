@@ -21,7 +21,6 @@ export default function App() {
       <Route path='/about' render={() => <AboutUs />} />
       <Route path='/resources' render={() => <ResourcesMain />} />
       <Route path='/tutoring' render={() => <TutorDayView />} />
-      <Route path='/tutoring-weekly' render={() => <TutorDayView />} />
 
       <Footer />
     </HashRouter>

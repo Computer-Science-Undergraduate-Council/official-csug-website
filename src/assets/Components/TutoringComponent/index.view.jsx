@@ -157,6 +157,14 @@ const TutorDayView = (currentData) => {
 		            CSUG Tutoring is proudly a student-run service that helps students succeed in their CS courses. Our volunteer tutors help with explaining concepts, approaching assignments, preparing for exams, and more!
 		          </p>
             </div>
+            <div className={classes.subTitle} ><i class="fa fa-bullhorn" aria-hidden="true"></i> CSUG Tutoring for Fall 2022 has begun!</div>
+            <div className={classes.announcement}>
+              Please see below for the tutoring schedule! This semester, we also
+              have a <a href ="https://discord.gg/78c6xaeKkp" target = "_blank">
+		          Discord server</a> with plenty of tutoring resources! In addition,
+              keep an eye out for Leetcode tutors! They will help you with
+              coding interview questions so you can land your dream internship.
+            </div>}
           <div className={classes.subTitle}>How to access tutoring</div>
           <div className={classes.aboutBody}>
 		        <p>
@@ -167,9 +175,6 @@ const TutorDayView = (currentData) => {
             </p>
           </div> 
           <div className={classes.subTitle}>Today&#39;s schedule</div>
-            {/* <div className={classes.subTitle} >Announcement:<i class="fa fa-bullhorn" aria-hidden="true"></i></div>
-            <div className={classes.announcement}>
- CSUG Tutoring will not be holding tutoring sessions during spring break(3/7-3/11). <br /> We will resume on 3/14/22(Mon)! </div> */}
             {todayData.length === 0 && <div className={classes.aboutBody}>
                 All tutoring sessions for today have ended. Please come back tomorrow. 
             </div>}
@@ -189,6 +194,8 @@ const TutorDayView = (currentData) => {
                         Add the CSUG Tutoring schedule to your calendar  <i class="fa fa-calendar fa-lg" aria-hidden="true"  ></i>
                 </a> 
             </div>*/}
+          <div className={classes.subTitle}>Weekly schedule</div>
+          <TutorWeekView />
           <div className={classes.subTitle}>Contact</div>
           <div className={classes.aboutBody}>
 		        <p>
@@ -241,19 +248,25 @@ const TutorWeekView = (currentData) => {
             {/* <div className={classes.sideInfo}>
                 <NavLink className={classes.navLink} to="/tutoring">Find today's schedule</NavLink> 
             </div> */}
-            <div className={classes.title}>2022 Spring CSUG Tutoring Schedule for the Week</div>
+            {/*<div className={classes.title}>2022 Spring CSUG Tutoring Schedule for the Week</div>
             <div className={classes.aboutBody}>
                 <NavLink className={classes.navLink} to="/tutoring" >                 
                     View Today's Schedule
                 </NavLink>
-                <text> </text> {/* add space between hyper link and icon*/}
+                <text>
                 <a href="https://calendar.google.com/calendar/u/0?cid=Y19udWxjYmZiMmcyOHM2OHZsMHRxdTVvdGJjMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t">
                     <i class="fa fa-calendar fa-lg" aria-hidden="true" style={{color: "#113F77"}} ></i>
                 </a> 
-            </div>
+            </div>*/}
             {/* <div className={classes.subTitle} >Announcement:<i class="fa fa-bullhorn" aria-hidden="true"></i></div>
             <div className={classes.announcement}>
  CSUG Tutoring will not be holding tutoring sessions during spring break(3/7-3/11). <br /> We will resume on 3/14/22(Mon)! </div> */}
+            <div className={classes.aboutBody}>
+              <p>
+                The weekly schedule is for reference only. Please see today's
+                schedule for updated information about tutors' availability.
+              </p>
+            </div>
             <div className={classes.aboutBody}>
                 <div className={classes.eachDay}>
                     <div className = {classes.dayTitle}>Monday</div>
