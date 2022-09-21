@@ -31,14 +31,6 @@ const tutorDetails = [
     },
     //Tuesday - checked
     {
-        name: "Andy",
-        location: "Hylan 301 & Discord",
-        password: "",
-        schedule: [{day: "Tuesday", time: "13:30"}],
-        subjects: 'MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201, CSC 161, CSC 171, CSC 172, CSC 248, CSC 252'
-    },
-    {
-        
         name: "Dingcheng Wang",
         location: "Hylan 301 & Discord",
         password: "",
