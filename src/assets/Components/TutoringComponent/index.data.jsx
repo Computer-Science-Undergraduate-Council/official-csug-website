@@ -154,6 +154,13 @@ const tutorDetails = [
         subjects: 'CSC 171, CSC 172'
     },
     {
+        name: "Kestor",
+        location: "Hylan 301",
+        password: "",
+        schedule: [{day: "Friday", time: "13:00"}],
+        subjects: 'CSC 161, CSC 171, CSC 172'
+    },
+    {
         name: "Winnie",
         location: "Hylan 301 & Discord",
         password: "",
@@ -189,6 +196,13 @@ const tutorDetails = [
         password: "",
         schedule: [{day: "Saturday", time: "12:00"}],
         subjects: 'CSC 161, MTH 141/161, MTH 142/162'
+    },
+    {
+        name: "Kestor",
+        location: "Discord",
+        password: "",
+        schedule: [{day: "Saturday", time: "13:00"}],
+        subjects: 'CSC 161, CSC 171, CSC 172'
     },
     {
         name: "Henry",
