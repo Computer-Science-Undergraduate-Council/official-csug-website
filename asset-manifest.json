@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.51971a0b.chunk.css",
-    "main.js": "/static/js/main.19f35f32.chunk.js",
-    "main.js.map": "/static/js/main.19f35f32.chunk.js.map",
+    "main.js": "/static/js/main.892e70f1.chunk.js",
+    "main.js.map": "/static/js/main.892e70f1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.554ab792.js",
     "runtime-main.js.map": "/static/js/runtime-main.554ab792.js.map",
     "static/css/2.b1b16b2a.chunk.css": "/static/css/2.b1b16b2a.chunk.css",
@@ -14,30 +14,30 @@
     "static/css/2.b1b16b2a.chunk.css.map": "/static/css/2.b1b16b2a.chunk.css.map",
     "static/css/main.51971a0b.chunk.css.map": "/static/css/main.51971a0b.chunk.css.map",
     "static/js/2.64be911a.chunk.js.LICENSE.txt": "/static/js/2.64be911a.chunk.js.LICENSE.txt",
-    "static/media/Alex.fdec4dc4.png": "/static/media/Alex.fdec4dc4.png",
     "static/media/CSUG2019-20.e6e05e22.jpg": "/static/media/CSUG2019-20.e6e05e22.jpg",
-    "static/media/DuongPhan.fcdc127c.png": "/static/media/DuongPhan.fcdc127c.png",
-    "static/media/Emily.5218c106.jpg": "/static/media/Emily.5218c106.jpg",
-    "static/media/Haochen.d4ae5bfc.jpg": "/static/media/Haochen.d4ae5bfc.jpg",
-    "static/media/Jessie.7f013f68.jpg": "/static/media/Jessie.7f013f68.jpg",
-    "static/media/Max.534f79e2.jpeg": "/static/media/Max.534f79e2.jpeg",
-    "static/media/Sam.e350e329.png": "/static/media/Sam.e350e329.png",
-    "static/media/Tash.d7a98577.jpg": "/static/media/Tash.d7a98577.jpg",
     "static/media/books.53e2bb6e.png": "/static/media/books.53e2bb6e.png",
     "static/media/eboard2020-21new.5aa5ac0d.jpeg": "/static/media/eboard2020-21new.5aa5ac0d.jpeg",
     "static/media/eboard2021-22.ed959825.jpeg": "/static/media/eboard2021-22.ed959825.jpeg",
+    "static/media/emily.aa6120b1.jpg": "/static/media/emily.aa6120b1.jpg",
+    "static/media/fiona.11627d36.png": "/static/media/fiona.11627d36.png",
     "static/media/flower.00434ce4.png": "/static/media/flower.00434ce4.png",
     "static/media/font-awesome.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/ginger.344e1a29.jpeg": "/static/media/ginger.344e1a29.jpeg",
     "static/media/internship.c75fc4a6.jpg": "/static/media/internship.c75fc4a6.jpg",
+    "static/media/judy.17ce73d1.jpg": "/static/media/judy.17ce73d1.jpg",
     "static/media/logo.ddc868b0.png": "/static/media/logo.ddc868b0.png",
+    "static/media/matt.345a69a3.jpg": "/static/media/matt.345a69a3.jpg",
+    "static/media/minghui.1fa2eb74.jpg": "/static/media/minghui.1fa2eb74.jpg",
     "static/media/project.4f52043c.png": "/static/media/project.4f52043c.png",
-    "static/media/workshop.19c9143c.png": "/static/media/workshop.19c9143c.png"
+    "static/media/sam.e350e329.png": "/static/media/sam.e350e329.png",
+    "static/media/workshop.19c9143c.png": "/static/media/workshop.19c9143c.png",
+    "static/media/zach.23d0a945.jpg": "/static/media/zach.23d0a945.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.554ab792.js",
     "static/css/2.b1b16b2a.chunk.css",
     "static/js/2.64be911a.chunk.js",
     "static/css/main.51971a0b.chunk.css",
-    "static/js/main.19f35f32.chunk.js"
+    "static/js/main.892e70f1.chunk.js"
   ]
 }
