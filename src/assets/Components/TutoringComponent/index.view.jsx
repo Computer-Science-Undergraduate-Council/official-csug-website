@@ -157,14 +157,6 @@ const TutorDayView = (currentData) => {
 		            CSUG Tutoring is proudly a student-run service that helps students succeed in their CS courses. Our volunteer tutors help with explaining concepts, approaching assignments, preparing for exams, and more!
 		          </p>
             </div>
-            <div className={classes.subTitle} ><i class="fa fa-bullhorn" aria-hidden="true"></i> CSUG Tutoring for Fall 2022 has begun!</div>
-            <div className={classes.announcement}>
-              Please see below for the tutoring schedule! This semester, we also
-              have a <a href ="https://discord.gg/78c6xaeKkp" target = "_blank">
-		          Discord server</a> with plenty of tutoring resources! In addition,
-              keep an eye out for Leetcode tutors! They will help you with
-              coding interview questions so you can land your dream internship.
-            </div>}
           <div className={classes.subTitle}>How to access tutoring</div>
           <div className={classes.aboutBody}>
 		        <p>
