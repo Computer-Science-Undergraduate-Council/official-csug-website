@@ -157,6 +157,17 @@ const TutorDayView = (currentData) => {
 		            CSUG Tutoring is proudly a student-run service that helps students succeed in their CS courses. Our volunteer tutors help with explaining concepts, approaching assignments, preparing for exams, and more!
 		          </p>
             </div>
+            <div className={classes.subTitle} >
+              <i class="fa fa-bullhorn" aria-hidden="true"></i> CSUG Tutoring
+              mid-semester update!
+            </div>
+            <div className={classes.announcement}>
+              The CSUG Tutoring service now provides tutoring by appointment in
+              addition to drop-in hours! Tutoring hours that are given by
+              appointment will be indicated in the schedule below. Use this <a
+              href="https://calendly.com/csug/tutoring">Calendly</a> link to
+              book an appointment with us!
+            </div>}
           <div className={classes.subTitle}>How to access tutoring</div>
           <div className={classes.aboutBody}>
 		        <p>
