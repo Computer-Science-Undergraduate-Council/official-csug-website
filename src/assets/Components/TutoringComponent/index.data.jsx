@@ -16,7 +16,7 @@ const tutorDetails = [
     },
     {
         name: "Godbless",
-        location: "Hylan 301 & Discord",
+        location: "Hylan 301 & Discord by appointment",
         password: "",
         schedule: [{day: "Monday", time: "18:00"}],
         subjects: 'CSC 161, CSC 171, CSC 172, Leetcode '
@@ -83,7 +83,7 @@ const tutorDetails = [
     },
     {
         name: "Godbless",
-        location: "Hylan 301 & Discord",
+        location: "Hylan 301 & Discord by appointment",
         password: "",
         schedule: [{day: "Wednesday", time: "18:00"}],
         subjects: 'CSC 161, CSC 171, CSC 172, Leetcode'
