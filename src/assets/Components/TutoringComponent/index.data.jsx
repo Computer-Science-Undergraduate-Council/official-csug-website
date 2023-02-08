@@ -1,225 +1,274 @@
 const tutorDetails = [
     // MONDAY
     {
-        name: "Justin",
-        location: "Hylan 301 & Discord",
+        name: "Ahmed",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Monday", time: "11:40"}],
-        subjects: 'CSC 171, CSC 172'
+        schedule: [{ day: "Monday", time: "11:15" }],
+        subjects: 'CSC 171, CSC 186, MTH 150'
     },
     {
-        name: "Henry",
-        location: "Hylan 301 & Discord",
+        name: "Natalie",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Monday", time: "13:30"}],
-        subjects: 'CSC 172, MTH 150, MTH 141/161, MTH 142/162'
+        schedule: [{ day: "Monday", time: "15:30" }],
+        subjects: 'CSC 171, CSC 172, CSC 173, MTH 141/161, MTH 142/162'
     },
     {
-        name: "Godbless",
-        location: "Hylan 301 & Discord by appointment",
+        name: "Michael",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Monday", time: "18:00"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, Leetcode '
+        schedule: [{ day: "Monday", time: "17:00" }],
+        subjects: 'CSC 171, MTH 150'
     },
     {
-        name: "Ezra Tock",
-        location: "Hylan 301",
+        name: "Woody",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Monday", time: "17:30"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, MTH 150, MTH 141/161, MTH 142/162, MTH 165, Leetcode'
+        schedule: [{ day: "Monday", time: "17:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 214, CSC 252, CSC 254, CSC 261, CSC 294, MTH 141/161, MTH 142/162, MTH 165'
+    },
+    {
+        name: "Emma Buller",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Monday", time: "17:00" }],
+        subjects: 'CSC 172, MTH 150'
+    },
+    {
+        name: "Michael",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Monday", time: "18:00" }],
+        subjects: 'CSC 171, MTH 150'
     },
 
     // TUESDAY
+
     {
-        name: "Andy",
-        location: "Hylan 301 & Discord",
+        name: "Dylan",
+        location: "iZone",
         password: "",
-        schedule: [{day: "Tuesday", time: "13:30"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, CSC 248, CSC 252, MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201'
+        schedule: [{ day: "Tuesday", time: "12:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, MTH 150, MTH 165, MTH/STT 201'
     },
     {
-        name: "Justin",
-        location: "Hylan 301 & Discord",
+        name: "Gigi",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Tuesday", time: "15:30"}],
-        subjects: 'CSC 171, CSC 172'
+        schedule: [{ day: "Tuesday", time: "14:15" }],
+        subjects: 'CSC 171'
     },
     {
-        name: "Amii",
-        location: "Hylan 301",
+        name: "Dominic",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Tuesday", time: "17:00"}],
-        subjects: 'CSC 161, MTH 141/161, MTH 142/162'
+        schedule: [{ day: "Tuesday", time: "15:30" }],
+        subjects: 'CSC 161, CSC 171, CSC 172, MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201'
     },
     {
-        name: "Grant",
-        location: "Hylan 301",
+        name: "Lucy",
+        location: "iZone",
         password: "",
-        schedule: [{day: "Tuesday", time: "17:00"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, MTH 141/161, MTH 142/162, Leetcode'
-    },
-    {
-        name: "Jesse",
-        location: "Discord & Zoom (791 250 6161)",
-        password: "",
-        schedule: [{day: "Tuesday", time: "20:00"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, Leetcode'
+        schedule: [{ day: "Tuesday", time: "22:00" }],
+        subjects: 'CSC 171, MTH 165'
     },
 
     // WEDNESDAY
     {
-        name: "Winnie",
-        location: "Hylan 301 & Discord",
+        name: "Colby",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Wednesday", time: "13:10"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, CSC 240, CSC 244, CSC 282, MTH/STT 201, Leetcode'
+        schedule: [{ day: "Wednesday", time: "13:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172'
     },
     {
-        name: "Ezra Tock",
+        name: "Kestor Brown",
         location: "Hylan 301",
         password: "",
-        schedule: [{day: "Wednesday", time: "17:30"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, MTH 150, MTH 141/161, MTH 142/162, MTH 165, Leetcode'
+        schedule: [{ day: "Wednesday", time: "13:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 242'
     },
     {
-        name: "Godbless",
-        location: "Hylan 301 & Discord by appointment",
+        name: "Colby",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Wednesday", time: "18:00"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, Leetcode'
+        schedule: [{ day: "Wednesday", time: "14:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172'
+    },
+    {
+        name: "Ahmed",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Wednesday", time: "15:30" }],
+        subjects: 'CSC 171, CSC 186, MTH 150'
+    },
+    {
+        name: "Dominic",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Wednesday", time: "16:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172, MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201'
+    },
+    {
+        name: "Ester",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Wednesday", time: "16:00" }],
+        subjects: 'CSC 171, MTH 150, MTH 141/161, MTH 142/162, MTH 165'
+    },
+    {
+        name: "Woody",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Wednesday", time: "17:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 214, CSC 252, CSC 254, CSC 261, CSC 294, MTH 141/161, MTH 142/162, MTH 165'
+    },
+    {
+        name: "Emma Buller",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Wednesday", time: "17:00" }],
+        subjects: 'CSC 172, MTH 150'
+    },
+    {
+        name: "Lucy",
+        location: "iZone",
+        password: "",
+        schedule: [{ day: "Wednesday", time: "22:00" }],
+        subjects: 'CSC 171, MTH 165'
     },
 
     // THURSDAY
+
     {
-        name: "Jesse",
-        location: "Hylan 301 & Discord",
+        name: "Gigi",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Thursday", time: "9:30"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, Leetcode'
+        schedule: [{ day: "Thursday", time: "14:15" }],
+        subjects: 'CSC 171'
     },
     {
-        name: "Andy",
-        location: "Hylan 301 & Discord",
+        name: "Lam",
+        location: "iZone",
         password: "",
-        schedule: [{day: "Thursday", time: "12:30"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, CSC 248, CSC 252, MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201'
+        schedule: [{ day: "Thursday", time: "16:00" }],
+        subjects: 'CSC 171, CSC 172, MTH 150, MTH 141/161'
     },
     {
-        name: "Dingcheng",
-        location: "Zoom by appointment (685 753 0080)",
-        password: "N1Yich",
-        schedule: [{day: "Thursday", time: "13:00"}],
-        subjects: 'CSC 171, CSC 261, MTH 150, MTH 141/161, MTH 165'
+        name: "Bohan",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Thursday", time: "16:30" }],
+        subjects: 'CSC 171, CSC 172, CSC 242, CSC 261, MTH 150'
     },
     {
-        name: "Ezra Tock",
-        location: "Hylan 301",
+        name: "Raghav",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Thursday", time: "17:30"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, MTH 150, MTH 141/161, MTH 142/162, MTH 165, Leetcode'
-    },
-    {
-        name: "Jerry",
-        location: "Discord & Zoom (917 2461 6644)",
-        password: "",
-        schedule: [{day: "Thursday", time: "19:00"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, MATH 161, MATH 162'
+        schedule: [{ day: "Thursday", time: "20:00" }],
+        subjects: 'CSC 171, CSC 172, CSC 173, MTH 141/161, MTH 142/162'
     },
 
     // FRIDAY
     {
-        name: "Grant",
-        location: "Discord",
+        name: "Ahmed",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Friday", time: "10:30"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, MTH 141/161, MTH 142/162, Leetcode'
+        schedule: [{ day: "Friday", time: "10:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 262, MTH 141/161'
     },
     {
-        name: "Kestor",
+        name: "Ester",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Friday", time: "10:30" }],
+        subjects: 'CSC 171, MTH 150, MTH 141/161, MTH 142/162, MTH 165'
+    },
+    {
+        name: "Ahmed",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Friday", time: "11:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 262, MTH 141/161'
+    },
+    {
+        name: "Ahmed",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Friday", time: "12:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 262, MTH 141/161'
+    },
+    {
+        name: "Chris",
+        location: "iZone",
+        password: "",
+        schedule: [{ day: "Friday", time: "13:00" }],
+        subjects: 'CSC 171, CSC 214'
+    },
+    {
+        name: "Kestor Brown",
         location: "Hylan 301",
         password: "",
-        schedule: [{day: "Friday", time: "13:00"}],
-        subjects: 'CSC 161, CSC 171, CSC 172'
+        schedule: [{ day: "Friday", time: "13:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 242'
     },
     {
-        name: "Jordan",
-        location: "Hylan 301",
+        name: "Welle Zheng",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Friday", time: "11:00"}],
-        subjects: 'CSC 171, CSC 172'
+        schedule: [{ day: "Friday", time: "13:30" }],
+        subjects: 'CSC 161, CSC 171, MTH 150, MTH 141/161, MTH 165'
     },
     {
-        name: "Winnie",
-        location: "Hylan 301 & Discord",
+        name: "Todd",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Friday", time: "13:10"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, CSC 240, CSC 244, CSC 282, MTH/STT 201, Leetcode'
+        schedule: [{ day: "Friday", time: "14:00" }],
+        subjects: 'CSC 161, CIS 191, MTH 150, MTH 141/161, MTH 165'
     },
     {
-        name: "Amii",
-        location: "Discord",
+        name: "Dylan",
+        location: "Hylan 9 Lounge (Math Lounge)",
         password: "",
-        schedule: [{day: "Friday", time: "15:00"}],
-        subjects: 'CSC 161, MTH 141/161, MTH 142/162'
+        schedule: [{ day: "Friday", time: "14:00" }],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, MTH 150, MTH 165, MTH/STT 201'
     },
     {
-        name: "Andy",
-        location: "Hylan 301 & Discord",
+        name: "Welle Zheng",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Friday", time: "16:30"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, CSC 248, CSC 252, MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201'
+        schedule: [{ day: "Friday", time: "14:30" }],
+        subjects: 'CSC 161, CSC 171, MTH 150, MTH 141/161, MTH 165'
     },
     {
-        name: "Raghav",
-        location: "Hylan 301 by appointment",
+        name: "Natalie",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Friday", time: "20:30"}],
-        subjects: 'CSC 171, CSC 172, MTH 150, MTH 141/161'
-    },
-
-    // SATURDAY
-    {
-        name: "Amii",
-        location: "Hylan 301 & Discord (by appointment)",
-        password: "",
-        schedule: [{day: "Saturday", time: "12:00"}],
-        subjects: 'CSC 161, MTH 141/161, MTH 142/162'
+        schedule: [{ day: "Friday", time: "14:30" }],
+        subjects: 'CSC 171, CSC 172, CSC 173, MTH 141/161, MTH 142/162'
     },
     {
-        name: "Kestor",
-        location: "Discord",
+        name: "Natalie",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Saturday", time: "13:00"}],
-        subjects: 'CSC 161, CSC 171, CSC 172'
-    },
-    {
-        name: "Henry",
-        location: "Discord",
-        password: "",
-        schedule: [{day: "Saturday", time: "20:30"}],
-        subjects: 'CSC 172, MTH 150, MTH 141/161, MTH 142/162'
-    },
-    {
-        name: "Jerry",
-        location: "Discord & Zoom (917 2461 6644)",
-        password: "",
-        schedule: [{day: "Saturday", time: "19:00"}],
-        subjects: 'CSC 161, CSC 171, CSC 172, MATH 161, MATH 162'
-    },
+        schedule: [{ day: "Friday", time: "15:30" }],
+        subjects: 'CSC 171, CSC 172, CSC 173, MTH 141/161, MTH 142/162'
+    }
 ]
 // This function checks the tutoring schedule for the week
-const weeklySchedule = () =>{
+const weeklySchedule = () => {
     var weekMap = {
-        Sunday:[],
-        Monday:[],
-        Tuesday:[],
-        Wednesday:[],
-        Thursday:[],
-        Friday:[],
-        Saturday:[],
+        Sunday: [],
+        Monday: [],
+        Tuesday: [],
+        Wednesday: [],
+        Thursday: [],
+        Friday: [],
+        Saturday: [],
     };
     tutorDetails.map(eachTutor => {
-        eachTutor.schedule.map(eachDay=>{
+        eachTutor.schedule.map(eachDay => {
             var dayForTutor = eachDay.day;
             weekMap[dayForTutor].push(eachTutor);
         })
@@ -232,7 +281,7 @@ const dataToSend = () => {
     const dateRightNow = new Date();
     var currentData = []
     tutorDetails.map(eachTutor => {
-        if(checkDay(eachTutor)){
+        if (checkDay(eachTutor)) {
             //Makes a copy of the object so that only today's times are shown
             var toAppend = {};
             toAppend.name = eachTutor.name;
@@ -241,8 +290,8 @@ const dataToSend = () => {
             toAppend.subjects = eachTutor.subjects;
             toAppend.schedule = [];
             eachTutor.schedule.map(eachDay => {
-                if(dateRightNow.getDay() === convertDay(eachDay.day)){
-                    toAppend.schedule.push({"day": eachDay.day, "time":eachDay.time})
+                if (dateRightNow.getDay() === convertDay(eachDay.day)) {
+                    toAppend.schedule.push({ "day": eachDay.day, "time": eachDay.time })
                 }
             })
             currentData.push(toAppend);
@@ -261,18 +310,18 @@ const checkDay = (specificTutor) => {
         var currentHour = currentDate.getHours();
         var currentMinute = currentDate.getMinutes();
         var currentTimeinMinutes = currentHour * 60 + currentMinute;
-        if(currentDate.getDay() ===  convertDay(scheduleDetail.day)){
-            if(currentTimeinMinutes < scheduleTime + 60){
+        if (currentDate.getDay() === convertDay(scheduleDetail.day)) {
+            if (currentTimeinMinutes < scheduleTime + 60) {
                 toSend = true;
-            }  
+            }
         }
     })
-    
+
     return toSend;
 }
 
 const convertDay = (dateofInterest) => {
-    if(dateofInterest === "Sunday") return 0;
+    if (dateofInterest === "Sunday") return 0;
     else if (dateofInterest === "Monday") return 1;
     else if (dateofInterest === "Tuesday") return 2;
     else if (dateofInterest === "Wednesday") return 3;
@@ -284,5 +333,5 @@ const convertDay = (dateofInterest) => {
 
 
 export default tutorDetails;
-export {dataToSend};
-export {weeklySchedule};
+export { dataToSend };
+export { weeklySchedule };

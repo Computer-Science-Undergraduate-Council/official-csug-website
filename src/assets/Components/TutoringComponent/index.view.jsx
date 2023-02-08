@@ -158,23 +158,45 @@ const TutorDayView = (currentData) => {
         </p>
       </div>
       <div className={classes.subTitle}>
-        <i class="fa fa-bullhorn" aria-hidden="true"></i> CSUG Tutor Application
-        is Open!
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> CSUG Tutoring is Open
+        for Spring 2023!
       </div>
       <div className={`${classes.announcement} ${classes.aboutBody}`}>
         <p>
-          New semester, new opportunites! Do you want to volunteer to help other
-          computer science students succeed? Interested in retaining your CS
-          knowledge from previous semesters, gain a new experience (which, by
-          the way, can be helpful when you try to apply for TA roles!), and
-          connect with the CS community, all while doing something meaningful?
-          Then{" "}
-          <a href="https://forms.gle/K1kcn1GLHur5uoPE6">
-            <b>apply here</b>
-          </a>
-          !
+          See below for our new shiny schedule and special programs!
         </p>
       </div>
+      <div className={classes.subTitle}>How to access tutoring</div>
+      <div className={classes.aboutBody}>
+        <p>
+          Our in-person tutoring schedule, including the time and location, is
+          below! In addition, join our <a href="https://discord.gg/78c6xaeKkp"
+            target="_blank">CSUG Tutoring Discord server</a> to access computer
+          science help outside the normal schedule.
+        </p>
+      </div>
+      <div className={classes.subTitle}>Today&#39;s schedule</div>
+      {todayData.length === 0 && <div className={classes.aboutBody}>
+        All tutoring sessions for today have ended. Please come back tomorrow.
+      </div>}
+
+      {todayData.length !== 0 &&
+        <div className={classes.aboutBody}>
+          <Grid container spacing={0}>
+            <Grid item xs={12}>
+              {eachtutor(todayData)}
+            </Grid>
+          </Grid>
+
+        </div>
+      }
+      {/*<div className={classes.aboutBody} >
+                <a href="https://calendar.google.com/calendar/u/0?cid=Y19udWxjYmZiMmcyOHM2OHZsMHRxdTVvdGJjMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" style={{color: "#113F77"}}>
+                        Add the CSUG Tutoring schedule to your calendar  <i class="fa fa-calendar fa-lg" aria-hidden="true"  ></i>
+                </a> 
+            </div>*/}
+      {/*<div className={classes.subTitle}>Weekly schedule</div>
+          <TutorWeekView />*/}
       <div className={classes.subTitle}>
         Programs we are planning this semester!
       </div>
@@ -186,7 +208,7 @@ const TutorDayView = (currentData) => {
             our <a href="https://discord.gg/78c6xaeKkp">Discord server</a>!
             Designed specifically for asking questions, getting feedback, and
             socializing online, many CSC 171 and CSC 172 students have used the
-            server to happy results! Join more than 250 members today.
+            server to happy results! Join more than 270 members today.
           </li>
           <li style={{ textAlign: "left" }}>
             <b>Mini hackathons</b> (NEW!): Based on the fact that you can get
@@ -194,11 +216,6 @@ const TutorDayView = (currentData) => {
             coding challenges that centers around a library, framework, or
             topic. Our main focus is to have fun with code!{" "}
             <i>Subjected to change.</i>
-          </li>
-          <li style={{ textAlign: "left" }}>
-            <b>// comment my code</b> (NEW!): A YouTube series where the CSUG
-            Tutoring Chair reviews the code you have written. Open for CSC 171
-            and CSC 172 students only. <i>Subjected to change.</i>
           </li>
           <li style={{ textAlign: "left" }}>
             <b>Tutor of the Month</b>: This is a special designation to tutors
@@ -221,50 +238,12 @@ const TutorDayView = (currentData) => {
             <a href="https://discord.gg/78c6xaeKkp">Discord server</a> to get
             access.
           </li>
-          <li style={{ textAlign: "left" }}>
-            <b>Book Borrowing</b> (OPEN!): Up your computer science game with
-            books from the CSUG Tutoring bookshelf!{" "}
-            <a href="https://forms.gle/PAdqc3WyCwSHGvu76">Sign up now</a> to
-            access our catalogue of diverse knowledge base, from Pascal to C++,
-            from UNIX systems to game programming. And even ethics!
-          </li>
         </ul>
       </div>
-      {/*<div className={classes.subTitle}>How to access tutoring</div>
-          <div className={classes.aboutBody}>
-            <p>
-             In-person tutoring can be accessed in Hylan 301. In addition, join
-             our <a href ="https://discord.gg/78c6xaeKkp" target = "_blank">
-             CSUG Tutoring Discord server</a> to access remote tutoring and
-             tutoring outside the normal schedule.
-            </p>
-           </div> */}
-      {/* <div className={classes.subTitle}>Today&#39;s schedule</div> */}
-      {/*todayData.length === 0 && <div className={classes.aboutBody}>
-                All tutoring sessions for today have ended. Please come back tomorrow. 
-            </div>}
-
-            {todayData.length !== 0 && 
-                <div className={classes.aboutBody}>
-                <Grid container spacing={0}>
-                    <Grid item xs={12}>
-                        {eachtutor(todayData)}
-                    </Grid>
-                </Grid>
-
-                </div>
-            */}
-      {/*<div className={classes.aboutBody} >
-                <a href="https://calendar.google.com/calendar/u/0?cid=Y19udWxjYmZiMmcyOHM2OHZsMHRxdTVvdGJjMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" style={{color: "#113F77"}}>
-                        Add the CSUG Tutoring schedule to your calendar  <i class="fa fa-calendar fa-lg" aria-hidden="true"  ></i>
-                </a> 
-            </div>*/}
-      {/*<div className={classes.subTitle}>Weekly schedule</div>
-          <TutorWeekView />*/}
       <div className={classes.subTitle}>Contact</div>
       <div className={classes.aboutBody}>
         <p>
-          Duong "Zach" Nguyen, CSUG Tutoring Chair
+          Zach, CSUG Tutoring Chair
           <br />
           Email: duong.nguyen[at]rochester.edu
         </p>
