@@ -195,8 +195,8 @@ const TutorDayView = (currentData) => {
                         Add the CSUG Tutoring schedule to your calendar  <i class="fa fa-calendar fa-lg" aria-hidden="true"  ></i>
                 </a> 
             </div>*/}
-      {/*<div className={classes.subTitle}>Weekly schedule</div>
-          <TutorWeekView />*/}
+      <div className={classes.subTitle}>Weekly schedule</div>
+      <TutorWeekView />
       <div className={classes.subTitle}>
         Programs we are planning this semester!
       </div>
@@ -291,11 +291,12 @@ const TutorWeekView = (currentData) => {
 
   const weekData = weeklySchedule();
   return (
-    <div className={classes.aboutSection}>
-      {/* <div className={classes.title}>Tutoring Schedule For The Week</div> */}
-      {/* <div className={classes.sideInfo}>
-                <NavLink className={classes.navLink} to="/tutoring">Find today's schedule</NavLink> 
-            </div> */}
+    <>
+      {/* <div className={classes.aboutSection}> */}
+      {/*<div className={classes.title}>Tutoring Schedule For The Week</div>
+      <div className={classes.sideInfo}>
+        <NavLink className={classes.navLink} to="/tutoring">Find today's schedule</NavLink>
+  </div>*/}
       {/*<div className={classes.title}>2022 Spring CSUG Tutoring Schedule for the Week</div>
             <div className={classes.aboutBody}>
                 <NavLink className={classes.navLink} to="/tutoring" >                 
@@ -309,12 +310,12 @@ const TutorWeekView = (currentData) => {
       {/* <div className={classes.subTitle} >Announcement:<i class="fa fa-bullhorn" aria-hidden="true"></i></div>
             <div className={classes.announcement}>
  CSUG Tutoring will not be holding tutoring sessions during spring break(3/7-3/11). <br /> We will resume on 3/14/22(Mon)! </div> */}
-      <div className={classes.aboutBody}>
+      {/*<div className={classes.aboutBody}>
         <p>
           The weekly schedule is for reference only. Please see today's schedule
           for updated information about tutors' availability.
         </p>
-      </div>
+</div>*/}
       <div className={classes.aboutBody}>
         <div className={classes.eachDay}>
           <div className={classes.dayTitle}>Monday</div>
@@ -374,7 +375,8 @@ const TutorWeekView = (currentData) => {
                     </Grid>
                 </div> */}
       </div>
-    </div>
+      {/* </div > */}
+    </>
   );
 };
 
