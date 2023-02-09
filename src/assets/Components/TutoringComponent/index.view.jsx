@@ -169,13 +169,21 @@ const TutorDayView = (currentData) => {
       <div className={classes.subTitle}>How to access tutoring</div>
       <div className={classes.aboutBody}>
         <p>
-          Our in-person tutoring schedule, including the time and location, is
-          below! In addition, join our <a href="https://discord.gg/78c6xaeKkp"
-            target="_blank">CSUG Tutoring Discord server</a> to access computer
-          science help outside the normal schedule.
+          Our drop-in tutoring schedule, including the time and location, is
+          below! If you prefer appointments, head to<span> </span>
+          <a href="https://calendly.com/csug/tutoring">our Calendly page</a> to
+          schedule one! In addition, join our <a
+            href="https://discord.gg/78c6xaeKkp" target="_blank">CSUG Tutoring
+            Discord server</a> to access computer science help outside the
+          normal schedule.
         </p>
       </div>
       <div className={classes.subTitle}>Today&#39;s schedule</div>
+      <div className={classes.aboutBody} >
+        <a href="https://calendar.google.com/calendar/u/0?cid=Y18yY2EyNmFmZmQ0YmIzOThjM2MzZDM2MDgwZWIyMmE1N2ZlNmU3OWJiODk0MjkxMGRhMzBmMWYwMDcwOTYyODE5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">
+          Subscribe to the CSUG Tutoring Google Calendar for notifications & latest changes <i class="fa fa-calendar fa-lg" aria-hidden="true"  ></i>
+        </a>
+      </div>
       {todayData.length === 0 && <div className={classes.aboutBody}>
         All tutoring sessions for today have ended. Please come back tomorrow.
       </div>}
@@ -190,12 +198,18 @@ const TutorDayView = (currentData) => {
 
         </div>
       }
-      {/*<div className={classes.aboutBody} >
-                <a href="https://calendar.google.com/calendar/u/0?cid=Y19udWxjYmZiMmcyOHM2OHZsMHRxdTVvdGJjMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" style={{color: "#113F77"}}>
-                        Add the CSUG Tutoring schedule to your calendar  <i class="fa fa-calendar fa-lg" aria-hidden="true"  ></i>
-                </a> 
-            </div>*/}
+      <div className={classes.aboutBody} >
+        <a href="https://calendar.google.com/calendar/u/0?cid=Y18yY2EyNmFmZmQ0YmIzOThjM2MzZDM2MDgwZWIyMmE1N2ZlNmU3OWJiODk0MjkxMGRhMzBmMWYwMDcwOTYyODE5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">
+          Add the CSUG Tutoring schedule to your calendar  <i class="fa fa-calendar fa-lg" aria-hidden="true"  ></i>
+        </a>
+      </div>
       <div className={classes.subTitle}>Weekly schedule</div>
+      <div className={classes.aboutBody} >
+        <p>
+          The below schedule is only for reference. For the most up-to-date
+          schedule, please subscribe to our Google Calendar (link above).
+        </p>
+      </div>
       <TutorWeekView />
       <div className={classes.subTitle}>
         Programs we are planning this semester!
@@ -245,10 +259,10 @@ const TutorDayView = (currentData) => {
         <p>
           Zach, CSUG Tutoring Chair
           <br />
-          Email: duong.nguyen[at]rochester.edu
+          Email: duong.nguyen at rochester.edu
         </p>
       </div>
-    </div>
+    </div >
   );
 };
 
