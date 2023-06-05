@@ -16,7 +16,6 @@ export default function App() {
   return (
     <HashRouter basename='/'>
       <NavigationBar />
-
       <Route exact path='/' render={() => <HomePage />} />
       <Route path='/about' render={() => <AboutUs />} />
       <Route path='/resources' render={() => <ResourcesMain />} />
