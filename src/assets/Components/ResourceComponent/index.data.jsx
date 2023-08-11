@@ -5,22 +5,20 @@ import academics from '../../images/books.png';
 import project from '../../images/project.png';
 import workshop from '../../images/workshop.png';
 
-
-
 const resources = [
     {
         id: 0,
-        title: 'Internship',
-        img: internship,
-        description: 'We compile information about available internships with the help of the CS community and Alumni of UoR. You can use this information and find one that could be your next internship.',
-        link: 'https://github.com/Computer-Science-Undergraduate-Council/CSUG-resources/tree/main/Jobs%20and%20Internship'
+        title: 'DandyHacks',
+        img: dandyHacks,
+        descriptions: 'We organize a 36 hours hackathon, DandyHacks. This is an amazing event where you can learn and demonstrate your skills and network with peers and employers.',
+        link: 'https://dandyhacks.net/'
     },
     {
         id: 1,
-        title: 'Hackathon',
-        img: dandyHacks,
-        description: 'We organize a 36 hours hackathon, DandyHacks. This is an amazing event where you can learn and demonstrate your skills and network with peers and employers.',
-        link: 'https://dandyhacks.net/'
+        title: 'Roclab',
+        img: academics,
+        descriptions: '',
+        link: ''
     },
     {
         id: 2,
@@ -28,7 +26,6 @@ const resources = [
         img: csugTutoring,
         description: 'We run a special tutoring service for Computer Science subjects to help our students. This is a free drop-in tutoring service where we have selected the best tutors for you.',
         link: '/tutoring'
-
     },
     {
         id: 3,
@@ -46,10 +43,10 @@ const resources = [
     },
     {
         id: 5,
-        title: 'Coding Workshops',
-        img: workshop,
-        description: 'We organize workshops to help you excel at your next coding interview. Tune in every week to solve coding challenges and practice your way to be ready for the industry',
-        link: 'http://cglink.me/2eC/r1037383'
+        title: 'Internships',
+        img: internship,
+        description: 'We compile information about available internships with the help of the CS community and Alumni of UoR. You can use this information and find one that could be your next internship.',
+        link: 'https://github.com/Computer-Science-Undergraduate-Council/CSUG-resources/tree/main/Jobs%20and%20Internship'
     }
 ]
 

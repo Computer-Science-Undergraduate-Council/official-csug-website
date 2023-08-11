@@ -17,9 +17,9 @@ const HomePage = () => {
                 <Grid item xs={12}>
                     <IntroSection />
                 </Grid>
-                <Grid item xs={12}>
+                {/* <Grid item xs={12}>
                     <AboutUsHomeComponent/>
-                </Grid>
+                </Grid> */}
                 <Grid item xs={12}>
                     <ResourcesHomePage/>
                 </Grid>
