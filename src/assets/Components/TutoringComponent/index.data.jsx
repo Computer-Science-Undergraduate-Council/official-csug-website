@@ -1,11 +1,11 @@
 const tutorDetails = [
     // MONDAY
     {
-        name: "Ahmed",
+        name: "Peter",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Monday", time: "11:15" }],
-        subjects: 'CSC 171, CSC 186, MTH 150'
+        schedule: [{ day: "Monday", time: "13:30" }],
+        subjects: 'MATH 150, CSC 161, CSC 171, CSC 172'
     },
     {
         name: "Natalie",
