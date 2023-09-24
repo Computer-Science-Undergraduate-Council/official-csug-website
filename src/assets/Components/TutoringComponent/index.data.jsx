@@ -1,174 +1,163 @@
 const tutorDetails = [
     // MONDAY
     {
-        name: "Peter",
+        name: "Rachel Chen",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Monday", time: "11:30-13:00" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171'
+    },
+    {
+        name: "Amanda Jen",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Monday", time: "12:30" }],
+        subjects: 'MATH 161/141, MATH 162/142, CSC 171, CSC 172'
+    },
+    {
+        name: "Rory Brennan-Jones",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Monday", time: "13:00" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, MATH 165, CSC 161, CSC 171'
+    },
+    {
+        name: "Yuliang Liu",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Monday", time: "13:00" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 171, CSC 172'
+    },
+    {
+        name: "Peter Nie",
         location: "Wegmans 2007",
         password: "",
         schedule: [{ day: "Monday", time: "13:30" }],
         subjects: 'MATH 150, CSC 161, CSC 171, CSC 172'
     },
     {
-        name: "Natalie",
+        name: "Boyi Zhang",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Monday", time: "13:30" }],
+        subjects: 'MATH 150, MATH165, MATH/STAT 201 CSC 161, CSC 172, CSC 173, CSC242'
+    },
+    {
+        name: "Aryan Raj Dhawan",
         location: "Wegmans 2007",
         password: "",
         schedule: [{ day: "Monday", time: "15:30" }],
-        subjects: 'CSC 171, CSC 172, CSC 173, MTH 141/161, MTH 142/162'
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171, CSC 172'
     },
     {
-        name: "Michael",
+        name: "Tora Ozawa",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Monday", time: "17:00" }],
-        subjects: 'CSC 171, MTH 150'
+        schedule: [{ day: "Monday", time: "15:40" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, MATH 165, CSC 161, CSC 171, CSC 172, CSC 173, CSC 252, CSC 254'
     },
     {
-        name: "Woody",
+        name: "Ester Luo",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Monday", time: "17:00" }],
-        subjects: 'CSC 161, CSC 171, CSC 172, CSC 214, CSC 252, CSC 254, CSC 261, CSC 294, MTH 141/161, MTH 142/162, MTH 165'
+        schedule: [{ day: "Monday", time: "15:40" }],
+        subjects: 'MATH 150, MATH162/142, MATH 165, CSC 171, CSC 172'
     },
-    {
-        name: "Emma Buller",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{ day: "Monday", time: "17:00" }],
-        subjects: 'CSC 172, MTH 150'
-    },
-    {
-        name: "Michael",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{ day: "Monday", time: "18:00" }],
-        subjects: 'CSC 171, MTH 150'
-    },
+    
 
     // TUESDAY
-
     {
-        name: "Dylan",
-        location: "iZone",
-        password: "",
-        schedule: [{ day: "Tuesday", time: "12:00" }],
-        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, MTH 150, MTH 165, MTH/STT 201'
-    },
-    {
-        name: "Gigi",
+        name: "Clifford An",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Tuesday", time: "14:15" }],
-        subjects: 'CSC 171'
-    },
-    {
-        name: "Dominic",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{ day: "Tuesday", time: "15:30" }],
-        subjects: 'CSC 161, CSC 171, CSC 172, MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201'
-    },
-    {
-        name: "Lucy",
-        location: "iZone",
-        password: "",
-        schedule: [{ day: "Tuesday", time: "22:00" }],
-        subjects: 'CSC 171, MTH 165'
-    },
-
-    // WEDNESDAY
-    {
-        name: "Colby",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{ day: "Wednesday", time: "13:00" }],
-        subjects: 'CSC 161, CSC 171, CSC 172'
+        schedule: [{ day: "Tuesday", time: "13:00" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, MATH 165, CSC 161, CSC 171, CSC 172, CSC 173'
     },
     {
         name: "Kestor Brown",
-        location: "Hylan 301",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Wednesday", time: "13:00" }],
+        schedule: [{ day: "Tuesday", time: "15:00" }],
         subjects: 'CSC 161, CSC 171, CSC 172, CSC 242'
     },
     {
-        name: "Colby",
+        name: "William Nie",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Wednesday", time: "14:00" }],
-        subjects: 'CSC 161, CSC 171, CSC 172'
+        schedule: [{ day: "Tuesday", time: "15:25" }],
+        subjects: 'CSC 171, CSC 172'
     },
     {
-        name: "Ahmed",
+        name: "Aryan Raj Dhawan",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Wednesday", time: "15:30" }],
-        subjects: 'CSC 171, CSC 186, MTH 150'
+        schedule: [{ day: "Tuesday", time: "17:00" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171, CSC 172'
     },
+
+    
+
+    // WEDNESDAY
     {
-        name: "Dominic",
+        name: "Rachel Chen",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Wednesday", time: "16:00" }],
-        subjects: 'CSC 161, CSC 171, CSC 172, MTH 150, MTH 141/161, MTH 142/162, MTH 165, MTH/STT 201'
+        schedule: [{ day: "Wednesday", time: "11:30" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171'
     },
     {
-        name: "Ester",
+        name: "Aryan Raj Dhawan",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Wednesday", time: "16:00" }],
-        subjects: 'CSC 171, MTH 150, MTH 141/161, MTH 142/162, MTH 165'
+        schedule: [{ day: "Wednesday", time: "12:00" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171, CSC 172'
     },
     {
-        name: "Woody",
+        name: "Amanda Jen",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Wednesday", time: "17:00" }],
-        subjects: 'CSC 161, CSC 171, CSC 172, CSC 214, CSC 252, CSC 254, CSC 261, CSC 294, MTH 141/161, MTH 142/162, MTH 165'
+        schedule: [{ day: "Wednesday", time: "12:30" }],
+        subjects: 'MATH 161/141, MATH 162/142, CSC 171, CSC 172'
     },
     {
-        name: "Emma Buller",
+        name: "Rory Brennan-Jones",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Wednesday", time: "17:00" }],
-        subjects: 'CSC 172, MTH 150'
+        schedule: [{ day: "Wednesday", time: "13:00" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, MATH 165, CSC 161, CSC 171'
     },
     {
-        name: "Lucy",
-        location: "iZone",
+        name: "Peter Nie",
+        location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Wednesday", time: "22:00" }],
-        subjects: 'CSC 171, MTH 165'
+        schedule: [{ day: "Wednesday", time: "13:30" }],
+        subjects: 'MATH 150, CSC 161, CSC 171, CSC 172'
     },
+    {
+        name: "Boyi Zhang",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Wednesday", time: "13:30" }],
+        subjects: 'MATH 150, MATH165, MATH/STAT 201 CSC 161, CSC 172, CSC 173, CSC242'
+    },
+    {
+        name: "Yuliang Liu",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Wednesday", time: "13:00" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 171, CSC 172'
+    },
+    
 
     // THURSDAY
+    {
+        name: "Tora Ozawa",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Thursday", time: "15:40" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, MATH 165, CSC 161, CSC 171, CSC 172, CSC 173, CSC 252, CSC 254'
+    },
 
-    {
-        name: "Gigi",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{ day: "Thursday", time: "14:15" }],
-        subjects: 'CSC 171'
-    },
-    {
-        name: "Lam",
-        location: "iZone",
-        password: "",
-        schedule: [{ day: "Thursday", time: "16:00" }],
-        subjects: 'CSC 171, CSC 172, MTH 150, MTH 141/161'
-    },
-    {
-        name: "Bohan",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{ day: "Thursday", time: "16:30" }],
-        subjects: 'CSC 171, CSC 172, CSC 242, CSC 261, MTH 150'
-    },
-    {
-        name: "Raghav",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{ day: "Thursday", time: "20:00" }],
-        subjects: 'CSC 171, CSC 172, CSC 173, MTH 141/161, MTH 142/162'
-    },
 
     // FRIDAY
     {
