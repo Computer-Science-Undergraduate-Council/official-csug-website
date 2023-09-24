@@ -159,7 +159,7 @@ const TutorDayView = (currentData) => {
       </div>
       <div className={classes.subTitle}>
         <i class="fa fa-bullhorn" aria-hidden="true"></i> CSUG Tutoring is Open
-        for Spring 2023!
+        for Fall 2023!
       </div>
       <div className={`${classes.announcement} ${classes.aboutBody}`}>
         <p>
@@ -257,9 +257,9 @@ const TutorDayView = (currentData) => {
       <div className={classes.subTitle}>Contact</div>
       <div className={classes.aboutBody}>
         <p>
-          Zach, CSUG Tutoring Chair
+          Gigi, CSUG Tutoring Chair
           <br />
-          Email: duong.nguyen at rochester.edu
+          Email: jpan22@u.rochester.edu
         </p>
       </div>
     </div >
