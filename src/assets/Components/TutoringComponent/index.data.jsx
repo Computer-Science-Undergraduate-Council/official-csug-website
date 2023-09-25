@@ -25,7 +25,7 @@ const tutorDetails = [
         name: "Yuliang Liu",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Monday", time: "13:00-14:30" }],
+        schedule: [{ day: "Monday", time: "13:00-15:00" }],
         subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 171, CSC 172'
     },
     {
@@ -124,7 +124,7 @@ const tutorDetails = [
         location: "Wegmans 2007",
         password: "",
         schedule: [{ day: "Wednesday", time: "12:00-13:00" }],
-        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171'
+        subjects: 'MATH 150, MATH 161/141, MATH 162/142, CSC 161, CSC 171'
     },
     {
         name: "Amanda Jen",
@@ -198,7 +198,7 @@ const tutorDetails = [
         location: "Wegmans 2007",
         password: "",
         schedule: [{ day: "Thursday", time: "17:00-18:00" }],
-        subjects: 'CSC161, CSC 171, CSC 172, CSC173'
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173'
     },
     
 
@@ -235,7 +235,7 @@ const tutorDetails = [
         name: "Ester Luo",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Firday", time: "13:30-14:30" }],
+        schedule: [{ day: "Friday", time: "13:30-14:30" }],
         subjects: 'MATH 150, MATH162/142, MATH 165, CSC 171, CSC 172'
     },
     {
@@ -258,7 +258,7 @@ const tutorDetails = [
         password: "",
         schedule: [{ day: "Friday", time: "17:00-19:00" }],
         subjects: 'CSC 172'
-    }
+    },
     
 ]
 // This function checks the tutoring schedule for the week
