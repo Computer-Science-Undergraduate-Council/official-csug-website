@@ -50,6 +50,13 @@ const tutorDetails = [
         subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171, CSC 172'
     },
     {
+        name: "Dylan McKellips",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Monday", time: "15:30-16:30" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, MATH 165, MATH/STT201, CSC 161, CSC 171, CSC 172, CSC 173, CSC 240, CSC 242'
+    },
+    {
         name: "Tora Ozawa",
         location: "Wegmans 2007",
         password: "",
@@ -161,8 +168,14 @@ const tutorDetails = [
         schedule: [{ day: "Wednesday", time: "13:30-15:00" }],
         subjects: 'MATH 150, MATH165, MATH/STAT 201 CSC 161, CSC 172, CSC 173, CSC242'
     },
+    {
+        name: "Dylan McKellips",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Wednesday", time: "15:30-16:30" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, MATH 165, MATH/STT201, CSC 161, CSC 171, CSC 172, CSC 173, CSC 240, CSC 242'
+    },
 
-    
 
     // THURSDAY
     {
