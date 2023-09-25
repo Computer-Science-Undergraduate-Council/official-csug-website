@@ -25,7 +25,7 @@ const tutorDetails = [
         name: "Yuliang Liu",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Monday", time: "13:00-15:00" }],
+        schedule: [{ day: "Monday", time: "13:00-14:30" }],
         subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 171, CSC 172'
     },
     {
@@ -94,6 +94,13 @@ const tutorDetails = [
         schedule: [{ day: "Tuesday", time: "17:00-18:00" }],
         subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171, CSC 172'
     },
+    {
+        name: "Zachary Tan",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Tuesday", time: "17:00-18:00" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171'
+    },
 
     
 
@@ -111,6 +118,13 @@ const tutorDetails = [
         password: "",
         schedule: [{ day: "Wednesday", time: "12:00-13:00" }],
         subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171, CSC 172'
+    },
+    {
+        name: "Zachary Tan",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Wednesday", time: "12:00-13:00" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171'
     },
     {
         name: "Amanda Jen",
@@ -179,6 +193,13 @@ const tutorDetails = [
         schedule: [{ day: "Thursday", time: "15:00-17:00" }],
         subjects: 'MATH 150, MATH/STAT 201, CSC 171, CSC 172'
     },
+    {
+        name: "Ian Black",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Thursday", time: "17:00-18:00" }],
+        subjects: 'CSC161, CSC 171, CSC 172, CSC173'
+    },
     
 
     // FRIDAY
@@ -188,13 +209,6 @@ const tutorDetails = [
         password: "",
         schedule: [{ day: "Friday", time: "10:00-13:00" }],
         subjects: 'MATH 150, MATH165, MATH/STAT 201 CSC 161, CSC 172, CSC 173, CSC242'
-    },
-    {
-        name: "Yuliang Liu",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{ day: "Friday", time: "10:30-11:30" }],
-        subjects: 'MATH 150, MATH 161/141, MATH 162/142, CSC 171, CSC 172'
     },
     {
         name: "Tora Ozawa",
@@ -218,17 +232,10 @@ const tutorDetails = [
         subjects: 'CSC 161, CSC 171'
     },
     {
-        name: "Lucy Ming",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{ day: "Friday", time: "13:00-15:00" }],
-        subjects: 'CSC 172'
-    },
-    {
         name: "Ester Luo",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Monday", time: "13:30-14:30" }],
+        schedule: [{ day: "Firday", time: "13:30-14:30" }],
         subjects: 'MATH 150, MATH162/142, MATH 165, CSC 171, CSC 172'
     },
     {
@@ -238,6 +245,20 @@ const tutorDetails = [
         schedule: [{ day: "Friday", time: "14:00-15:00" }],
         subjects: 'MATH 150,  MATH 161/141, MATH 162/142, MATH 165, CSC 161, CSC 171, CSC 172, CSC 173'
     },
+    {
+        name: "Zachary Tan",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Friday", time: "15:00-16:00" }],
+        subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 161, CSC 171'
+    },
+    {
+        name: "Lucy Ming",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Friday", time: "17:00-19:00" }],
+        subjects: 'CSC 172'
+    }
     
 ]
 // This function checks the tutoring schedule for the week
