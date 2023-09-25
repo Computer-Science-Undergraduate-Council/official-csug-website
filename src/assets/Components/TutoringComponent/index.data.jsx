@@ -25,7 +25,7 @@ const tutorDetails = [
         name: "Yuliang Liu",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{ day: "Monday", time: "13:00-15:00" }],
+        schedule: [{ day: "Monday", time: "13:00-14:30" }],
         subjects: 'MATH 150,  MATH 161/141, MATH 162/142, CSC 171, CSC 172'
     },
     {
