@@ -258,7 +258,7 @@ const tutorDetails = [
         password: "",
         schedule: [{ day: "Friday", time: "17:00-19:00" }],
         subjects: 'CSC 172'
-    }
+    },
     
 ]
 // This function checks the tutoring schedule for the week
