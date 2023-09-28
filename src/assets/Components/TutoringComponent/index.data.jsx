@@ -179,6 +179,13 @@ const tutorDetails = [
 
     // THURSDAY
     {
+        name: "Raghav Kumar Choudhary",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Thursday", time: "9:00-10:00" }],
+        subjects: 'CSC 171, CSC 172'
+    },
+    {
         name: "Clifford An",
         location: "Wegmans 2007",
         password: "",
