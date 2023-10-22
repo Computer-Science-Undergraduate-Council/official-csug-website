@@ -137,7 +137,7 @@ const ResourcesHomePage = () => {
     const resHome = (resources) => {
         return resources.map(resource => {
             return <div>
-                {resource.title !=="" && 
+                {resource.title !== "CSUG Tutoring" && 
                 <a href={resource.link} target="_blank" rel="noreferrer">
                     {/* <Card className={classes.resourceDisplayInHome}>
                         <CardContent>
@@ -149,16 +149,14 @@ const ResourcesHomePage = () => {
                     </div>
                 </a>
                 }
-
-                {/* {resource.title ==="CSUG Tutoring" && 
-                <NavLink className={classes.navLink} to={resource.link}>
-                    <Card className={classes.resourceDisplayInHome}>
-                        <CardContent>
-                            {resource.title}
-                        </CardContent>
-                    </Card>
-                </NavLink>
-                } */}
+                {/* The code below is a hack so that it connects with another page within the site */}
+                {resource.title === "CSUG Tutoring" && 
+                <div className={classes.buttonStyling}>
+                    <NavLink to={resource.link}>
+                        <button className={classes.button}>{resource.title}</button>
+                    </NavLink>
+                </div>
+                }
             </div>
         })
     }

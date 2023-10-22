@@ -15,7 +15,7 @@ const resources = [
     },
     {
         id: 1,
-        title: 'Roclab',
+        title: 'RocLab',
         img: academics,
         descriptions: '',
         link: ''
@@ -25,7 +25,7 @@ const resources = [
         title: 'CSUG Tutoring',
         img: csugTutoring,
         description: 'We run a special tutoring service for Computer Science subjects to help our students. This is a free drop-in tutoring service where we have selected the best tutors for you.',
-        link: '/tutoring'
+        link: '/tutoring/'
     },
     {
         id: 3,
