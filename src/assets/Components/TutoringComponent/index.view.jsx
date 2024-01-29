@@ -159,7 +159,7 @@ const TutorDayView = (currentData) => {
       </div>
       <div className={classes.subTitle}>
         <i class="fa fa-bullhorn" aria-hidden="true"></i> CSUG Tutoring is Open
-        for Fall 2023!
+        for Spring 2024!
       </div>
       <div className={`${classes.announcement} ${classes.aboutBody}`}>
         <p>
