@@ -80,6 +80,13 @@ const tutorDetails = [
         subjects: 'CSC 171, CSC 172, CSC 173, CSC 252, MATH 141/161, MATH 142/162, MATH 150, MATH 165'
     },
     {
+        name: "Fernando Bedoya",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{day: "Tuesday", time: "15:00-17:00"}],
+        subjects: 'CSC 171, CSC 172, CSC 173, CSC 242'
+    },
+    {
         name: "Desmond Wang",
         location: "Wegmans 2007",
         password: "",
