@@ -36,6 +36,13 @@ const tutorDetails = [
         subjects: 'CSC 171, CSC 172, MATH 150, MATH 165'
     },
     {
+        name: "Arman Kazarian",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Monday", time: "17:00-18:00" }],
+        subjects: 'CSC 171, MATH 150'
+    },
+    {
         name: "Bob Wang",
         location: "Wegmans 2007",
         password: "",
@@ -43,7 +50,15 @@ const tutorDetails = [
         subjects: 'CSC 161, CSC 171, CSC 240, MATH 141/161, MATH 142/162, MATH 150, MATH/STT 201'
     },
 
+
     // TUESDAY
+    {
+        name: "Kestor Brown",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{day: "Tuesday", time: "12:00-13:00"}],
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 242'
+    },
     {
         name: "Emily Lin",
         location: "Wegmans 2007",
@@ -73,11 +88,11 @@ const tutorDetails = [
         subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 240, CSC 242, CSC 282, MATH 150, MATH 141/161, MATH 142/162, MATH 165, MATH/STT 201'
     },
     {
-        name: "Zachary Tan",
+        name: "Tora Ozawa",
         location: "Wegmans 2007",
         password: "",
         schedule: [{day: "Tuesday", time: "14:00-15:00"}],
-        subjects: 'CSC 171, CSC 172, CSC 173, CSC 252, MATH 141/161, MATH 142/162, MATH 150, MATH 165'
+        subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 242, CSC 252, CSC 254, CSC 282, MATH 150, MATH 141/161, MATH 142/162, MATH 165'
     },
     {
         name: "Fernando Bedoya",
@@ -85,6 +100,13 @@ const tutorDetails = [
         password: "",
         schedule: [{day: "Tuesday", time: "15:00-17:00"}],
         subjects: 'CSC 171, CSC 172, CSC 173, CSC 242'
+    },
+    {
+        name: "Owen Tian",
+        location: "Wegmans 2007",
+        password: "",
+        schedule:[{day:"Tuesday", time: "15:00-17:00"}],
+        subjects: 'CSC171, CSC 172, CSC 282, MATH 150'
     },
     {
         name: "Desmond Wang",
@@ -109,6 +131,13 @@ const tutorDetails = [
         schedule: [{ day: "Wednesday", time: "12:00-14:00"}],
         subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 208, MATH 141/161, MATH 142/162, MATH 150, MATH 165, MATH/STT 201, PHYS 121, PHYS 113'
     },
+    {
+        name: "Zachary Tan",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{day: "Wednesday", time: "17:00-18:00"}],
+        subjects: 'CSC 171, CSC 172, CSC 173, CSC 252, MATH 141/161, MATH 142/162, MATH 150, MATH 165'
+    },
 
     // Thursday
     {
@@ -117,6 +146,13 @@ const tutorDetails = [
         password: "",
         schedule: [{day: "Thursday", time: "11:00-12:00"}],
         subjects: 'CSC 161, CSC 171, CSC 173, CSC 262'
+    },
+    {
+        name: "Wendy Humphreys",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{day: "Thursday", time: "11:00-13:00"}],
+        subjects: 'CSC 171, CSC 172, MATH 141/161, MATH 142/162'
     },
     {
         name: "Emma Buller",
@@ -133,18 +169,18 @@ const tutorDetails = [
         subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, MATH 150, MATH 141/161, MATH 142/162, MATH 165'
     },
     {
-        name: "Wendy Humphreys",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{day: "Thursday", time: "11:00-13:00"}],
-        subjects: 'CSC 171, CSC 172, MATH 141/161, MATH 142/162'
-    },
-    {
         name: "Victoria Li",
         location: "Wegmans 2007",
         password: "",
         schedule: [{day: "Thursday", time: "13:00-15:00"}],
         subjects: 'CSC 161, CSC 171, CSC 172'
+    },
+    {
+        name: "Desmond Wang",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{day: "Thursday", time: "15:30-16:30"}],
+        subjects: 'CSC 171, CSC 172, CSC 252, CSC 261, CSC 282, MATH 150, MATH 141/161, MATH 142/162, MATH 165'
     },
     {
         name: "Tora Ozawa",
@@ -175,7 +211,15 @@ const tutorDetails = [
         password: "",
         schedule: [{ day: "Friday", time: "17:00-18:00" }],
         subjects: 'CSC 161, CSC 171, CSC 172, MATH 150'
+    },
+    {
+        name: "Arman Kazarian",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Friday", time: "17:00-19:00" }],
+        subjects: 'CSC 171, MATH 150'
     }
+
     
     
 ]
