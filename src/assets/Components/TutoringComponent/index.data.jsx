@@ -56,7 +56,7 @@ const tutorDetails = [
         name: "Kestor Brown",
         location: "Wegmans 2007",
         password: "",
-        schedule: [{day: "Tuesday", time: "12:00-13:00"}],
+        schedule: [{day: "Tuesday", time: "11:00-12:00"}],
         subjects: 'CSC 161, CSC 171, CSC 172, CSC 242'
     },
     {
