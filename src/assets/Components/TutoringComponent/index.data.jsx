@@ -22,18 +22,18 @@ const tutorDetails = [
         subjects: 'CSC 161, CSC 171, CSC 172, MATH 150'
     },
     {
+        name: "Amy Yu",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Monday", time: "13:00-15:00" }],
+        subjects: 'CSC 171, CSC 172, MATH 150, MATH 165'
+    },
+    {
         name: "Ashaz Rahman",
         location: "Wegmans 2007",
         password: "",
         schedule: [{ day: "Monday", time: "14:00-16:00" }],
         subjects: 'CSC 161, MATH 141/161'
-    },
-    {
-        name: "Amy Yu",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{ day: "Monday", time: "15:00-17:00" }],
-        subjects: 'CSC 171, CSC 172, MATH 150, MATH 165'
     },
     {
         name: "Arman Kazarian",
