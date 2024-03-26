@@ -15,13 +15,6 @@ const tutorDetails = [
         subjects: 'CSC 161, CSC 171, CSC 172, CSC 173, CSC 240'
     },
     {
-        name: "Xi Chen",
-        location: "Wegmans 2007",
-        password: "",
-        schedule: [{ day: "Monday", time: "13:00-15:00" }],
-        subjects: 'CSC 161, CSC 171, CSC 172, MATH 150'
-    },
-    {
         name: "Amy Yu",
         location: "Wegmans 2007",
         password: "",
@@ -34,6 +27,13 @@ const tutorDetails = [
         password: "",
         schedule: [{ day: "Monday", time: "14:00-16:00" }],
         subjects: 'CSC 161, MATH 141/161'
+    },
+    {
+        name: "Xi Chen",
+        location: "Wegmans 2007",
+        password: "",
+        schedule: [{ day: "Monday", time: "15:00-16:00" }],
+        subjects: 'CSC 171, CSC 172, MATH 150'
     },
     {
         name: "Arman Kazarian",
@@ -210,7 +210,7 @@ const tutorDetails = [
         location: "Wegmans 2007",
         password: "",
         schedule: [{ day: "Friday", time: "17:00-18:00" }],
-        subjects: 'CSC 161, CSC 171, CSC 172, MATH 150'
+        subjects: 'CSC 171, CSC 172, MATH 150'
     },
     {
         name: "Arman Kazarian",
