@@ -1,25 +1,27 @@
 import React from "react";
 import styled from "styled-components";
 
+import Logo from "../Logo/Logo"
+
 function NavBar () {
 
-    const BACKGROUND = styled.div`
+    const Background = styled.div`
         width: 100%;
         height: 68px;
         background-color: #6DC3DD;
     `;
     
-    const ANCHOR = styled.a`
+    const Anchor = styled.a`
         color: #292B32;
         text-align: center;
         text-decoration: none;
     `;
 
     return (
-        <BACKGROUND>
-            
-            <ANCHOR href="">Hello</ANCHOR>
-        </BACKGROUND>
+        <Background>
+            <Logo />
+            <Anchor href="">Hello</Anchor>
+        </Background>
     )
 }
 
