@@ -8,12 +8,16 @@ const LogoHolder = styled.div`
     align-items: center;
     justify-content: center;
 `;
+const Name = styled.p`
+    padding-left: 5px;
+
+`;
 
 function Logo() {
     return (
         <LogoHolder>
-            <img src={ LOGO } alt= "CSUG Logo" width="36px" height="36px" />
-            <p style={{paddingLeft:"5px"}}>Computer Science Undergraduate Council</p>
+            <img src={ LOGO } alt= "CSUG Logo" width="50px" height="50px" />
+            <Name>Computer Science Undergraduate Council</Name>
         </LogoHolder>
     )
 }
