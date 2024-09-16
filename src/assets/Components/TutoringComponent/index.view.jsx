@@ -146,7 +146,12 @@ const TutorDayView = (currentData) => {
     });
   };
 
-  const todayData = dataToSend();
+  // added nowData and dayData foor the 'time' and 'day' modes 
+  const nowData = dataToSend('time');
+  const dayData = dataToSend('day');
+
+ 
+
   return (
     <div className={classes.aboutSection}>
       <div className={classes.title}>CSUG Tutoring</div>
@@ -159,7 +164,7 @@ const TutorDayView = (currentData) => {
       </div>
       <div className={classes.subTitle}>
         <i class="fa fa-bullhorn" aria-hidden="true"></i> CSUG Tutoring is Open
-        for Spring 2024!
+        for Fall 2024!
       </div>
       <div className={`${classes.announcement} ${classes.aboutBody}`}>
         <p>
@@ -175,29 +180,49 @@ const TutorDayView = (currentData) => {
           schedule one! In addition, join our <a
             href="https://discord.gg/78c6xaeKkp" target="_blank">CSUG Tutoring
             Discord server</a> to access computer science help outside the
-          normal schedule.
+          normal schedule. 
         </p>
       </div>
+      <div className={classes.subTitle}>Fall 2024 Tutor Model </div>
+      <div className={classes.aboutBody}>
+      <p>
+    In Fall 2024, we are trying out a new tutor model with drop-in hours (marked by 'D') and per-appointment hours (marked by 'A'). Tutors will be present for their drop-in hours.
+      Tutors show up to their per-appointment hours only if an appointment has been booked, for their time slot, by 10 am day of (via Calendly)! Calendly appointments can also be booked outside of designated per-appointment hours, but unfortunately we cannot guarantee a tutor will be available during that time.
+      </p>
+      </div>
+      <div className={classes.subTitle}>Active Sessions</div>
+      {nowData.length === 0 && <div className={classes.aboutBody}>
+        There are no tutoring sessions taking place at the moment. Please come again later. 
+      </div>}
+
+      {nowData.length !== 0 &&
+        <div className={classes.aboutBody}>
+          <Grid container spacing={0}>
+            <Grid item xs={12}>
+              {eachtutor(nowData)}
+            </Grid>
+          </Grid>
+
+        </div>
+      }
       <div className={classes.subTitle}>Today&#39;s schedule</div>
       <div className={classes.aboutBody} >
         <a href="https://calendar.google.com/calendar/u/0?cid=Y18yY2EyNmFmZmQ0YmIzOThjM2MzZDM2MDgwZWIyMmE1N2ZlNmU3OWJiODk0MjkxMGRhMzBmMWYwMDcwOTYyODE5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">
           Subscribe to the CSUG Tutoring Google Calendar for notifications & latest changes <i class="fa fa-calendar fa-lg" aria-hidden="true"  ></i>
         </a>
       </div>
-      {todayData.length === 0 && <div className={classes.aboutBody}>
-        All tutoring sessions for today have ended. Please come back tomorrow.
-      </div>}
 
-      {todayData.length !== 0 &&
+      {dayData.length !== 0 &&
         <div className={classes.aboutBody}>
           <Grid container spacing={0}>
             <Grid item xs={12}>
-              {eachtutor(todayData)}
+              {eachtutor(dayData)}
             </Grid>
           </Grid>
 
         </div>
       }
+
       <div className={classes.aboutBody} >
         <a href="https://calendar.google.com/calendar/u/0?cid=Y18yY2EyNmFmZmQ0YmIzOThjM2MzZDM2MDgwZWIyMmE1N2ZlNmU3OWJiODk0MjkxMGRhMzBmMWYwMDcwOTYyODE5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">
           Add the CSUG Tutoring schedule to your calendar  <i class="fa fa-calendar fa-lg" aria-hidden="true"  ></i>
@@ -257,9 +282,9 @@ const TutorDayView = (currentData) => {
       <div className={classes.subTitle}>Contact</div>
       <div className={classes.aboutBody}>
         <p>
-          Gigi, CSUG Tutoring Chair
+          Aryan, CSUG Tutoring Chair
           <br />
-          Email: jpan22@u.rochester.edu
+          Email: adhawan2@u.rochester.edu
         </p>
       </div>
     </div >

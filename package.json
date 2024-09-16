@@ -10,15 +10,15 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "bootstrap": "^4.6.0",
+    "bootstrap": "^5.3.3",
     "font-awesome": "^4.7.0",
     "hash-router": "^0.4.0",
-    "immer": "^8.0.1",
+    "immer": "^10.1.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -50,7 +50,7 @@
   "devDependencies": {
     "@fortawesome/react-fontawesome": "^0.2.0",
     "chokidar": "^3.5.3",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^6.1.1",
     "react-fontawesome": "^1.7.1"
   }
 }
