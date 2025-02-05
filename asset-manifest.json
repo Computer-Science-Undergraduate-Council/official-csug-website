@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.64dae58d.css",
-    "main.js": "/static/js/main.0e765d50.js",
+    "main.js": "/static/js/main.3f782052.js",
     "static/js/422.bf927275.chunk.js": "/static/js/422.bf927275.chunk.js",
     "static/media/internship.jpg": "/static/media/internship.c75fc4a6f4a8dec6deb9.jpg",
-    "static/media/Gigi.JPG": "/static/media/Gigi.9a2a0b459010d5be0ee7.JPG",
+    "static/media/Joy.jpg": "/static/media/Joy.9ea3f9d4a6fe0b2d1f25.jpg",
     "static/media/tiff.png": "/static/media/tiff.1a6606239747caf6ca21.png",
     "static/media/SJ.JPG": "/static/media/SJ.199109559c016ae8ab2e.JPG",
     "static/media/Katie.jpg": "/static/media/Katie.895223bd91820207fef9.jpg",
@@ -14,6 +14,7 @@
     "static/media/eboard2021-22.jpeg": "/static/media/eboard2021-22.ed9598250f64087f4aad.jpeg",
     "static/media/eboard2020-21new.jpeg": "/static/media/eboard2020-21new.5aa5ac0d12a0007633b3.jpeg",
     "static/media/richard.jpg": "/static/media/richard.4412246bbcd4a60267c3.jpg",
+    "static/media/Aryan.png": "/static/media/Aryan.73b30fb09017f093fb28.png",
     "static/media/Sam_Frank.png": "/static/media/Sam_Frank.844e9fe77978e60beba3.png",
     "static/media/workshop.png": "/static/media/workshop.19c9143cd17d76d1f20e.png",
     "static/media/rusmiya.png": "/static/media/rusmiya.ca5c1de64c01acb8dbde.png",
@@ -30,11 +31,11 @@
     "static/media/logo2023.png": "/static/media/logo2023.44d5b4f92b85d1d8de36.png",
     "index.html": "/index.html",
     "main.64dae58d.css.map": "/static/css/main.64dae58d.css.map",
-    "main.0e765d50.js.map": "/static/js/main.0e765d50.js.map",
+    "main.3f782052.js.map": "/static/js/main.3f782052.js.map",
     "422.bf927275.chunk.js.map": "/static/js/422.bf927275.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64dae58d.css",
-    "static/js/main.0e765d50.js"
+    "static/js/main.3f782052.js"
   ]
 }
