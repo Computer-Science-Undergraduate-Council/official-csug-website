@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.64dae58d.css",
+    "main.js": "/static/js/main.3f782052.js",
+    "static/js/422.bf927275.chunk.js": "/static/js/422.bf927275.chunk.js",
+    "static/media/internship.jpg": "/static/media/internship.c75fc4a6f4a8dec6deb9.jpg",
+    "static/media/Joy.jpg": "/static/media/Joy.9ea3f9d4a6fe0b2d1f25.jpg",
+    "static/media/tiff.png": "/static/media/tiff.1a6606239747caf6ca21.png",
+    "static/media/SJ.JPG": "/static/media/SJ.199109559c016ae8ab2e.JPG",
+    "static/media/Katie.jpg": "/static/media/Katie.895223bd91820207fef9.jpg",
+    "static/media/books.png": "/static/media/books.53e2bb6ecd251e90bc30.png",
+    "static/media/Kevin.png": "/static/media/Kevin.4b29b08d2882d21c493d.png",
+    "static/media/project.png": "/static/media/project.4f52043c4040736c4a7c.png",
+    "static/media/eboard2021-22.jpeg": "/static/media/eboard2021-22.ed9598250f64087f4aad.jpeg",
+    "static/media/eboard2020-21new.jpeg": "/static/media/eboard2020-21new.5aa5ac0d12a0007633b3.jpeg",
+    "static/media/richard.jpg": "/static/media/richard.4412246bbcd4a60267c3.jpg",
+    "static/media/Aryan.png": "/static/media/Aryan.73b30fb09017f093fb28.png",
+    "static/media/Sam_Frank.png": "/static/media/Sam_Frank.844e9fe77978e60beba3.png",
+    "static/media/workshop.png": "/static/media/workshop.19c9143cd17d76d1f20e.png",
+    "static/media/rusmiya.png": "/static/media/rusmiya.ca5c1de64c01acb8dbde.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/Zach.png": "/static/media/Zach.6763dfe1cb62c527443d.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/CSUG2019-20.jpg": "/static/media/CSUG2019-20.e6e05e226865d66494dc.jpg",
+    "static/media/Ginger.jpeg": "/static/media/Ginger.344e1a294c0b4297f5e9.jpeg",
+    "static/media/logo.png": "/static/media/logo.ddc868b01089a704c9d6.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/flower.png": "/static/media/flower.00434ce4bec8ab3eb1b8.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/logo2023.png": "/static/media/logo2023.44d5b4f92b85d1d8de36.png",
+    "index.html": "/index.html",
+    "main.64dae58d.css.map": "/static/css/main.64dae58d.css.map",
+    "main.3f782052.js.map": "/static/js/main.3f782052.js.map",
+    "422.bf927275.chunk.js.map": "/static/js/422.bf927275.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64dae58d.css",
+    "static/js/main.3f782052.js"
+  ]
+}
