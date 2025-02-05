@@ -164,7 +164,7 @@ const TutorDayView = (currentData) => {
       </div>
       <div className={classes.subTitle}>
         <i class="fa fa-bullhorn" aria-hidden="true"></i> CSUG Tutoring is Open
-        for Fall 2024!
+        for Spring 2025!
       </div>
       <div className={`${classes.announcement} ${classes.aboutBody}`}>
         <p>
@@ -172,24 +172,33 @@ const TutorDayView = (currentData) => {
         </p>
       </div>
       <div className={classes.subTitle}>How to access tutoring</div>
+      {/* If you prefer appointments, head to<span> </span>
+          <a href="https://calendly.com/csug/tutoring">our CSUG Appointments page</a> to
+          schedule one! */}
       <div className={classes.aboutBody}>
         <p>
           Our drop-in tutoring schedule, including the time and location, is
-          below! If you prefer appointments, head to<span> </span>
-          <a href="https://calendly.com/csug/tutoring">our Calendly page</a> to
-          schedule one! In addition, join our <a
+          below! In addition, join our <a
             href="https://discord.gg/78c6xaeKkp" target="_blank">CSUG Tutoring
             Discord server</a> to access computer science help outside the
-          normal schedule. 
+          normal schedule. Our appointments page is currently being redesigned, so please check back later for updates.
         </p>
       </div>
-      <div className={classes.subTitle}>Fall 2024 Tutor Model </div>
+      <div className={classes.subTitle}>Spring 2025 Tutor Model </div>
       <div className={classes.aboutBody}>
       <p>
-    In Fall 2024, we are trying out a new tutor model with drop-in hours (marked by 'D') and per-appointment hours (marked by 'A'). Tutors will be present for their drop-in hours.
-      Tutors show up to their per-appointment hours only if an appointment has been booked, for their time slot, by 10 am day of (via Calendly)! Calendly appointments can also be booked outside of designated per-appointment hours, but unfortunately we cannot guarantee a tutor will be available during that time.
+    In Spring 2025, we are continuing tutor model with drop-in hours (marked by 'D') and per-appointment hours (marked by 'A'). Tutors will be present for their drop-in hours.
+      Tutors show up to their per-appointment hours only if an appointment has been booked, for their time slot, by 10 am day of (via the appointments page)! Appointments can also be booked outside of designated per-appointment hours, but unfortunately we cannot guarantee a tutor will be available during that time.
       </p>
       </div>
+      <div className={classes.subTitle}>Upcoming Exam Review Sessions</div>
+      <div className={classes.aboutBody}>
+      <p>
+      CSC 242 Quiz 1: Friday, February 7th, 3:45-5:45 pm, Wegmans 1400 
+      </p>
+      </div>
+      
+
       <div className={classes.subTitle}>Active Sessions</div>
       {nowData.length === 0 && <div className={classes.aboutBody}>
         There are no tutoring sessions taking place at the moment. Please come again later. 
@@ -205,6 +214,8 @@ const TutorDayView = (currentData) => {
 
         </div>
       }
+
+
       <div className={classes.subTitle}>Today&#39;s schedule</div>
       <div className={classes.aboutBody} >
         <a href="https://calendar.google.com/calendar/u/0?cid=Y18yY2EyNmFmZmQ0YmIzOThjM2MzZDM2MDgwZWIyMmE1N2ZlNmU3OWJiODk0MjkxMGRhMzBmMWYwMDcwOTYyODE5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">
@@ -266,7 +277,10 @@ const TutorDayView = (currentData) => {
             quizzes if you prefer to call them that) can be challenging! Make
             sure you are backed up at our review sessions, where the Tutoring
             Chair and tutors coordinate with professors to develop an optimized
-            review plan and help you review important topics!
+            review plan and help you review important topics! In Fall 2024, we 
+            held review sessions for CSC 171, CSC 173, and CSC 242. This semester 
+            we plan to hold even more review sessions - for courses such as CSC 172, 
+            CSC 246, and more! 
           </li>
           <li style={{ textAlign: "left" }}>
             <b>Leetcode Premium Sharing</b> (OPEN!): Are you preparing for

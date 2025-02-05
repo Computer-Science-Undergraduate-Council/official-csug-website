@@ -104,7 +104,7 @@ const tutorDetails = [
         location: "Wegmans 2007",
         password: "",
         schedule: [{day: "Wednesday", time: "12:00-1:00 (D)"}],
-        subjects: 'MATH 150, CSC 171, CSC 172'
+        subjects: 'CSC 171, CSC 172, CSC 173, CSC 242, CSC 282'
     },
     {   name: "Aryan Raj Dhawan",
         location: "Wegmans 2007",
